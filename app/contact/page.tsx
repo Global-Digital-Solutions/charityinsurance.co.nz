@@ -3,7 +3,7 @@ import QuoteForm from '@/components/QuoteForm';
 
 export const metadata: Metadata = {
   title: 'Get a Quote | Charity & Not-for-Profit Insurance',
-  description: 'Tell us about your charity, sports club, or community organisation and we'll match you with a personally vetted insurance broker — free, no obligation, back within one business day.',
+  description: "Tell us about your charity, sports club, or community organisation and we'll match you with a personally vetted insurance broker — free, no obligation, back within one business day.",
   alternates: { canonical: 'https://charityinsurance.co.nz/contact/' },
 };
 
