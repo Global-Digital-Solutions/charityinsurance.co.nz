@@ -36,7 +36,7 @@ export default function HomePage() {
     <>
       {/* TALL HERO */}
       <section className="relative min-h-[720px] flex items-end" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=1920&q=80)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-950/97 via-slate-900/70 to-slate-800/30" />
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/85 to-slate-800/50" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 pt-24 w-full">
           <div className="grid lg:grid-cols-[1fr_400px] gap-12 items-end">
 
@@ -46,7 +46,7 @@ export default function HomePage() {
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white leading-tight mb-5">
                 Insurance for the Organisations That Give Back
               </h1>
-              <p className="text-slate-200 text-lg mb-8 max-w-lg leading-relaxed">
+              <p className="text-white text-lg mb-8 max-w-lg leading-relaxed">
                 We cut through the complexity, compare cover from specialist insurers, and personally vet the brokers we recommend — so your charity, sports club, or community group is properly protected.
               </p>
 
