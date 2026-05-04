@@ -22,8 +22,6 @@ const insurerMeta: Record<InsurerSlug, {
   badgeColor?: string;
   amBest: string;
   amBestLabel: string;
-  marketScore: number;
-  claimsScore: number;
   nzPresence: string;
   highlights: string[];
 }> = {
@@ -33,7 +31,6 @@ const insurerMeta: Record<InsurerSlug, {
     specialty: 'Large charities, D&O, Management Liability',
     bestFor: 'Large registered charities, foundations, healthcare trusts',
     amBest: 'A++', amBestLabel: 'Superior',
-    marketScore: 4.8, claimsScore: 4.9,
     nzPresence: 'Local NZ team',
     highlights: ['Best-in-class D&O wording', 'Broad management liability package', 'Strong claims support team', 'Global capacity for large risks'],
   },
@@ -43,7 +40,6 @@ const insurerMeta: Record<InsurerSlug, {
     specialty: 'Association liability, professional indemnity',
     bestFor: 'Professional associations, incorporated societies, advice-based charities',
     amBest: 'A', amBestLabel: 'Excellent',
-    marketScore: 4.5, claimsScore: 4.6,
     nzPresence: 'Local NZ team',
     highlights: ['Strong association liability product', 'Experienced PI claims team', 'Broad cyber add-on options', 'Competitive for professional orgs'],
   },
@@ -55,7 +51,6 @@ const insurerMeta: Record<InsurerSlug, {
     badge: 'Asset-Heavy',
     badgeColor: 'blue',
     amBest: 'A+', amBestLabel: 'Superior',
-    marketScore: 4.6, claimsScore: 4.7,
     nzPresence: 'Local NZ team',
     highlights: ['Competitive property cover', 'Strong package policy offering', 'Good for sports clubs with grounds', 'Solid event cancellation cover'],
   },
@@ -67,7 +62,6 @@ const insurerMeta: Record<InsurerSlug, {
     badge: 'NFP Specialist',
     badgeColor: 'emerald',
     amBest: 'A+', amBestLabel: 'Superior',
-    marketScore: 4.4, claimsScore: 4.5,
     nzPresence: 'Regional office',
     highlights: ['Specialist not-for-profit underwriting', 'Competitive for smaller charities', 'Strong management liability wording', 'Understands NFP risk profiles'],
   },
@@ -78,10 +72,9 @@ const insurerMeta: Record<InsurerSlug, {
     bestFor: 'Churches, faith orgs, schools, aged care trusts, community charities',
     badge: 'NZ Charity Specialist',
     badgeColor: 'emerald',
-    amBest: 'A-', amBestLabel: 'Excellent',
-    marketScore: 4.3, claimsScore: 4.4,
-    nzPresence: 'NZ-founded',
-    highlights: ['Only NZ specialist for faith and charity sector', 'Tailored policy wording for charity activities', 'Understands volunteer activities', 'Deep knowledge of NZ charity landscape'],
+    amBest: 'AA−', amBestLabel: "S&P Very Strong (Lloyd's panel)",
+    nzPresence: 'NZ-based',
+    highlights: ['NZ specialist for faith and charity sector', "Writes on Lloyd's of London paper (S&P AA−)", 'Tailored policy wording for charity activities', 'Deep knowledge of NZ charity landscape'],
   },
   qbe: {
     name: 'QBE Insurance NZ',
@@ -89,26 +82,28 @@ const insurerMeta: Record<InsurerSlug, {
     specialty: 'Liability, property, statutory',
     bestFor: 'Social service providers, disability support, healthcare charities',
     amBest: 'A+', amBestLabel: 'Superior',
-    marketScore: 4.5, claimsScore: 4.5,
     nzPresence: 'Local NZ team',
     highlights: ['Broad liability and property products', 'Strong statutory liability cover', 'Good for complex risk profiles', 'Solid for social service orgs'],
   },
 };
 
-const featureMatrix: { feature: string; category: string; chubb: boolean | string; aig: boolean | string; zurich: boolean | string; berkley: boolean | string; concordia: boolean | string; qbe: boolean | string }[] = [
-  { feature: 'Public Liability',          category: 'Core Cover', chubb: true,              aig: true,              zurich: true,             berkley: true,            concordia: true,            qbe: true },
-  { feature: 'Trustee & D&O Liability',   category: 'Core Cover', chubb: true,              aig: true,              zurich: '✓ (limited)',    berkley: true,            concordia: true,            qbe: false },
-  { feature: 'Volunteer Personal Accident',category: 'Core Cover', chubb: true,              aig: false,             zurich: true,             berkley: true,            concordia: true,            qbe: true },
-  { feature: 'Professional Indemnity',    category: 'Core Cover', chubb: true,              aig: true,              zurich: false,            berkley: true,            concordia: true,            qbe: true },
-  { feature: 'Employers Liability',       category: 'Core Cover', chubb: true,              aig: true,              zurich: true,             berkley: true,            concordia: true,            qbe: true },
-  { feature: 'Statutory Liability',       category: 'Core Cover', chubb: true,              aig: false,             zurich: true,             berkley: true,            concordia: false,           qbe: true },
-  { feature: 'Property & Contents',       category: 'Asset Cover', chubb: true,             aig: false,             zurich: true,             berkley: true,            concordia: true,            qbe: true },
-  { feature: 'Event Cancellation',        category: 'Asset Cover', chubb: false,            aig: false,             zurich: true,             berkley: false,           concordia: true,            qbe: true },
-  { feature: 'Fine Art & Collections',    category: 'Asset Cover', chubb: true,             aig: '✓ (optional)',    zurich: false,            berkley: false,           concordia: '✓ (optional)',  qbe: false },
-  { feature: 'Cyber Insurance',           category: 'Specialty',  chubb: true,              aig: true,              zurich: false,            berkley: false,           concordia: false,           qbe: true },
-  { feature: 'Crime / Fidelity',          category: 'Specialty',  chubb: true,              aig: true,              zurich: false,            berkley: true,            concordia: '✓ (optional)',  qbe: false },
-  { feature: 'Management Liability',      category: 'Specialty',  chubb: true,              aig: true,              zurich: false,            berkley: true,            concordia: false,           qbe: false },
-  { feature: 'NFP Specialist Pricing',    category: 'Specialty',  chubb: false,             aig: false,             zurich: false,            berkley: true,            concordia: true,            qbe: false },
+// A = typically available as standard, R = available on request/optional, C = confirm with broker, N = not typically offered
+type Avail = 'A' | 'R' | 'C' | 'N';
+
+const featureMatrix: { feature: string; category: string; chubb: Avail; aig: Avail; zurich: Avail; berkley: Avail; concordia: Avail; qbe: Avail }[] = [
+  { feature: 'Public Liability',           category: 'Core Cover',  chubb: 'A', aig: 'A', zurich: 'A', berkley: 'A', concordia: 'A', qbe: 'A' },
+  { feature: 'Trustee & D&O Liability',    category: 'Core Cover',  chubb: 'A', aig: 'A', zurich: 'R', berkley: 'A', concordia: 'A', qbe: 'C' },
+  { feature: 'Volunteer Personal Accident',category: 'Core Cover',  chubb: 'A', aig: 'C', zurich: 'A', berkley: 'A', concordia: 'A', qbe: 'A' },
+  { feature: 'Professional Indemnity',     category: 'Core Cover',  chubb: 'A', aig: 'A', zurich: 'C', berkley: 'A', concordia: 'A', qbe: 'A' },
+  { feature: 'Employers Liability',        category: 'Core Cover',  chubb: 'A', aig: 'A', zurich: 'A', berkley: 'A', concordia: 'A', qbe: 'A' },
+  { feature: 'Statutory Liability',        category: 'Core Cover',  chubb: 'A', aig: 'C', zurich: 'A', berkley: 'A', concordia: 'C', qbe: 'A' },
+  { feature: 'Property & Contents',        category: 'Asset Cover', chubb: 'A', aig: 'C', zurich: 'A', berkley: 'A', concordia: 'A', qbe: 'A' },
+  { feature: 'Event Cancellation',         category: 'Asset Cover', chubb: 'C', aig: 'C', zurich: 'A', berkley: 'C', concordia: 'A', qbe: 'A' },
+  { feature: 'Fine Art & Collections',     category: 'Asset Cover', chubb: 'A', aig: 'R', zurich: 'C', berkley: 'C', concordia: 'R', qbe: 'C' },
+  { feature: 'Cyber Insurance',            category: 'Specialty',   chubb: 'A', aig: 'A', zurich: 'C', berkley: 'C', concordia: 'C', qbe: 'A' },
+  { feature: 'Crime / Fidelity',           category: 'Specialty',   chubb: 'A', aig: 'A', zurich: 'C', berkley: 'A', concordia: 'R', qbe: 'C' },
+  { feature: 'Management Liability',       category: 'Specialty',   chubb: 'A', aig: 'A', zurich: 'C', berkley: 'A', concordia: 'C', qbe: 'C' },
+  { feature: 'NFP Specialist Pricing',     category: 'Specialty',   chubb: 'C', aig: 'C', zurich: 'C', berkley: 'A', concordia: 'A', qbe: 'C' },
 ];
 
 const badgeColors: Record<string, string> = {
@@ -116,23 +111,27 @@ const badgeColors: Record<string, string> = {
   blue: 'bg-blue-100 text-blue-700 border-blue-300',
 };
 
-function StarRating({ score }: { score: number }) {
-  return (
-    <div className="flex items-center gap-0.5">
-      {[1, 2, 3, 4, 5].map(i => (
-        <svg key={i} className={`w-3 h-3 ${i <= Math.round(score) ? 'text-amber-400' : 'text-slate-200'}`} fill="currentColor" viewBox="0 0 20 20">
-          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-        </svg>
-      ))}
-      <span className="text-xs text-slate-500 ml-1">{score}</span>
+// A = typically available, R = on request / optional, C = confirm with broker, N = not typically offered
+function CellValue({ val }: { val: Avail }) {
+  if (val === 'A') return (
+    <div className="flex flex-col items-center gap-0.5">
+      <span className="text-emerald-500 font-bold text-base leading-none">✓</span>
+      <span className="text-[9px] text-emerald-600 font-semibold">Available</span>
     </div>
   );
-}
-
-function CellValue({ val }: { val: boolean | string }) {
-  if (val === true)  return <span className="text-emerald-500 font-bold text-lg leading-none">✓</span>;
-  if (val === false) return <span className="text-slate-300 text-base leading-none">—</span>;
-  return <span className="text-amber-600 text-xs font-semibold leading-tight">{val}</span>;
+  if (val === 'R') return (
+    <div className="flex flex-col items-center gap-0.5">
+      <span className="text-amber-500 font-bold text-base leading-none">◐</span>
+      <span className="text-[9px] text-amber-600 font-semibold">On request</span>
+    </div>
+  );
+  if (val === 'C') return (
+    <div className="flex flex-col items-center gap-0.5">
+      <span className="text-slate-400 text-base leading-none">?</span>
+      <span className="text-[9px] text-slate-400 font-semibold">Ask broker</span>
+    </div>
+  );
+  return <span className="text-slate-300 text-base leading-none">—</span>;
 }
 
 export default function ComparePage() {
@@ -200,30 +199,31 @@ export default function ComparePage() {
                     })}
                   </tr>
 
-                  {/* AM Best rating row */}
+                  {/* Financial rating row */}
                   <tr className="bg-slate-800 text-slate-200">
-                    <td className="px-5 py-2.5 text-xs font-semibold sticky left-0 bg-slate-800">AM Best Rating</td>
+                    <td className="px-5 py-2.5 text-xs font-semibold sticky left-0 bg-slate-800">Financial Rating</td>
                     {insurerSlugs.map(slug => {
                       const m = insurerMeta[slug];
                       return (
                         <td key={slug} className="text-center px-3 py-2.5">
                           <span className="font-extrabold text-white text-sm">{m.amBest}</span>
-                          <span className="block text-slate-400 text-[10px] mt-0.5">{m.amBestLabel}</span>
+                          <span className="block text-slate-400 text-[10px] mt-0.5 leading-tight">{m.amBestLabel}</span>
                         </td>
                       );
                     })}
                   </tr>
 
-                  {/* Market score */}
+                  {/* Legend row */}
                   <tr className="bg-slate-50 border-b-2 border-emerald-200">
-                    <td className="px-5 py-2 text-xs font-semibold text-slate-500 sticky left-0 bg-slate-50">Market Rating</td>
-                    {insurerSlugs.map(slug => (
-                      <td key={slug} className="text-center px-3 py-2">
-                        <div className="flex justify-center">
-                          <StarRating score={insurerMeta[slug].marketScore} />
-                        </div>
-                      </td>
-                    ))}
+                    <td className="px-5 py-2 text-xs font-semibold text-slate-500 sticky left-0 bg-slate-50">Coverage availability</td>
+                    <td colSpan={6} className="px-3 py-2">
+                      <div className="flex flex-wrap gap-4 text-xs text-slate-500">
+                        <span><strong className="text-emerald-600">✓ Available</strong> — typically included</span>
+                        <span><strong className="text-amber-600">◐ On request</strong> — optional or endorsement</span>
+                        <span><strong className="text-slate-400">? Ask broker</strong> — confirm for your org type</span>
+                        <span><strong className="text-slate-300">—</strong> Not typically offered</span>
+                      </div>
+                    </td>
                   </tr>
                 </thead>
 
@@ -246,17 +246,6 @@ export default function ComparePage() {
                     </>
                   ))}
 
-                  {/* Claims score footer row */}
-                  <tr className="bg-slate-100 border-t-2 border-slate-200">
-                    <td className="px-5 py-3 text-xs font-semibold text-slate-500 sticky left-0 bg-slate-100">Claims Score</td>
-                    {insurerSlugs.map(slug => (
-                      <td key={slug} className="text-center px-3 py-3">
-                        <div className="flex justify-center">
-                          <StarRating score={insurerMeta[slug].claimsScore} />
-                        </div>
-                      </td>
-                    ))}
-                  </tr>
                 </tbody>
               </table>
             </div>
@@ -290,20 +279,9 @@ export default function ComparePage() {
                       )}
                     </div>
 
-                    <div className="flex flex-wrap gap-2 mb-4">
-                      <span className="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 rounded px-2 py-0.5">AM Best {m.amBest} — {m.amBestLabel}</span>
+                    <div className="flex flex-wrap gap-2 mb-5">
+                      <span className="text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 rounded px-2 py-0.5">Financial: {m.amBest} — {m.amBestLabel}</span>
                       <span className="text-xs text-slate-500 bg-slate-50 border border-slate-200 rounded px-2 py-0.5">{m.nzPresence}</span>
-                    </div>
-
-                    <div className="flex gap-6 mb-4">
-                      <div>
-                        <p className="text-xs text-slate-400 mb-1">Market Rating</p>
-                        <StarRating score={m.marketScore} />
-                      </div>
-                      <div>
-                        <p className="text-xs text-slate-400 mb-1">Claims Score</p>
-                        <StarRating score={m.claimsScore} />
-                      </div>
                     </div>
 
                     <div className="mb-4">
