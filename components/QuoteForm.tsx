@@ -16,8 +16,18 @@ export default function QuoteForm({ compact = false, orgType = '' }: QuoteFormPr
     setLoading(true);
     const data = new FormData(e.currentTarget);
     try {
-      await fetch('https://formsubmit.co/hello@cover4you.co.nz', { method: 'POST', body: data });
-    } catch {}
+      const res = await fetch('https://formsubmit.co/ajax/hello@cover4you.co.nz', {
+        method: 'POST',
+        body: data,
+        headers: { Accept: 'application/json' },
+      });
+      const json = await res.json();
+      if (json.success !== 'true' && json.success !== true) {
+        console.error('FormSubmit error:', json);
+      }
+    } catch (err) {
+      console.error('Form submission error:', err);
+    }
     setLoading(false);
     router.push('/thank-you/');
   }
