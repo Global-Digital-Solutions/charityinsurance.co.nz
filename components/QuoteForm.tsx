@@ -1,6 +1,4 @@
 'use client';
-import { useState } from 'react';
-import { useRouter } from 'next/navigation';
 
 interface QuoteFormProps {
   compact?: boolean;
@@ -8,43 +6,22 @@ interface QuoteFormProps {
 }
 
 export default function QuoteForm({ compact = false, orgType = '' }: QuoteFormProps) {
-  const [loading, setLoading] = useState(false);
-  const router = useRouter();
-
-  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-    setLoading(true);
-    const data = new FormData(e.currentTarget);
-    try {
-      const res = await fetch('https://formsubmit.co/ajax/hello@cover4you.co.nz', {
-        method: 'POST',
-        body: data,
-        headers: { Accept: 'application/json' },
-      });
-      const json = await res.json();
-      if (json.success !== 'true' && json.success !== true) {
-        console.error('FormSubmit error:', json);
-      }
-    } catch (err) {
-      console.error('Form submission error:', err);
-    }
-    setLoading(false);
-    router.push('/thank-you/');
-  }
 
   if (compact) {
     return (
-      <form onSubmit={handleSubmit} className="space-y-3">
+      <form action="https://formsubmit.co/hello@cover4you.co.nz" method="POST" className="space-y-3">
         <input type="hidden" name="_subject" value="New Charity Insurance Quote — CharityInsurance.co.nz" />
         <input type="hidden" name="_cc" value="butlerdarin@gmail.com" />
         <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_next" value="https://charityinsurance.co.nz/thank-you/" />
+        <input type="hidden" name="_template" value="table" />
         {orgType && <input type="hidden" name="org_type" value={orgType} />}
         <input type="text" name="name" required placeholder="Your name" className="w-full px-3 py-2.5 border border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-emerald-500 focus:border-transparent outline-none" />
         <input type="text" name="organisation" required placeholder="Organisation name" className="w-full px-3 py-2.5 border border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-emerald-500 focus:border-transparent outline-none" />
         <input type="email" name="email" required placeholder="Email address" className="w-full px-3 py-2.5 border border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-emerald-500 focus:border-transparent outline-none" />
         <input type="tel" name="phone" placeholder="Phone (optional)" className="w-full px-3 py-2.5 border border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-emerald-500 focus:border-transparent outline-none" />
-        <button type="submit" disabled={loading} className="w-full py-3 bg-emerald-600 text-white font-bold rounded-lg hover:bg-emerald-700 transition text-sm disabled:opacity-60">
-          {loading ? 'Sending...' : 'Get My Quote →'}
+        <button type="submit" className="w-full py-3 bg-emerald-600 text-white font-bold rounded-lg hover:bg-emerald-700 transition text-sm">
+          Get My Quote →
         </button>
         <p className="text-xs text-slate-500 text-center">No obligation. Brokers we personally know and trust.</p>
       </form>
@@ -52,12 +29,14 @@ export default function QuoteForm({ compact = false, orgType = '' }: QuoteFormPr
   }
 
   return (
-    <form onSubmit={handleSubmit} className="bg-white rounded-2xl border-2 border-emerald-100 p-8 shadow-lg">
+    <form action="https://formsubmit.co/hello@cover4you.co.nz" method="POST" className="bg-white rounded-2xl border-2 border-emerald-100 p-8 shadow-lg">
       <h3 className="text-xl font-bold text-slate-900 mb-2">Tell us about your organisation</h3>
       <p className="text-slate-500 text-sm mb-6">The more you share, the better we can match you. Plain-English options back within one business day — no hard sell, ever.</p>
       <input type="hidden" name="_subject" value="New Charity Insurance Quote — CharityInsurance.co.nz" />
       <input type="hidden" name="_cc" value="butlerdarin@gmail.com" />
       <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_next" value="https://charityinsurance.co.nz/thank-you/" />
+      <input type="hidden" name="_template" value="table" />
       {orgType && <input type="hidden" name="org_type" value={orgType} />}
       <div className="grid sm:grid-cols-2 gap-4 mb-4">
         <div>
@@ -78,7 +57,7 @@ export default function QuoteForm({ compact = false, orgType = '' }: QuoteFormPr
         </div>
         <div>
           <label className="block text-sm font-semibold text-slate-700 mb-1">Organisation Type</label>
-          <select name="org_type" className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-transparent outline-none transition bg-white">
+          <select name="org_type_select" className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-transparent outline-none transition bg-white">
             <option value="">Select type</option>
             <option>Registered Charity</option>
             <option>Sports Club / Association</option>
@@ -135,8 +114,8 @@ export default function QuoteForm({ compact = false, orgType = '' }: QuoteFormPr
         <label className="block text-sm font-semibold text-slate-700 mb-1">Anything else we should know?</label>
         <textarea name="message" rows={3} placeholder="e.g. main activities, number of volunteers, buildings or assets you need covered..." className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-transparent outline-none transition resize-none" />
       </div>
-      <button type="submit" disabled={loading} className="w-full py-4 bg-emerald-600 text-white font-bold rounded-xl hover:bg-emerald-700 transition text-lg disabled:opacity-60">
-        {loading ? 'Sending...' : "Let's Sort Your Cover →"}
+      <button type="submit" className="w-full py-4 bg-emerald-600 text-white font-bold rounded-xl hover:bg-emerald-700 transition text-lg">
+        {"Let's Sort Your Cover →"}
       </button>
       <p className="text-sm text-slate-500 mt-3 text-center">No obligation. Your details go to a broker we personally know and trust — back within one business day.</p>
     </form>
