@@ -9,7 +9,7 @@ export default function QuoteForm({ compact = false, orgType = '' }: QuoteFormPr
 
   if (compact) {
     return (
-      <form action="https://formsubmit.co/hello@cover4you.co.nz" method="POST" className="space-y-3">
+      <form action="https://shiny-bush-41cd.darinbutler.workers.dev" method="POST" className="space-y-3">
         <input type="hidden" name="_subject" value="New Charity Insurance Quote — CharityInsurance.co.nz" />
         <input type="hidden" name="_cc" value="butlerdarin@gmail.com" />
         <input type="hidden" name="_captcha" value="false" />
@@ -29,7 +29,7 @@ export default function QuoteForm({ compact = false, orgType = '' }: QuoteFormPr
   }
 
   return (
-    <form action="https://formsubmit.co/hello@cover4you.co.nz" method="POST" className="bg-white rounded-2xl border-2 border-emerald-100 p-8 shadow-lg">
+    <form action="https://shiny-bush-41cd.darinbutler.workers.dev" method="POST" className="bg-white rounded-2xl border-2 border-emerald-100 p-8 shadow-lg">
       <h3 className="text-xl font-bold text-slate-900 mb-2">Tell us about your organisation</h3>
       <p className="text-slate-500 text-sm mb-6">The more you share, the better we can match you. Plain-English options back within one business day — no hard sell, ever.</p>
       <input type="hidden" name="_subject" value="New Charity Insurance Quote — CharityInsurance.co.nz" />
