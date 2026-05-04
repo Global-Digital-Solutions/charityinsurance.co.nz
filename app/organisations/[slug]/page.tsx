@@ -76,8 +76,18 @@ export default async function OrgTypePage({ params }: { params: Promise<{ slug: 
             {/* Intro */}
             <div className="border-l-4 border-emerald-500 pl-5">
               <p className="text-slate-700 leading-relaxed text-base">{org.intro}</p>
-              <p className="text-xs text-slate-400 mt-3">✍️ <strong>The CharityInsurance Crew</strong> — your friendly insurance geeks · Updated May 2026</p>
+              <p className="text-xs text-slate-400 mt-3">✍️ <strong>The CharityInsurance Crew</strong> — specialist NZ insurance advisors · Updated May 2026</p>
             </div>
+
+            {/* Long-form body content */}
+            {org.longDesc && org.longDesc.length > 0 && (
+              <div className="space-y-4">
+                <h2 className="text-xl font-extrabold text-slate-900">Understanding Insurance for {org.name}</h2>
+                {org.longDesc.map((para, i) => (
+                  <p key={i} className="text-slate-700 leading-relaxed text-base">{para}</p>
+                ))}
+              </div>
+            )}
 
             {/* Key risks — impactful amber/red design */}
             <div>

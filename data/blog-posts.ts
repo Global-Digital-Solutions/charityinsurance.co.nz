@@ -451,4 +451,273 @@ export const blogPosts: BlogPost[] = [
 <p>Getting a current replacement cost estimate is a low-cost action with potentially high consequences if not done. For charities that steward community assets on behalf of their communities, ensuring those assets are properly protected is a fundamental governance responsibility — not a nice-to-have.</p>
     `,
   },
+  {
+    slug: 'nfp-insurance-nz-complete-guide',
+    title: 'The Complete Guide to Not-for-Profit Insurance in New Zealand',
+    excerpt: 'Every NFP needs insurance, but the landscape is complex. This plain-English guide covers every cover type, who needs what, and how to find the right broker for your organisation.',
+    date: '2026-05-01',
+    author: 'The CharityInsurance Crew',
+    readTime: '10 min read',
+    category: 'Insurance Basics',
+    image: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1920&q=80',
+    content: `
+<p>Not-for-profit insurance in New Zealand is a genuine specialist market — and the difference between a generic commercial policy and one designed for NFPs can be significant. This guide covers everything your organisation needs to know, from the core covers every charity should have to the niche products that protect specific types of organisations.</p>
+
+<h2>Why NFPs Need Specialist Insurance</h2>
+<p>Not-for-profit organisations present a risk profile that is fundamentally different from commercial businesses. They typically combine paid staff and volunteers, operate multiple activities under a single entity, rely on grant or donation income, and often manage community or heritage assets. Generic commercial insurance is built for businesses with straightforward commercial activities — it frequently contains exclusions and gaps that only become apparent when a claim is made.</p>
+<p>Specialist NFP insurers like Chubb, AIG, Zurich, Berkley, and Concordia Underwriting have spent decades developing products that understand this profile. Their policies are structured to address the actual risks that charities, sports clubs, churches, and community groups face — not the risks of a retail business or professional services firm.</p>
+
+<h2>The Core Covers Every NFP Should Consider</h2>
+
+<h3>Public Liability Insurance</h3>
+<p>Public liability insurance covers your organisation if a member of the public is injured or has their property damaged as a result of your activities or premises. This is the foundational cover for any organisation that has public contact — events, premises, programmes, or activities that involve people outside your core team. In New Zealand, public liability for NFPs typically starts at $1M and goes to $10M or more for larger organisations.</p>
+<p>Many grant funders, venue hire agreements, and local authority permits require evidence of a minimum level of public liability insurance. Without it, you may be unable to access the funding or venues your organisation depends on.</p>
+
+<h3>Trustee Liability / D&O Insurance</h3>
+<p>Trustee Liability insurance (also known as Directors and Officers or D&O insurance) protects the individual trustees, board members, and committee members of your organisation from personal financial exposure arising from their governance roles. Charitable status does not protect individuals from personal liability — and the Incorporated Societies Act 2022 has made officer duties more explicit and enforceable than ever.</p>
+<p>Claims against trustees can arise from employment disputes, financial mismanagement, health and safety failures, regulatory investigations, and decisions that harm beneficiaries or creditors. Defence costs alone can run to tens of thousands of dollars. Trustee Liability insurance responds to these costs so individual board members are not left to fund their own defence.</p>
+
+<h3>Volunteer Personal Accident Insurance</h3>
+<p>ACC covers most physical injuries in New Zealand, including injuries to volunteers. However, ACC has important limitations: it pays income replacement based on minimum wage for volunteers (not their actual income), and it doesn't cover all types of harm. Volunteer Personal Accident insurance supplements ACC — providing better income replacement and covering gaps that ACC cannot address. For organisations with significant volunteer workforces, this is an important cover.</p>
+
+<h3>Professional Indemnity Insurance</h3>
+<p>Professional indemnity insurance covers claims arising from professional advice or services your organisation provides. This is relevant for any NFP that delivers counselling, budgeting advice, legal advocacy, educational services, or other professional or quasi-professional activities. The standard of care expected does not diminish because your services are delivered for free — professional indemnity covers your defence costs and any damages awarded regardless of whether a fee was charged.</p>
+
+<h3>Employers Liability Insurance</h3>
+<p>If your organisation employs paid staff, employers liability insurance is essential. It covers claims from employees for work-related injury or illness that falls outside ACC's scope. In New Zealand, employers also have obligations under the Health and Safety at Work Act 2015, and statutory liability insurance covers defence costs and fines from prosecution under this legislation.</p>
+
+<h3>Cyber Insurance</h3>
+<p>The Privacy Act 2020 introduced mandatory reporting requirements for serious privacy breaches. NFPs hold significant personal data — donor records, beneficiary information, health data, employment records — that creates real cyber risk. Cyber insurance covers the costs of responding to a data breach: forensic investigation, legal advice, individual notification, regulatory engagement, and business interruption. For organisations holding sensitive data about vulnerable people, cyber insurance is no longer optional.</p>
+
+<h3>Property and Contents Insurance</h3>
+<p>Any organisation that owns or is responsible for buildings, contents, or equipment needs adequate property cover. The critical issue for NFPs is ensuring the sum insured reflects current replacement cost — not historical purchase price. Construction cost inflation in New Zealand since 2020 has been significant, and many community buildings are materially underinsured as a result.</p>
+
+<h2>How to Find the Right Insurance Broker</h2>
+<p>Not all insurance brokers understand the NFP sector. The specialist charity and not-for-profit insurance market in New Zealand is served by a relatively small number of brokers who have genuine expertise in this space. When selecting a broker, look for:</p>
+<ul>
+<li>Direct relationships with specialist NFP underwriters (Chubb, AIG, Zurich, Berkley, Concordia, QBE)</li>
+<li>Experience with your specific type of organisation (charity, sports club, church, disability provider, etc.)</li>
+<li>Willingness to explain cover in plain English without jargon</li>
+<li>Proactive review at renewal to ensure cover keeps pace with your activities</li>
+<li>Availability when you need to make a claim — not just at renewal</li>
+</ul>
+<p>CharityInsurance.co.nz matches NZ charities, sports clubs, and community organisations with personally vetted brokers who specialise in this sector. Our matching service is free and carries no obligation.</p>
+
+<h2>What Does NFP Insurance Cost?</h2>
+<p>Insurance costs vary significantly by organisation size, activity type, and the covers selected. A small sports club might pay $600–$1,500/year for basic public liability and association liability. A mid-sized charity with a full package (public liability, D&O, professional indemnity, cyber) might pay $4,000–$12,000/year. A large social service provider with commercial premises and significant staff might pay $20,000+/year.</p>
+<p>The key is getting quotes from specialist underwriters through an experienced broker — not purchasing generic commercial cover from a comparison website. The difference in both price and coverage adequacy is usually material.</p>
+
+<h2>Internal Links for Further Reading</h2>
+<p>For organisation-specific guidance, see our pages on <a href="/organisations/registered-charities/">registered charity insurance</a>, <a href="/organisations/sports-clubs/">sports club insurance</a>, <a href="/organisations/churches-religious/">church insurance</a>, and <a href="/organisations/community-groups-trusts/">community group insurance</a>. For cover-type detail, see our <a href="/coverage/">coverage types guide</a>. To compare specialist insurers, see our <a href="/compare/">insurer comparison</a>.</p>
+    `,
+  },
+  {
+    slug: 'aged-care-charity-insurance-nz',
+    title: 'Insurance for Aged Care Charities and Rest Homes in New Zealand',
+    excerpt: 'Trust-owned aged care facilities face some of the most complex insurance requirements in the charity sector. Here is what every aged care board and trustee needs to know.',
+    date: '2026-05-02',
+    author: 'The CharityInsurance Crew',
+    readTime: '8 min read',
+    category: 'Organisation Types',
+    image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=1920&q=80',
+    content: `
+<p>New Zealand has over 650 aged care facilities, and a significant proportion of them are operated by charitable trusts and not-for-profit governance structures. These organisations provide essential services to some of New Zealand's most vulnerable people — but the complexity of their insurance requirements is often underappreciated by the boards and trustees who govern them.</p>
+
+<h2>The Unique Risk Profile of Aged Care Charities</h2>
+<p>Not-for-profit aged care organisations face a layered risk profile that sets them apart from most other charities. They combine professional care liability (the risk of claims arising from the quality of care delivered), governance liability (the personal exposure of trustees for management decisions), significant property risk (complex facilities with specialist infrastructure), employment risk (large care workforces with high turnover), data risk (extensive sensitive health records), and statutory risk (a highly regulated operating environment with multiple pieces of legislation). Getting all of these right requires a broker with specific aged care sector experience.</p>
+
+<h2>Professional Care Liability: The Cornerstone Cover</h2>
+<p>Professional indemnity — or care malpractice — insurance is the most significant cover for aged care organisations. If a resident or their family alleges that care services were inadequate, inappropriate, or negligently delivered, a professional indemnity claim results. These claims can arise from allegations of:</p>
+<ul>
+<li>Medication errors or administration failures</li>
+<li>Falls and physical injury resulting from inadequate supervision</li>
+<li>Neglect or failure to provide adequate care</li>
+<li>Pressure injury or hospital-acquired infection</li>
+<li>Failure to follow care plans or resident preferences</li>
+<li>Inadequate response to a resident's deteriorating condition</li>
+</ul>
+<p>The Health and Disability Commissioner's office receives a significant number of complaints relating to aged care services each year. Matters can escalate to the Human Rights Review Tribunal or civil courts, with defence costs and damages that make adequate professional indemnity limits essential.</p>
+
+<h2>Trustee Liability: Protecting Your Board</h2>
+<p>The individuals who serve on the boards and trusts of aged care charities carry significant personal governance liability. Decisions around resident welfare, financial management, staff employment, capital investment, and regulatory compliance all create exposure for trustees. Under the Health and Safety at Work Act 2015, governance failures that contribute to serious harm can result in personal prosecution alongside the organisation itself.</p>
+<p>The Incorporated Societies Act 2022 — which applies to many aged care charitable trusts — has strengthened officer duties and made governance expectations more explicit. Trustees of aged care organisations who have not reviewed their D&O coverage since 2022 should do so as a priority.</p>
+
+<h2>Property: Getting the Sum Insured Right</h2>
+<p>Aged care facilities are among the most complex properties to insure correctly. A modern rest home or dementia care unit includes specialist infrastructure that is expensive to replace: clinical hand basins, medical gas systems, fire suppression and sprinkler systems, lifting hoists, nurse call systems, environmental monitoring, and specialist fitout throughout. The cost of rebuilding an aged care facility per square metre is significantly higher than a standard commercial building.</p>
+<p>Organisations that insure their buildings at standard commercial replacement rates — or that haven't had a professional valuation in five or more years — are likely underinsured. A specialist quantity surveyor who understands healthcare facility reinstatement should be engaged to provide a current replacement cost estimate before your next renewal.</p>
+
+<h2>Cyber Insurance: Essential for Health Data Holders</h2>
+<p>Aged care facilities hold extensive and highly sensitive resident data: health histories, medication records, financial information, cognitive assessments, and family contact details. The Privacy Act 2020 classifies health information as sensitive personal information and requires mandatory notification to the Privacy Commissioner and affected individuals in the event of a serious breach.</p>
+<p>The costs of responding to a data breach — forensic investigation, legal advice, individual notification (which can be substantial for a facility with hundreds of current and former residents), and regulatory engagement — can easily exceed $100,000. Cyber insurance is not a nice-to-have for aged care organisations; it is a core risk management tool.</p>
+
+<h2>Regulatory and Statutory Liability</h2>
+<p>Aged care organisations operate under multiple pieces of legislation that create statutory liability exposure: the Health and Safety at Work Act 2015, the Privacy Act 2020, the Health and Disability Commissioner Act 1994, the Residential Care and Disability Support Services Standards, and the Vulnerable Children Act 2014 (for staff working with residents with cognitive impairment who may be considered vulnerable). Statutory liability insurance covers defence costs and fines from regulatory proceedings — even where the ultimate outcome is favourable.</p>
+
+<h2>Getting the Right Broker</h2>
+<p>Specialist aged care insurance requires a broker who understands both the healthcare sector and the not-for-profit governance structure. The combination of professional liability, governance liability, complex property, and health data risk requires bespoke structuring — not an off-the-shelf charity package.</p>
+<p>CharityInsurance.co.nz can match your aged care organisation with a broker who has genuine experience in this space. Our matching service is free, and we only recommend brokers we know personally. <a href="/contact/">Get in touch today</a>.</p>
+    `,
+  },
+  {
+    slug: 'marae-insurance-nz',
+    title: 'Marae and Iwi Trust Insurance: What Every Kaitiaki Should Know',
+    excerpt: 'Marae and iwi trusts manage assets of profound cultural and financial significance. Insurance that protects those assets — from wharenui to commercial farms — requires specialist advice.',
+    date: '2026-05-02',
+    author: 'The CharityInsurance Crew',
+    readTime: '7 min read',
+    category: 'Organisation Types',
+    image: 'https://images.unsplash.com/photo-1524494914823-8a0a5b25db48?auto=format&fit=crop&w=1920&q=80',
+    content: `
+<p>Marae and iwi trusts occupy a distinctive place in New Zealand's community and charitable landscape. They manage assets of profound cultural, spiritual, and economic significance — from the wharenui and wāhi tapu of the marae complex to farms, commercial properties, fisheries quota, and papakāinga housing. The insurance needs of these organisations reflect this complexity, and generic commercial or charity policies rarely provide adequate protection.</p>
+
+<h2>Understanding the Legal Structures</h2>
+<p>The first step in any insurance review for a marae or iwi organisation is understanding the applicable legal structure. Different structures create different governance liability profiles and different insurance needs:</p>
+<ul>
+<li><strong>Māori incorporations</strong> under Te Ture Whenua Māori Act 1993 have trustees with significant governance obligations to beneficial owners</li>
+<li><strong>Post-settlement governance entities (PSGEs)</strong> managing Treaty settlement assets have complex commercial, cultural, and governance responsibilities</li>
+<li><strong>Marae committees and incorporated societies</strong> fall under the Incorporated Societies Act 2022 and carry officer duty obligations</li>
+<li><strong>Charitable trusts with Māori purposes</strong> are subject to the Charities Act 2005 and the Trusts Act 2019</li>
+</ul>
+<p>Each of these structures has different governance liability exposure, different reporting obligations, and different insurance implications. A specialist broker will identify the applicable structure and ensure cover is appropriate.</p>
+
+<h2>Insuring Wharenui and Marae Buildings</h2>
+<p>The buildings of the marae complex — wharenui, wharekai, wharepaku, and other structures — present a unique insurance challenge. Their significance is not purely financial: they represent whakapapa, history, and community identity. When they are damaged, the loss cannot be measured in replacement cost alone.</p>
+<p>Despite this, adequate financial protection must be in place. For wharenui and other culturally significant buildings, a sum insured based on standard construction rates will almost certainly be inadequate. The reinstatement of carved pou, tukutuku panels, kōwhaiwhai ceilings, and other taonga features requires specialist craftspeople — kaiwhakairo, kairaranga — whose skills are not reflected in standard building cost rates.</p>
+<p>Heritage and cultural reinstatement cover, arranged through specialist underwriters including some Lloyd's syndicates, is the appropriate solution. This provides agreed-value cover that reflects the actual cost of reinstatement using culturally appropriate methods and materials.</p>
+
+<h2>Public Liability for Hui and Tangihanga</h2>
+<p>Marae host gatherings of significant scale — hui, tangihanga, kapa haka events, and community celebrations that can draw hundreds or thousands of people. Each of these events creates public liability exposure. If a visitor is injured on the marae grounds, in the wharenui, or during an event, a public liability claim can arise.</p>
+<p>Food served at hui and tangihanga also creates product liability exposure. Most marae public liability policies will include this, but it is worth confirming explicitly with your broker — particularly for large-scale events involving external caterers or fundraising food sales.</p>
+
+<h2>Commercial Assets: Farms, Property, and Enterprises</h2>
+<p>Many iwi and large Māori trusts manage commercial assets alongside their cultural and charitable activities. These might include:</p>
+<ul>
+<li>Farm operations — requiring rural liability, farm buildings, livestock, and machinery cover</li>
+<li>Commercial property — requiring commercial building, public liability, and loss of rent cover</li>
+<li>Fisheries and aquaculture — requiring marine liability and commercial marine property cover</li>
+<li>Tourism and hospitality ventures — requiring public liability, professional indemnity, and business interruption</li>
+<li>Forestry operations — requiring specific forestry liability and property cover</li>
+</ul>
+<p>Each of these activities requires specific insurance consideration that is distinct from charitable and community activity cover. A comprehensive insurance programme for an iwi or large Māori organisation requires a broker who can address the full spectrum without gaps between commercial and charitable covers.</p>
+
+<h2>Trustee Liability for Māori Governance Structures</h2>
+<p>The governance obligations of trustees of Māori organisations are significant. Trustees of Māori incorporations under Te Ture Whenua Māori Act have duties of care and loyalty to their beneficial owners. PSGEs managing Treaty settlement assets carry governance responsibilities commensurate with the scale of those assets. Where structures are incorporated societies under the Incorporated Societies Act 2022, officer duties are explicit and personal liability for governance failures is contemplated.</p>
+<p>D&O or Trustee Liability insurance protects the individuals who serve in these governance roles from personal financial exposure arising from claims related to their governance decisions. Given the scale of assets many iwi organisations manage, adequate indemnity limits are important — $1M or $2M may be insufficient for larger organisations managing multi-million-dollar asset bases.</p>
+
+<h2>Finding the Right Broker</h2>
+<p>Specialist insurance for marae and iwi organisations requires a broker with experience across both the Māori land and trust sector and the specialist NFP insurance market. CharityInsurance.co.nz can match your organisation with a personally vetted broker who understands the unique considerations of Māori governance and cultural asset protection. <a href="/contact/">Contact us for a free referral</a>.</p>
+    `,
+  },
+  {
+    slug: 'disability-support-insurance-nz',
+    title: 'Insurance for Disability Support Organisations in New Zealand',
+    excerpt: 'Not-for-profit disability service providers face complex care liability, Whaikaha contract requirements, and sensitive data obligations. Here is what your board needs to know.',
+    date: '2026-05-03',
+    author: 'The CharityInsurance Crew',
+    readTime: '7 min read',
+    category: 'Organisation Types',
+    image: 'https://images.unsplash.com/photo-1573497620053-ea5300f94f21?auto=format&fit=crop&w=1920&q=80',
+    content: `
+<p>New Zealand's disability support sector is predominantly delivered by not-for-profit organisations — community-based providers, iwi health organisations, and charitable trusts that hold contracts with Whaikaha (Ministry of Disabled People), the Ministry of Social Development, and Health New Zealand. These organisations deliver essential support to tens of thousands of New Zealanders with physical, intellectual, sensory, and psychosocial disabilities.</p>
+<p>The insurance requirements of disability support providers are more complex than most other NFP types — reflecting the professional nature of care delivery, the sensitivity of the data held, and the contractual obligations imposed by government funders.</p>
+
+<h2>Care Liability: Your Most Important Cover</h2>
+<p>Care liability — also called professional indemnity for care providers — is the cornerstone insurance cover for disability support organisations. It covers claims arising from the quality of care and support services your workers deliver. If a disabled person or their family alleges that support was inadequate, inappropriate, or negligently provided, a care liability claim results.</p>
+<p>The Health and Disability Commissioner's office handles complaints about disability support services and can refer matters to the Director of Proceedings for action before the Human Rights Review Tribunal. Civil claims are also possible. Defence costs — even for matters that are ultimately resolved in the organisation's favour — can be substantial. An adequate professional indemnity limit is not a nice-to-have; it is a fundamental operational requirement.</p>
+<p>When reviewing your professional indemnity policy, pay attention to:</p>
+<ul>
+<li>The retroactive date — claims can be made years after the services were delivered</li>
+<li>Coverage of residential and overnight support activities</li>
+<li>Coverage of volunteer support workers alongside employed staff</li>
+<li>Alignment between your policy limit and the scale of your service delivery</li>
+</ul>
+
+<h2>Whaikaha and MSD Contract Requirements</h2>
+<p>Government contracts for disability support services specify minimum insurance requirements as a condition of funding. These vary by contract type and service specification, but typically include:</p>
+<ul>
+<li>Minimum public liability levels (often $2M or $5M)</li>
+<li>Professional indemnity / care liability at specified minimum levels</li>
+<li>Employers liability</li>
+<li>In some cases, specific requirements around motor fleet cover for client transportation</li>
+</ul>
+<p>A broker experienced with disability sector funding contracts can review each contract your organisation holds and ensure your insurance programme satisfies every stated requirement. Non-compliance with insurance requirements is a contract breach that can result in funding suspension — a risk no disability provider can afford.</p>
+
+<h2>Cyber Insurance: Non-Optional for Health Data Holders</h2>
+<p>Disability support organisations hold some of the most sensitive personal data in the NFP sector. Support plans, health assessments, medication information, behavioural histories, family contact details, and financial information relating to disability allowances and NASC allocations all constitute sensitive personal information under the Privacy Act 2020.</p>
+<p>The Privacy Act requires mandatory notification of serious privacy breaches to both the Privacy Commissioner and affected individuals. For a disability provider supporting hundreds of clients, the cost of individual notification alone can be significant. Add forensic investigation, legal advice, regulatory engagement, and operational disruption from a cyber incident, and the total cost of an uninsured breach can easily exceed $200,000.</p>
+<p>Cyber insurance is not a luxury add-on for disability support organisations. It is an essential component of responsible risk management for any organisation holding this volume and sensitivity of personal data.</p>
+
+<h2>Motor Fleet: Client Transportation Risks</h2>
+<p>Many disability support providers transport clients in organisation-owned vehicles — taking people to day programmes, medical appointments, recreational activities, and social outings. This client transportation activity creates specific motor insurance requirements:</p>
+<ul>
+<li>The policy must specifically cover client transportation use</li>
+<li>Mobility equipment (wheelchairs, hoists, communication devices) inside the vehicle needs property cover</li>
+<li>Support workers who use their own vehicles to transport clients need a hired-and-non-owned vehicle endorsement on the organisation's policy (personal vehicle insurance almost certainly won't cover this use)</li>
+</ul>
+
+<h2>Employment Liability in a High-Turnover Sector</h2>
+<p>Disability support is characterised by high staff turnover, and high turnover creates elevated employment liability risk. Personal grievance claims, unfair dismissal allegations, and discrimination complaints arise more frequently in environments where employment relationships are frequently beginning and ending. Employers liability combined with management liability insurance provides a defence and settlement fund for employment-related claims — protecting the organisation from financial consequences that are an unfortunate but predictable feature of the sector.</p>
+
+<h2>Getting the Right Specialist Advice</h2>
+<p>The complexity of disability support insurance requires a broker who understands both the sector's regulatory environment and the specialist NFP insurance market. CharityInsurance.co.nz matches disability support providers with personally vetted brokers who have genuine experience in this space. <a href="/contact/">Contact us for a free referral</a> — we come back within one business day.</p>
+    `,
+  },
+  {
+    slug: 'community-event-insurance-nz',
+    title: 'Event Insurance for NZ Charities and Community Groups',
+    excerpt: 'Running a charity gala, community market, sports tournament, or fundraising event? Here is everything you need to know about event insurance in New Zealand.',
+    date: '2026-05-03',
+    author: 'The CharityInsurance Crew',
+    readTime: '6 min read',
+    category: 'Insurance Basics',
+    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1920&q=80',
+    content: `
+<p>Fundraising galas, community markets, sports tournaments, school fairs, charity runs, and cultural festivals are central to how New Zealand charities and community groups generate income, build community, and fulfil their charitable purposes. But each event creates real liability exposure — and many organisations discover too late that their standard charity policy doesn't automatically cover every event they run.</p>
+
+<h2>Does Your Existing Policy Cover Events?</h2>
+<p>Whether your existing charity or not-for-profit insurance covers a specific event depends on several factors. The key questions to ask your broker before any significant event are:</p>
+<ul>
+<li>Is the event at your usual premises, or at an external venue?</li>
+<li>Does the event involve activities not normally listed on your policy?</li>
+<li>What is the maximum attendance expected?</li>
+<li>Will you be serving food or alcohol?</li>
+<li>Will there be third-party contractors, performers, or vendors?</li>
+<li>Does the event involve temporary structures, amusement rides, or elevated platforms?</li>
+<li>Is there significant financial commitment (deposits, venue hire, entertainment fees) that would be irrecoverable if the event is cancelled?</li>
+</ul>
+<p>If the answer to any of these is yes, or if you're uncertain, speak to your broker before the event — not after something goes wrong.</p>
+
+<h2>Event Public Liability: The Essential Cover</h2>
+<p>Public liability insurance is the core cover for any community event. It responds if a member of the public is injured or has their property damaged as a result of your event. Common event liability claims include:</p>
+<ul>
+<li>A visitor trips and falls on a slippery surface or temporary structure</li>
+<li>A vendor's equipment causes injury to a bystander</li>
+<li>A flying ball or projectile damages a spectator's property</li>
+<li>A temporary structure (stage, marquee, fencing) fails and injures people</li>
+<li>A child is injured in an activity run by your organisation</li>
+</ul>
+<p>Most charity and NFP public liability policies include coverage for events at the organisation's usual premises and for events that fall within the organisation's normal activities. However, events at external venues, unusually large events, or events involving non-standard activities may require specific endorsement or a standalone event policy.</p>
+
+<h2>Food at Events: Product Liability</h2>
+<p>If your event involves food service — whether homemade goods at a bake stall, a barbecue lunch, or catered meals — product liability cover is essential. Standard public liability policies often exclude food product liability unless specifically endorsed. If a person becomes ill from food served at your event, a claim can arise regardless of whether the food was prepared by your volunteers or purchased from an external supplier and redistributed.</p>
+<p>Check your policy explicitly for food product liability coverage before any event involving food service. If it's not there, ask your broker to add it.</p>
+
+<h2>Alcohol at Events: The Liquor Licence Consideration</h2>
+<p>Events serving alcohol require a liquor licence in New Zealand, and insurers will want to know if alcohol is being served at an event. Some liability policies have endorsements or exclusions relating to alcohol service. Confirm with your broker that your event liability cover applies where alcohol is served, and ensure you are compliant with licence conditions — both from a legal and insurance perspective.</p>
+
+<h2>Temporary Structures: Get It in Writing</h2>
+<p>Temporary structures — marquees, stages, scaffolding, audience barriers, carnival rides — create specific liability and property insurance considerations. If a third-party contractor is providing these structures, ensure they have their own public liability insurance and obtain their certificate of insurance before the event. If your organisation is responsible for the structure's safety, ensure your event liability cover specifically includes temporary structure liability.</p>
+
+<h2>Event Cancellation Insurance</h2>
+<p>For events with significant financial commitments — a formal fundraising gala with a venue deposit, entertainment fees, catering costs, and marketing spend — event cancellation insurance is worth serious consideration. If the event cannot proceed due to extreme weather, venue damage, key performer cancellation, or other unforeseen events, event cancellation insurance reimburses your irrecoverable costs.</p>
+<p>This is particularly important for events that generate significant revenue for your organisation. Losing both the event income and the sunk costs of event preparation can be financially devastating for a small charity. Event cancellation insurance mitigates this risk.</p>
+
+<h2>Venue Requirements</h2>
+<p>Many external venues require event organisers to provide a certificate of insurance showing minimum public liability cover — typically $1M, $2M, or $5M — before they will confirm the booking. Your broker can issue this certificate quickly once appropriate cover is in place. For recurring events, it's worth maintaining a file of venue insurance requirements so you can confirm cover is adequate before booking.</p>
+
+<h2>How to Ensure You're Covered</h2>
+<p>The single most important step is to contact your broker before any significant event — not after. Give them the event details: venue, expected attendance, activities, food and alcohol service, contractors involved, and any significant financial commitments. A good broker will confirm whether your existing policy covers the event, identify any gaps, and arrange additional cover if needed. This conversation typically takes less than 15 minutes and can save significant financial and legal headache.</p>
+<p>If your organisation doesn't have a specialist NFP broker, <a href="/contact/">CharityInsurance.co.nz can match you with one</a> — free, no obligation, within one business day.</p>
+    `,
+  },
 ];

@@ -25,8 +25,40 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   if (!post) return <main className="max-w-4xl mx-auto px-4 py-16"><h1>Not Found</h1><Link href="/blog/" className="text-emerald-600">← Back</Link></main>;
   const related = blogPosts.filter(p => p.category === post.category && p.slug !== post.slug).slice(0, 3);
 
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.title,
+    description: post.excerpt,
+    datePublished: post.date,
+    dateModified: post.date,
+    image: post.image,
+    url: `https://charityinsurance.co.nz/blog/${slug}/`,
+    inLanguage: 'en-NZ',
+    author: {
+      '@type': 'Person',
+      name: 'The CharityInsurance Crew',
+      url: 'https://charityinsurance.co.nz/about/',
+      worksFor: { '@id': 'https://charityinsurance.co.nz/#organization' },
+    },
+    publisher: { '@id': 'https://charityinsurance.co.nz/#organization' },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://charityinsurance.co.nz/blog/${slug}/` },
+  };
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://charityinsurance.co.nz/' },
+      { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://charityinsurance.co.nz/blog/' },
+      { '@type': 'ListItem', position: 3, name: post.title, item: `https://charityinsurance.co.nz/blog/${slug}/` },
+    ],
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <section className="relative min-h-[600px] flex items-end" style={{ backgroundImage: `url(${post.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="absolute inset-0 bg-gradient-to-t from-gray-950/80 via-gray-800/30 to-transparent" />
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 pt-32 w-full">
@@ -96,3 +128,4 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     </>
   );
 }
+
