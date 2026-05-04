@@ -22,34 +22,51 @@ const stats = [
   { value: '6+', label: 'Specialist insurers', sub: 'compared for you' },
 ];
 
+const uspItems = [
+  { label: 'Free broker matching', icon: '🤝' },
+  { label: '15+ org types covered', icon: '🏢' },
+  { label: 'Plain English advice', icon: '📋' },
+  { label: 'Reply within 1 business day', icon: '⚡' },
+];
+
 export default function HomePage() {
   return (
     <>
-      <section className="relative min-h-[560px] flex items-end" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=1920&q=80)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-900/60 to-slate-900/20" />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-14 pt-24 w-full">
-          <div className="grid lg:grid-cols-2 gap-12 items-end">
+      {/* TALL HERO */}
+      <section className="relative min-h-[720px] flex items-end" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=1920&q=80)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-950/97 via-slate-900/65 to-slate-800/20" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 pt-24 w-full">
+          <div className="grid lg:grid-cols-2 gap-10 items-end">
             <div>
               <span className="inline-block px-3 py-1 bg-emerald-600/90 text-white text-xs font-bold rounded-full uppercase tracking-widest mb-5">Specialist Charity Insurance — Licensed Brokers</span>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white leading-tight mb-5">
                 Insurance for the Organisations That Give Back
               </h1>
-              <p className="text-slate-200 text-lg mb-6 max-w-lg leading-relaxed">
+              <p className="text-slate-200 text-lg mb-8 max-w-lg leading-relaxed">
                 We cut through the complexity, compare cover from specialist insurers, and personally vet the brokers we recommend — so your charity, sports club, or community group is properly protected.
               </p>
-              <div className="flex flex-wrap gap-3 mb-8">
-                {['✓ Free broker matching', '✓ 15+ org types covered', '✓ Plain English advice', '✓ Reply within 1 business day'].map(t => (
-                  <span key={t} className="text-emerald-300 text-sm font-semibold">{t}</span>
+
+              {/* PROMINENT USP BADGES */}
+              <div className="grid grid-cols-2 gap-3 mb-8">
+                {uspItems.map(item => (
+                  <div key={item.label} className="flex items-center gap-3 bg-white/10 backdrop-blur-sm border border-emerald-400/60 rounded-xl px-4 py-3">
+                    <span className="text-xl flex-shrink-0">{item.icon}</span>
+                    <span className="text-white text-sm font-bold leading-tight">{item.label}</span>
+                  </div>
                 ))}
               </div>
+
               <div className="flex flex-wrap gap-3">
-                <Link href="/contact/" className="px-6 py-3.5 bg-emerald-600 text-white font-bold rounded-xl hover:bg-emerald-700 transition shadow-lg text-base">Get a Quote →</Link>
-                <Link href="/organisations/" className="px-6 py-3.5 bg-white/10 text-white font-semibold rounded-xl hover:bg-white/20 transition border border-white/20 text-base">Find Your Org Type</Link>
+                <Link href="/contact/" className="px-7 py-3.5 bg-emerald-600 text-white font-extrabold rounded-xl hover:bg-emerald-700 transition shadow-lg text-base">Get a Free Quote →</Link>
+                <Link href="/organisations/" className="px-7 py-3.5 bg-white/10 text-white font-semibold rounded-xl hover:bg-white/20 transition border border-white/30 text-base">Find Your Org Type</Link>
               </div>
             </div>
+
+            {/* FORM — strong border */}
             <div className="hidden lg:block">
-              <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-6">
-                <p className="text-emerald-400 font-bold text-sm mb-4 uppercase tracking-wide">Quick Quote</p>
+              <div className="bg-slate-900/80 backdrop-blur-sm border-2 border-emerald-400 rounded-2xl p-7 shadow-2xl">
+                <p className="text-emerald-400 font-extrabold text-sm mb-1 uppercase tracking-wide">Free Quote — No Obligation</p>
+                <p className="text-slate-300 text-xs mb-5">Tell us about your organisation. Back within 1 business day.</p>
                 <QuoteForm compact />
               </div>
             </div>
@@ -57,6 +74,7 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* STATS BAR */}
       <section className="bg-emerald-600 py-6 px-4">
         <div className="max-w-5xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-6 text-center text-white">
           {stats.map(s => (
@@ -69,6 +87,7 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* WHY US */}
       <section className="max-w-6xl mx-auto px-4 py-16">
         <div className="text-center mb-12">
           <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-3">We Do the Hard Work. You Focus on Your Mission.</h2>
@@ -84,7 +103,7 @@ export default function HomePage() {
             { icon: '💰', title: 'Typically saves money', desc: 'Specialist charity insurers often price more competitively than generic commercial insurers. We find the most competitive rate without compromising cover quality.' },
           ].map(item => (
             <div key={item.title} className="bg-white border border-slate-200 rounded-2xl p-6 hover:border-emerald-400 hover:shadow-md transition-all duration-200">
-              <div className="text-3xl mb-3">{item.icon}</div>
+              <div className="w-12 h-12 bg-emerald-50 border border-emerald-200 rounded-xl flex items-center justify-center text-2xl mb-4">{item.icon}</div>
               <h3 className="font-bold text-slate-900 mb-2">{item.title}</h3>
               <p className="text-slate-500 text-sm leading-relaxed">{item.desc}</p>
             </div>
@@ -92,6 +111,7 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ORG TYPES */}
       <section className="bg-slate-50 py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-10">
@@ -113,6 +133,7 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* COVER TYPES */}
       <section className="max-w-6xl mx-auto px-4 py-16">
         <div className="text-center mb-10">
           <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-3">Cover Types for Charities & Not-for-Profits</h2>
@@ -120,8 +141,8 @@ export default function HomePage() {
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {featuredCovers.map(cover => (
-            <div key={cover.slug} className="border border-slate-200 rounded-xl p-5 hover:border-emerald-400 hover:shadow-sm transition-all duration-200">
-              <div className="text-2xl mb-2">{cover.icon}</div>
+            <div key={cover.slug} className="border-2 border-slate-100 rounded-xl p-5 hover:border-emerald-400 hover:shadow-sm transition-all duration-200 group">
+              <div className="w-11 h-11 bg-emerald-600 rounded-xl flex items-center justify-center text-xl mb-3 group-hover:bg-emerald-700 transition">{cover.icon}</div>
               <h3 className="font-bold text-slate-900 mb-1.5 text-sm">{cover.name}</h3>
               <p className="text-slate-500 text-xs leading-relaxed">{cover.shortDesc}</p>
             </div>
@@ -132,11 +153,12 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* TRUSTEE RISK CALLOUT */}
       <section className="bg-slate-900 py-14 px-4">
         <div className="max-w-4xl mx-auto grid lg:grid-cols-2 gap-10 items-center">
           <div>
             <span className="inline-block px-3 py-1 bg-emerald-600/30 text-emerald-400 text-xs font-bold rounded-full uppercase tracking-widest mb-4">Important for Trustees</span>
-            <h2 className="text-2xl sm:text-3xl font-extrabold text-white mb-4">Charitable Status Doesn't Protect Your Trustees</h2>
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-white mb-4">Charitable Status Does Not Protect Your Trustees</h2>
             <p className="text-slate-300 leading-relaxed mb-4">Being a registered charity does not shield individual trustees, board members, or committee members from personal liability. Under the Incorporated Societies Act 2022, officer duties are now explicit — and enforceable.</p>
             <p className="text-slate-300 leading-relaxed mb-6">Trustee Liability (D&O) insurance protects the people who give their time to govern your organisation. Without it, they fund their own legal defence.</p>
             <Link href="/coverage/" className="inline-flex items-center gap-2 px-6 py-3 bg-emerald-600 text-white font-bold rounded-xl hover:bg-emerald-700 transition">Learn About Trustee Cover →</Link>
@@ -153,6 +175,7 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* RECENT RESOURCES */}
       <section className="max-w-6xl mx-auto px-4 py-16">
         <div className="flex items-center justify-between mb-8">
           <h2 className="text-2xl font-extrabold text-slate-900">Resources for NZ Charities & NFPs</h2>
@@ -174,6 +197,7 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* BOTTOM CTA */}
       <section className="bg-emerald-600 py-14 px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-2xl sm:text-3xl font-extrabold text-white mb-4">Let's Sort Your Cover</h2>

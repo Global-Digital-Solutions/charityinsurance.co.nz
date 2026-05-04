@@ -6,9 +6,10 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
           <div className="lg:col-span-1">
-            <div className="flex items-center gap-2 mb-3">
-              <span className="w-8 h-8 rounded-lg bg-emerald-600 flex items-center justify-center text-white text-sm">🤝</span>
-              <span className="font-extrabold text-white text-base">CharityInsurance.co.nz</span>
+            <div className="mb-3">
+              <span className="font-extrabold text-white text-xl leading-tight">
+                <span className="text-white">Charity</span><span className="text-emerald-500">Insurance</span><span className="text-slate-400 font-semibold text-base">.co.nz</span>
+              </span>
             </div>
             <p className="text-sm text-slate-400 leading-relaxed mb-4">
               Specialist insurance comparison and broker referral for charities, not-for-profits, and community organisations across New Zealand.
@@ -54,7 +55,7 @@ export default function Footer() {
               {[
                 ['About Us', '/about/'],
                 ['Get a Quote', '/contact/'],
-                ['Blog & Resources', '/blog/'],
+                ['Resources', '/blog/'],
                 ['Making a Claim', '/claims/'],
                 ['FAQ', '/faq/'],
                 ['Terms of Use', '/terms/'],

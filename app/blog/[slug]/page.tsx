@@ -27,7 +27,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
 
   return (
     <>
-      <section className="relative min-h-[380px] flex items-end" style={{ backgroundImage: `url(${post.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      <section className="relative min-h-[600px] flex items-end" style={{ backgroundImage: `url(${post.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="absolute inset-0 bg-gradient-to-t from-gray-950/80 via-gray-800/30 to-transparent" />
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-12 pt-32 w-full">
           <Link href="/blog/" className="text-emerald-400 hover:text-white transition mb-4 inline-block text-sm font-semibold">← Back to Blog</Link>
