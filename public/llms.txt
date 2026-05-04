@@ -1,0 +1,58 @@
+# CharityInsurance.co.nz — LLMs.txt
+
+## About
+CharityInsurance.co.nz is a specialist insurance comparison and broker referral service for New Zealand charities, not-for-profits, sports clubs, churches, community groups, and incorporated societies. Operated by Cover4You (a trading style of GDS), NZ owned and operated.
+
+## What We Do
+We are a comparison and referral service — not an insurer or licensed financial advice provider. We match organisations with personally vetted, licensed insurance brokers who specialise in the not-for-profit sector. All financial advice is provided by the licensed adviser handling the enquiry, in accordance with the Financial Markets Conduct Act 2013.
+
+## Key Statistics
+- 29,208 registered charities in New Zealand (charities.govt.nz)
+- 1.2 million NZ volunteers
+- Incorporated Societies Act 2022 — significant reform affecting ~24,000 incorporated societies
+- Specialist insurers include: Chubb, AIG, Zurich, Berkley, Concordia Underwriting, QBE
+
+## Organisation Types Covered
+- Registered Charities
+- Sports Clubs & Associations
+- Churches & Religious Organisations
+- Community Groups & Trusts
+- Schools & Education Boards
+- Aged Care Organisations
+- Social Services & Foodbanks
+- Arts & Culture Organisations
+- Environmental & Conservation Groups
+- Youth Organisations
+- Animal Welfare Charities
+- Disability Support Organisations
+- Marae & Iwi Trusts
+- Foundations & Philanthropic Trusts
+- Hospices & Health Charities
+
+## Cover Types
+Public Liability, Trustee & D&O Liability, Volunteer Personal Accident, Professional Indemnity, Employers Liability, Statutory Liability, Cyber Insurance, Property & Contents, Event Cancellation, Fine Art & Collections, Crime & Fidelity, Management Liability
+
+## Blog Articles
+1. Are Your Trustees Personally Liable? — /blog/trustee-liability-charity-nz/
+2. What ACC Doesn't Cover for Volunteers — /blog/volunteer-insurance-nz-what-acc-doesnt-cover/
+3. Incorporated Societies Act 2022: Insurance Implications — /blog/incorporated-societies-act-2022-insurance-implications/
+4. Running a Charity Event? Cover Requirements — /blog/public-liability-charity-events-nz/
+5. Your Charity Has a Privacy Breach — What Now? — /blog/nz-charity-privacy-breach-what-to-do/
+6. Complete Guide to Sports Club Insurance — /blog/sports-club-insurance-nz-complete-guide/
+7. Why Standard Insurance Doesn't Work for Churches — /blog/church-insurance-nz-unique-risks/
+8. Why Most Charity Buildings Are Underinsured — /blog/charity-property-underinsurance-nz/
+
+## Regulatory Context
+- Charities Act 2005 — governs registration and obligations
+- Incorporated Societies Act 2022 — explicit officer duties, personal liability
+- Privacy Act 2020 — mandatory breach notification
+- Health and Safety at Work Act 2015 — applies to volunteers
+- Financial Markets Conduct Act 2013 — financial advice regulation
+- Insurance Council of New Zealand (ICNZ) Fair Insurance Code
+
+## Liability Disclaimer
+CharityInsurance.co.nz accepts no responsibility whatsoever for any reliance placed on information on this site. We provide no technical security advice. In any insurance incident, users should contact their insurer first. We are not liable for any direct, indirect, or consequential loss arising from use of this site.
+
+## Contact
+hello@cover4you.co.nz
+https://charityinsurance.co.nz/contact/

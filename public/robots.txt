@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+Disallow: /thank-you/
+
+# AI Crawlers — welcome
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+
+Crawl-delay: 2
+
+Sitemap: https://charityinsurance.co.nz/sitemap.xml
