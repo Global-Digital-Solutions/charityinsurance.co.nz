@@ -16,10 +16,10 @@ const featuredCovers = coverTypes.slice(0, 6);
 const recentPosts = blogPosts.slice(0, 3);
 
 const stats = [
-  { value: '29,208', label: 'Registered charities in NZ', sub: 'charities.govt.nz' },
-  { value: '1.2M', label: 'NZ volunteers', sub: 'giving their time' },
-  { value: '12+', label: 'Cover types', sub: 'for every org type' },
-  { value: '6+', label: 'Specialist insurers', sub: 'compared for you' },
+  { value: '100%', label: 'Free broker matching', sub: 'no cost, no obligation' },
+  { value: '6+', label: 'Specialist charity insurers', sub: 'compared on your behalf' },
+  { value: '15+', label: 'Organisation types covered', sub: 'from sports clubs to aged care' },
+  { value: '1 day', label: 'Broker response time', sub: 'guaranteed turnaround' },
 ];
 
 const whyUs = [
