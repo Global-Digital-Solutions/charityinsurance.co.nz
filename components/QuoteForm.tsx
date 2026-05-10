@@ -25,7 +25,7 @@ export default function QuoteForm({ compact = false, orgType = '' }: QuoteFormPr
         <input type="tel" name="phone" placeholder="Phone (optional)" className="w-full px-3 py-2.5 border border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-emerald-500 focus:border-transparent outline-none" />
         <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer strategy="afterInteractive" />
         <div className="flex justify-center">
-          <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-theme="light" />
+          <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-size="invisible" />
         </div>
         <button type="submit" className="w-full py-3 bg-emerald-600 text-white font-bold rounded-lg hover:bg-emerald-700 transition text-sm">
           Get My Quote →
@@ -124,7 +124,7 @@ export default function QuoteForm({ compact = false, orgType = '' }: QuoteFormPr
       </div>
       <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer strategy="afterInteractive" />
       <div className="flex justify-center mb-4">
-        <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-theme="light" />
+        <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-size="invisible" />
       </div>
       <button type="submit" className="w-full py-4 bg-emerald-600 text-white font-bold rounded-xl hover:bg-emerald-700 transition text-lg">
         {"Let's Sort Your Cover →"}
