@@ -1,21 +1,30 @@
 'use client';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const navLinks = [
   { label: 'Coverage Types', href: '/coverage/' },
   { label: 'Organisation Types', href: '/organisations/' },
   { label: 'Compare', href: '/compare/' },
-  { label: 'Resources', href: '/blog/' },
+  { label: 'Blog', href: '/blog/' },
+  { label: 'About', href: '/about/' },
 ];
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => { if (open) setOpen(false); };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [open]);
+
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-emerald-100 shadow-sm h-16 flex items-center">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-0 font-extrabold text-xl leading-tight">
-          <span className="text-slate-900">Charity</span><span className="text-emerald-600">Insurance</span><span className="text-slate-400 font-semibold text-base">.co.nz</span>
+        <Link href="/" className="flex items-center gap-2 font-extrabold text-slate-900 text-lg leading-tight">
+          <span className="w-8 h-8 rounded-lg bg-emerald-600 flex items-center justify-center text-white text-sm font-black flex-shrink-0">🤝</span>
+          <span>CharityInsurance<span className="text-emerald-600">.co.nz</span></span>
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-sm font-semibold text-slate-700">
           {navLinks.map(l => (
@@ -41,9 +50,6 @@ export default function Header() {
                 {l.label}
               </Link>
             ))}
-            <Link href="/about/" onClick={() => setOpen(false)} className="block py-2 px-3 rounded text-slate-500 font-medium hover:bg-emerald-50 hover:text-emerald-700 transition text-sm">
-              About Us
-            </Link>
             <Link href="/contact/" onClick={() => setOpen(false)} className="block mt-2 py-2.5 px-3 bg-emerald-600 text-white font-bold rounded-lg text-center hover:bg-emerald-700 transition">
               Get a Quote →
             </Link>
