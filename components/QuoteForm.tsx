@@ -1,5 +1,7 @@
 'use client';
 
+import { useState, FormEvent } from 'react';
+import { useRouter } from 'next/navigation';
 import Script from 'next/script';
 
 interface QuoteFormProps {
@@ -8,10 +10,41 @@ interface QuoteFormProps {
 }
 
 export default function QuoteForm({ compact = false, orgType = '' }: QuoteFormProps) {
+  const router = useRouter();
+  const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState('');
+
+  async function handleSubmit(e: FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setError('');
+    const fd = new FormData(e.currentTarget);
+    const cfToken = fd.get('cf-turnstile-response');
+    if (!cfToken) {
+      setError('Please wait a moment for the security check to finish, then try again.');
+      return;
+    }
+    const data: Record<string, string> = {};
+    fd.forEach((value, key) => {
+      if (typeof value === 'string') data[key] = value;
+    });
+    setSubmitting(true);
+    try {
+      const res = await fetch('/api/submit-form', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ...data, cfTurnstileToken: cfToken }),
+      });
+      if (!res.ok) throw new Error('Submission failed');
+      router.push('/thank-you/');
+    } catch {
+      setError('Something went wrong. Please try again.');
+      setSubmitting(false);
+    }
+  }
 
   if (compact) {
     return (
-      <form action="/api/submit-form" method="POST" className="space-y-3">
+      <form onSubmit={handleSubmit} className="space-y-3">
         <input type="text" name="_honey" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
         <input type="hidden" name="_subject" value="New Charity Insurance Quote — CharityInsurance.co.nz" />
         <input type="hidden" name="_cc" value="butlerdarin@gmail.com" />
@@ -27,8 +60,9 @@ export default function QuoteForm({ compact = false, orgType = '' }: QuoteFormPr
         <div className="flex justify-center">
           <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-size="invisible" />
         </div>
-        <button type="submit" className="w-full py-3 bg-emerald-600 text-white font-bold rounded-lg hover:bg-emerald-700 transition text-sm">
-          Get My Quote →
+        {error && <p className="text-xs bg-red-50 text-red-700 border border-red-200 rounded-lg px-3 py-2">{error}</p>}
+        <button type="submit" disabled={submitting} className="w-full py-3 bg-emerald-600 text-white font-bold rounded-lg hover:bg-emerald-700 disabled:opacity-60 transition text-sm">
+          {submitting ? 'Sending…' : 'Get My Quote →'}
         </button>
         <p className="text-xs text-slate-500 text-center">No obligation. Brokers we personally know and trust.</p>
       </form>
@@ -36,7 +70,7 @@ export default function QuoteForm({ compact = false, orgType = '' }: QuoteFormPr
   }
 
   return (
-    <form action="/api/submit-form" method="POST" className="bg-white rounded-2xl border-2 border-emerald-100 p-8 shadow-lg">
+    <form onSubmit={handleSubmit} className="bg-white rounded-2xl border-2 border-emerald-100 p-8 shadow-lg">
       <h3 className="text-xl font-bold text-slate-900 mb-2">Tell us about your organisation</h3>
       <p className="text-slate-500 text-sm mb-6">The more you share, the better we can match you. Plain-English options back within one business day — no hard sell, ever.</p>
       <input type="text" name="_honey" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
@@ -126,8 +160,9 @@ export default function QuoteForm({ compact = false, orgType = '' }: QuoteFormPr
       <div className="flex justify-center mb-4">
         <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-size="invisible" />
       </div>
-      <button type="submit" className="w-full py-4 bg-emerald-600 text-white font-bold rounded-xl hover:bg-emerald-700 transition text-lg">
-        {"Let's Sort Your Cover →"}
+      {error && <p className="text-sm bg-red-50 text-red-700 border border-red-200 rounded-lg px-3 py-2 mb-3">{error}</p>}
+      <button type="submit" disabled={submitting} className="w-full py-4 bg-emerald-600 text-white font-bold rounded-xl hover:bg-emerald-700 disabled:opacity-60 transition text-lg">
+        {submitting ? 'Sending…' : "Let's Sort Your Cover →"}
       </button>
       <p className="text-sm text-slate-500 mt-3 text-center">No obligation. Your details go to a broker we personally know and trust — back within one business day.</p>
     </form>
