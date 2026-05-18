@@ -1,8 +1,8 @@
 'use client';
 
-import { useState, FormEvent } from 'react';
+import { useRef, useState, FormEvent } from 'react';
 import { useRouter } from 'next/navigation';
-import Script from 'next/script';
+import TurnstileWidget, { type TurnstileHandle } from './TurnstileWidget';
 
 interface QuoteFormProps {
   compact?: boolean;
@@ -11,6 +11,7 @@ interface QuoteFormProps {
 
 export default function QuoteForm({ compact = false, orgType = '' }: QuoteFormProps) {
   const router = useRouter();
+  const turnstileRef = useRef<TurnstileHandle>(null);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState('');
 
@@ -18,16 +19,17 @@ export default function QuoteForm({ compact = false, orgType = '' }: QuoteFormPr
     e.preventDefault();
     setError('');
     const fd = new FormData(e.currentTarget);
-    const cfToken = fd.get('cf-turnstile-response');
-    if (!cfToken) {
-      setError('Please wait a moment for the security check to finish, then try again.');
-      return;
-    }
     const data: Record<string, string> = {};
     fd.forEach((value, key) => {
       if (typeof value === 'string') data[key] = value;
     });
     setSubmitting(true);
+    const cfToken = await turnstileRef.current?.execute();
+    if (!cfToken) {
+      setSubmitting(false);
+      setError('Security check could not complete. Please try again.');
+      return;
+    }
     try {
       const res = await fetch('/api/submit-form', {
         method: 'POST',
@@ -56,10 +58,7 @@ export default function QuoteForm({ compact = false, orgType = '' }: QuoteFormPr
         <input type="text" name="organisation" required placeholder="Organisation name" className="w-full px-3 py-2.5 border border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-emerald-500 focus:border-transparent outline-none" />
         <input type="email" name="email" required placeholder="Email address" className="w-full px-3 py-2.5 border border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-emerald-500 focus:border-transparent outline-none" />
         <input type="tel" name="phone" placeholder="Phone (optional)" className="w-full px-3 py-2.5 border border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-emerald-500 focus:border-transparent outline-none" />
-        <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer strategy="afterInteractive" />
-        <div className="flex justify-center">
-          <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-size="invisible" />
-        </div>
+        <TurnstileWidget ref={turnstileRef} />
         {error && <p className="text-xs bg-red-50 text-red-700 border border-red-200 rounded-lg px-3 py-2">{error}</p>}
         <button type="submit" disabled={submitting} className="w-full py-3 bg-emerald-600 text-white font-bold rounded-lg hover:bg-emerald-700 disabled:opacity-60 transition text-sm">
           {submitting ? 'Sending…' : 'Get My Quote →'}
@@ -156,10 +155,7 @@ export default function QuoteForm({ compact = false, orgType = '' }: QuoteFormPr
         <label className="block text-sm font-semibold text-slate-700 mb-1">Anything else we should know?</label>
         <textarea name="message" rows={3} placeholder="e.g. main activities, number of volunteers, buildings or assets you need covered..." className="w-full px-4 py-3 border border-slate-300 rounded-lg focus:ring-2 focus:ring-emerald-500 focus:border-transparent outline-none transition resize-none" />
       </div>
-      <Script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer strategy="afterInteractive" />
-      <div className="flex justify-center mb-4">
-        <div className="cf-turnstile" data-sitekey="0x4AAAAAADMnq1OKyxf3JvVv" data-size="invisible" />
-      </div>
+      <TurnstileWidget ref={turnstileRef} />
       {error && <p className="text-sm bg-red-50 text-red-700 border border-red-200 rounded-lg px-3 py-2 mb-3">{error}</p>}
       <button type="submit" disabled={submitting} className="w-full py-4 bg-emerald-600 text-white font-bold rounded-xl hover:bg-emerald-700 disabled:opacity-60 transition text-lg">
         {submitting ? 'Sending…' : "Let's Sort Your Cover →"}
