@@ -6,8 +6,7 @@ const navLinks = [
   { label: 'Coverage Types', href: '/coverage/' },
   { label: 'Organisation Types', href: '/organisations/' },
   { label: 'Compare', href: '/compare/' },
-  { label: 'Blog', href: '/blog/' },
-  { label: 'About', href: '/about/' },
+  { label: 'Resources', href: '/blog/' },
 ];
 
 export default function Header() {
