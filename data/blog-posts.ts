@@ -224,7 +224,7 @@ export const blogPosts: BlogPost[] = [
     author: 'The CharityInsurance Crew',
     readTime: '7 min read',
     category: 'Cyber & Privacy',
-    image: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=1920&q=80',
+    image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1920&q=80',
     content: `
 <p>The Privacy Act 2020 introduced mandatory reporting of notifiable privacy breaches for all organisations in New Zealand — including charities and not-for-profits. A breach is notifiable if it is likely to cause serious harm to the individuals affected. Here\'s what the response looks like in practice — and how insurance changes the outcome.</p>
 
