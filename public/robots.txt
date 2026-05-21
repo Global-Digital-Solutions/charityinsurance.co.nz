@@ -18,4 +18,4 @@ Allow: /
 
 Crawl-delay: 2
 
-Sitemap: https://charityinsurance.co.nz/sitemap.xml
+Sitemap: https://www.charityinsurance.co.nz/sitemap.xml
