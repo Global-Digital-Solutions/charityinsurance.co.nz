@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import ExitIntentPopup from '@/components/ExitIntentPopup';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.charityinsurance.co.nz'),
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
     default: 'Charity Insurance NZ | Not-for-Profit Insurance Specialists | CharityInsurance.co.nz',
     template: '%s | CharityInsurance.co.nz',
   },
-  description: 'Specialist insurance for charities, not-for-profits, sports clubs, churches, and community organisations across New Zealand. Free broker matching — no jargon, no hard sell.',
+  description: 'Specialist insurance for charities, not-for-profits, sports clubs, churches, and community organisations across New Zealand. Registered Financial Service Providers — no jargon, no hard sell.',
   openGraph: {
     siteName: 'CharityInsurance.co.nz',
     locale: 'en_NZ',
@@ -68,6 +69,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <div className="flex-1">{children}</div>
         <Footer />
+        <ExitIntentPopup />
       </body>
     </html>
   );

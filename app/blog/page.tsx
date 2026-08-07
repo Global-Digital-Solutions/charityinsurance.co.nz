@@ -5,7 +5,7 @@ import { blogPosts } from '@/data/blog-posts';
 export const metadata: Metadata = {
   title: 'Blog & Resources | Charity Insurance Guides for NZ Organisations',
   description: 'Plain-English guides, news, and resources for NZ charities, not-for-profits, sports clubs, and community organisations navigating insurance, governance, and compliance.',
-  alternates: { canonical: 'https://charityinsurance.co.nz/blog/' },
+  alternates: { canonical: 'https://www.charityinsurance.co.nz/blog/' },
 };
 
 export default function BlogPage() {

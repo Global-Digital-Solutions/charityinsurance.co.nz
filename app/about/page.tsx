@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'About CharityInsurance.co.nz | Specialist NFP Insurance',
   description: 'CharityInsurance.co.nz is a specialist insurance comparison and broker referral service for NZ charities, sports clubs, churches, and community organisations. NZ owned and operated.',
-  alternates: { canonical: 'https://charityinsurance.co.nz/about/' },
+  alternates: { canonical: 'https://www.charityinsurance.co.nz/about/' },
 };
 
 export default function AboutPage() {

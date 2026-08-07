@@ -7,8 +7,8 @@ import { blogPosts } from '@/data/blog-posts';
 
 export const metadata: Metadata = {
   title: 'Charity Insurance NZ | Insurance for Charities & Not-for-Profits | CharityInsurance.co.nz',
-  description: 'Insurance for registered charities, sports clubs, churches, community groups and not-for-profits across New Zealand. Free broker matching — trusted advisors, plain English, no hard sell.',
-  alternates: { canonical: 'https://charityinsurance.co.nz/' },
+  description: 'Insurance for registered charities, sports clubs, churches, community groups and not-for-profits across New Zealand. Registered Financial Service Providers — plain English, no hard sell.',
+  alternates: { canonical: 'https://www.charityinsurance.co.nz/' },
 };
 
 const featuredOrgs = orgTypes.slice(0, 8);
@@ -42,7 +42,7 @@ export default function HomePage() {
 
             {/* LEFT — headline + USPs */}
             <div>
-              <span className="inline-block px-3 py-1 bg-emerald-600 text-white text-xs font-bold rounded-full uppercase tracking-widest mb-5">Specialist Charity Insurance — Licensed Brokers</span>
+              <span className="inline-block px-3 py-1 bg-emerald-600 text-white text-xs font-bold rounded-full uppercase tracking-widest mb-5">Specialist Charity Insurance — Registered Brokers</span>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white leading-tight mb-5">
                 Insurance for the Organisations That Give Back
               </h1>
@@ -66,7 +66,7 @@ export default function HomePage() {
               </div>
 
               <div className="flex flex-wrap gap-3">
-                <Link href="/contact/" className="px-7 py-3.5 bg-white text-emerald-700 font-extrabold rounded-xl hover:bg-emerald-50 transition shadow-lg text-base">Get a Free Quote →</Link>
+                <Link href="/contact/" className="px-7 py-3.5 bg-white text-emerald-700 font-extrabold rounded-xl hover:bg-emerald-50 transition shadow-lg text-base">Get a Quote →</Link>
                 <Link href="/organisations/" className="px-7 py-3.5 bg-white/10 text-white font-semibold rounded-xl hover:bg-white/20 transition border border-white/30 text-base">Find Your Org Type</Link>
               </div>
             </div>
@@ -210,13 +210,42 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* POPULAR RESOURCES / LANDING PAGES */}
+      <section className="bg-slate-50 py-14 px-4">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-10">
+            <span className="inline-block px-3 py-1 bg-emerald-600 text-white text-xs font-bold rounded-full uppercase tracking-widest mb-4">Popular Starting Points</span>
+            <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mb-3">Find the Cover That Fits Your Situation</h2>
+            <p className="text-slate-600 max-w-xl mx-auto">Jump straight to the cover type or organisation situation most relevant to you.</p>
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {[
+              { href: '/charity-insurance/nfp-insurance/', label: 'Not for Profit Insurance', desc: 'Cover for all NFP organisation types' },
+              { href: '/charity-insurance/incorporated-society-insurance/', label: 'Incorporated Society Cover', desc: 'IS Act 2022 — officer duties & insurance' },
+              { href: '/charity-insurance/charity-trustee-liability/', label: 'Trustee Liability', desc: 'Protect trustees from personal exposure' },
+              { href: '/charity-insurance/charity-public-liability/', label: 'Public Liability', desc: 'Events, activities & public access cover' },
+              { href: '/charity-insurance/sports-club-insurance/', label: 'Sports Club Insurance', desc: 'Tailored cover for clubs & associations' },
+              { href: '/charity-insurance/church-insurance/', label: 'Church Insurance', desc: 'Religious organisations & faith groups' },
+              { href: '/charity-insurance/charity-event-insurance/', label: 'Event Insurance', desc: 'One-off and recurring charity events' },
+              { href: '/charity-insurance/compare-charity-insurance/', label: 'Compare Providers', desc: 'Chubb, AIG, Zurich, Berkley & more' },
+            ].map(item => (
+              <Link key={item.href} href={item.href} className="group bg-white rounded-xl border border-slate-200 p-5 hover:border-emerald-400 hover:shadow-md transition-all duration-200">
+                <p className="font-bold text-slate-900 text-sm mb-1 group-hover:text-emerald-700 transition">{item.label}</p>
+                <p className="text-slate-500 text-xs leading-relaxed">{item.desc}</p>
+                <span className="text-emerald-600 text-xs font-semibold mt-2 block">Learn more →</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* BOTTOM CTA */}
       <section className="bg-emerald-600 py-14 px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-2xl sm:text-3xl font-extrabold text-white mb-4">Let's Sort Your Cover</h2>
           <p className="text-emerald-100 text-lg mb-8 max-w-xl mx-auto">Tell us about your organisation. We'll compare specialist insurers and connect you with a broker we personally know and trust — back within one business day.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact/" className="px-8 py-4 bg-white text-emerald-700 font-extrabold rounded-xl hover:bg-emerald-50 transition text-lg shadow-lg">Get a Free Quote →</Link>
+            <Link href="/contact/" className="px-8 py-4 bg-white text-emerald-700 font-extrabold rounded-xl hover:bg-emerald-50 transition text-lg shadow-lg">Get a Quote →</Link>
             <Link href="/organisations/" className="px-8 py-4 bg-emerald-700 text-white font-bold rounded-xl hover:bg-emerald-800 transition text-lg border border-emerald-500">Find Your Organisation Type</Link>
           </div>
         </div>

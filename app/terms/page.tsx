@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Terms of Use | CharityInsurance.co.nz',
   description: 'Terms of use and legal disclaimer for CharityInsurance.co.nz — a comparison and broker referral service operated by Cover4You (GDS).',
-  alternates: { canonical: 'https://charityinsurance.co.nz/terms/' },
+  alternates: { canonical: 'https://www.charityinsurance.co.nz/terms/' },
 };
 
 export default function TermsPage() {

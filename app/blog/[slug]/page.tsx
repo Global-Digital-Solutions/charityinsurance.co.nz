@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${post.title} | CharityInsurance Blog`,
     description: post.excerpt,
-    alternates: { canonical: `https://charityinsurance.co.nz/blog/${slug}/` },
+    alternates: { canonical: `https://www.charityinsurance.co.nz/blog/${slug}/` },
     openGraph: { title: post.title, description: post.excerpt, type: 'article', publishedTime: post.date },
   };
 }
@@ -33,25 +33,25 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     datePublished: post.date,
     dateModified: post.date,
     image: post.image,
-    url: `https://charityinsurance.co.nz/blog/${slug}/`,
+    url: `https://www.charityinsurance.co.nz/blog/${slug}/`,
     inLanguage: 'en-NZ',
     author: {
       '@type': 'Person',
       name: 'The CharityInsurance Crew',
-      url: 'https://charityinsurance.co.nz/about/',
-      worksFor: { '@id': 'https://charityinsurance.co.nz/#organization' },
+      url: 'https://www.charityinsurance.co.nz/about/',
+      worksFor: { '@id': 'https://www.charityinsurance.co.nz/#organization' },
     },
-    publisher: { '@id': 'https://charityinsurance.co.nz/#organization' },
-    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://charityinsurance.co.nz/blog/${slug}/` },
+    publisher: { '@id': 'https://www.charityinsurance.co.nz/#organization' },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://www.charityinsurance.co.nz/blog/${slug}/` },
   };
 
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://charityinsurance.co.nz/' },
-      { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://charityinsurance.co.nz/blog/' },
-      { '@type': 'ListItem', position: 3, name: post.title, item: `https://charityinsurance.co.nz/blog/${slug}/` },
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.charityinsurance.co.nz/' },
+      { '@type': 'ListItem', position: 2, name: 'Resources', item: 'https://www.charityinsurance.co.nz/blog/' },
+      { '@type': 'ListItem', position: 3, name: post.title, item: `https://www.charityinsurance.co.nz/blog/${slug}/` },
     ],
   };
 

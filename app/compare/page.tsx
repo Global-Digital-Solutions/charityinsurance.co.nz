@@ -5,10 +5,10 @@ import QuoteForm from '@/components/QuoteForm';
 export const metadata: Metadata = {
   title: 'Compare Charity Insurance Providers NZ | CharityInsurance.co.nz',
   description: 'Compare specialist charity and not-for-profit insurance providers in New Zealand — Chubb, AIG, Zurich, Berkley, Concordia, QBE. Side-by-side feature comparison and financial ratings.',
-  alternates: { canonical: 'https://charityinsurance.co.nz/compare/' },
+  alternates: { canonical: 'https://www.charityinsurance.co.nz/compare/' },
 };
 
-const trustBadges = ['✓ Licensed NZ Brokers', '✓ Free Broker Matching', '✓ 6+ Specialist Insurers', '✓ Reply in 1 Business Day'];
+const trustBadges = ['✓ Registered Financial Service Providers', '✓ Free Broker Matching', '✓ 6+ Specialist Insurers', '✓ Reply in 1 Business Day'];
 
 const insurerSlugs = ['chubb', 'aig', 'zurich', 'berkley', 'concordia', 'qbe'] as const;
 type InsurerSlug = typeof insurerSlugs[number];
@@ -253,7 +253,7 @@ export default function ComparePage() {
             {/* Disclaimer below table */}
             <div className="mt-5 bg-emerald-50 border border-emerald-200 rounded-xl p-4">
               <p className="text-slate-700 text-sm leading-relaxed">
-                <strong className="text-emerald-700">Important:</strong> This comparison provides a general overview of insurer strengths and is not a substitute for personalised broker advice. Policy wordings, limits, sub-limits and premiums vary significantly by organisation type, size, and activities. Our licensed brokers will compare actual policy terms for your specific organisation — <Link href="/contact/" className="text-emerald-700 font-semibold hover:underline">get a free quote to see tailored options</Link>.
+                <strong className="text-emerald-700">Important:</strong> This comparison provides a general overview of insurer strengths and is not a substitute for personalised broker advice. Policy wordings, limits, sub-limits and premiums vary significantly by organisation type, size, and activities. Our licensed brokers will compare actual policy terms for your specific organisation — <Link href="/contact/" className="text-emerald-700 font-semibold hover:underline">Get a Quote to see tailored options</Link>.
               </p>
             </div>
           </div>

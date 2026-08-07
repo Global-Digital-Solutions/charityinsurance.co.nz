@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy | CharityInsurance.co.nz',
-  alternates: { canonical: 'https://charityinsurance.co.nz/privacy/' },
+  alternates: { canonical: 'https://www.charityinsurance.co.nz/privacy/' },
 };
 
 export default function PrivacyPage() {

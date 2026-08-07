@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Making a Claim | Charity Insurance NZ',
   description: 'How to make an insurance claim as a New Zealand charity or not-for-profit. Step-by-step guidance for public liability, property, D&O, and other charity insurance claims.',
-  alternates: { canonical: 'https://charityinsurance.co.nz/claims/' },
+  alternates: { canonical: 'https://www.charityinsurance.co.nz/claims/' },
 };
 
 export default function ClaimsPage() {

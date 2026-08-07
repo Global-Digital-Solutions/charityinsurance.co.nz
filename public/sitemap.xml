@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
   <!-- Core pages -->
-  <url><loc>https://www.charityinsurance.co.nz/</loc><lastmod>2026-05-21</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.charityinsurance.co.nz/</loc><lastmod>2026-08-07</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://www.charityinsurance.co.nz/coverage/</loc><lastmod>2026-05-21</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://www.charityinsurance.co.nz/organisations/</loc><lastmod>2026-05-21</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://www.charityinsurance.co.nz/compare/</loc><lastmod>2026-05-21</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
@@ -49,4 +49,34 @@
   <url><loc>https://www.charityinsurance.co.nz/privacy/</loc><lastmod>2026-05-21</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
   <url><loc>https://www.charityinsurance.co.nz/disclaimer/</loc><lastmod>2026-05-21</lastmod><changefreq>yearly</changefreq><priority>0.3</priority></url>
 
+
+  <!-- New organisation types (2026-08-07) -->
+  <url><loc>https://www.charityinsurance.co.nz/organisations/emergency-rescue-organisations/</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.charityinsurance.co.nz/organisations/professional-associations/</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.charityinsurance.co.nz/organisations/early-childhood-education/</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.charityinsurance.co.nz/organisations/cultural-heritage-organisations/</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+
+  <!-- New landing pages (2026-08-07) -->
+  <url><loc>https://www.charityinsurance.co.nz/charity-insurance/nfp-insurance/</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.charityinsurance.co.nz/charity-insurance/incorporated-society-insurance/</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.charityinsurance.co.nz/charity-insurance/sports-club-insurance/</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.charityinsurance.co.nz/charity-insurance/church-insurance/</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.charityinsurance.co.nz/charity-insurance/volunteer-organisation-insurance/</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.charityinsurance.co.nz/charity-insurance/charity-public-liability/</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.charityinsurance.co.nz/charity-insurance/charity-trustee-liability/</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://www.charityinsurance.co.nz/charity-insurance/charity-event-insurance/</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.charityinsurance.co.nz/charity-insurance/compare-charity-insurance/</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.charityinsurance.co.nz/charity-insurance/charity-insurance-auckland/</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.charityinsurance.co.nz/charity-insurance/charity-insurance-wellington/</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.charityinsurance.co.nz/charity-insurance/charity-insurance-christchurch/</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.charityinsurance.co.nz/charity-insurance/small-charity-insurance/</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://www.charityinsurance.co.nz/charity-insurance/charity-governance-insurance/</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+
+  <!-- New blog posts (2026-08-07) -->
+  <url><loc>https://www.charityinsurance.co.nz/blog/incorporated-societies-re-registration-what-happened/</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.charityinsurance.co.nz/blog/charities-amendment-act-2023-governance-review-deadline/</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.charityinsurance.co.nz/blog/budget-2026-charity-tax-changes-insurance-implications/</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.charityinsurance.co.nz/blog/expanded-officer-definition-trustee-liability/</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.charityinsurance.co.nz/blog/charity-funding-pressure-2026-insurance-implications/</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.charityinsurance.co.nz/blog/ai-risk-nz-charities-insurance-gaps/</loc><lastmod>2026-08-07</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>

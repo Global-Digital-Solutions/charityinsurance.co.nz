@@ -5,7 +5,7 @@ import { orgTypes } from '@/data/organisation-types';
 export const metadata: Metadata = {
   title: 'Organisation Types | Charity & NFP Insurance by Sector',
   description: 'Insurance information for every type of New Zealand charity and not-for-profit — from registered charities and sports clubs to churches, community groups, aged care, and marae.',
-  alternates: { canonical: 'https://charityinsurance.co.nz/organisations/' },
+  alternates: { canonical: 'https://www.charityinsurance.co.nz/organisations/' },
 };
 
 export default function OrganisationsPage() {

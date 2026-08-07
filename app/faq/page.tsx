@@ -4,7 +4,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'FAQ | Charity & Not-for-Profit Insurance Questions Answered',
   description: 'Frequently asked questions about insurance for NZ charities, sports clubs, churches, and community organisations — answered in plain English.',
-  alternates: { canonical: 'https://charityinsurance.co.nz/faq/' },
+  alternates: { canonical: 'https://www.charityinsurance.co.nz/faq/' },
 };
 
 const faqs = [

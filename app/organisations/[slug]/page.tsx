@@ -15,12 +15,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return {
     title: `${org.headline} | CharityInsurance.co.nz`,
     description: org.intro.slice(0, 160),
-    alternates: { canonical: `https://charityinsurance.co.nz/organisations/${slug}/` },
-    openGraph: { title: org.headline, description: org.intro.slice(0, 160), url: `https://charityinsurance.co.nz/organisations/${slug}/`, type: 'website' },
+    alternates: { canonical: `https://www.charityinsurance.co.nz/organisations/${slug}/` },
+    openGraph: { title: org.headline, description: org.intro.slice(0, 160), url: `https://www.charityinsurance.co.nz/organisations/${slug}/`, type: 'website' },
   };
 }
 
-const trustBadges = ['✓ Licensed NZ Brokers', '✓ Free Broker Matching', '✓ 6+ Specialist Insurers', '✓ Reply in 1 Business Day'];
+const trustBadges = ['✓ Registered Financial Service Providers', '✓ Free Broker Matching', '✓ 6+ Specialist Insurers', '✓ Reply in 1 Business Day'];
 
 export default async function OrgTypePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
@@ -40,10 +40,10 @@ export default async function OrgTypePage({ params }: { params: Promise<{ slug: 
     '@type': 'Service',
     name: org.headline,
     description: org.intro,
-    provider: { '@id': 'https://charityinsurance.co.nz/#organization' },
+    provider: { '@id': 'https://www.charityinsurance.co.nz/#organization' },
     areaServed: { '@type': 'Country', name: 'New Zealand' },
     serviceType: 'Insurance Broker Referral',
-    url: `https://charityinsurance.co.nz/organisations/${slug}/`,
+    url: `https://www.charityinsurance.co.nz/organisations/${slug}/`,
   };
 
   return (
@@ -265,9 +265,9 @@ export default async function OrgTypePage({ params }: { params: Promise<{ slug: 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org', '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://charityinsurance.co.nz/' },
-          { '@type': 'ListItem', position: 2, name: 'Organisation Types', item: 'https://charityinsurance.co.nz/organisations/' },
-          { '@type': 'ListItem', position: 3, name: org.name, item: `https://charityinsurance.co.nz/organisations/${slug}/` },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.charityinsurance.co.nz/' },
+          { '@type': 'ListItem', position: 2, name: 'Organisation Types', item: 'https://www.charityinsurance.co.nz/organisations/' },
+          { '@type': 'ListItem', position: 3, name: org.name, item: `https://www.charityinsurance.co.nz/organisations/${slug}/` },
         ],
       })}} />
     </>

@@ -664,6 +664,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'community-event-insurance-nz',
+    image: 'https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?auto=format&fit=crop&w=1920&q=80',
     title: 'Event Insurance for NZ Charities and Community Groups',
     excerpt: 'Running a charity gala, community market, sports tournament, or fundraising event? Here is everything you need to know about event insurance in New Zealand.',
     date: '2026-05-03',
@@ -718,6 +719,270 @@ export const blogPosts: BlogPost[] = [
 <h2>How to Ensure You're Covered</h2>
 <p>The single most important step is to contact your broker before any significant event — not after. Give them the event details: venue, expected attendance, activities, food and alcohol service, contractors involved, and any significant financial commitments. A good broker will confirm whether your existing policy covers the event, identify any gaps, and arrange additional cover if needed. This conversation typically takes less than 15 minutes and can save significant financial and legal headache.</p>
 <p>If your organisation doesn't have a specialist NFP broker, <a href="/contact/">CharityInsurance.co.nz can match you with one</a> — free, no obligation, within one business day.</p>
+    `,
+  },
+  {
+    slug: 'incorporated-societies-re-registration-what-happened',
+    title: 'The Re-registration Deadline Has Passed: What Now?',
+    excerpt: 'The Incorporated Societies Act 2022 required all ~24,000 societies to re-register by 5 April 2026. Many missed it — and the consequences for officers are serious.',
+    date: '2026-08-07',
+    author: 'Sarah Connell',
+    readTime: '8 min read',
+    category: 'Governance & Compliance',
+    image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1920&q=80',
+    content: `
+<p>The deadline passed on 5 April 2026. Every incorporated society in the country — the sports clubs, hobby associations, professional bodies, and community organisations that form the backbone of civil society — was required to re-register under the Incorporated Societies Act 2022 by that date. Those that didn't re-register have been removed from the register of incorporated societies. Their officers now face a situation that few of them anticipated when they first put their hand up to serve on a committee.</p>
+
+<h2>What the Deadline Actually Meant</h2>
+<p>The Incorporated Societies Act 2022 replaced legislation that had been in place since 1908. The new Act introduced significant changes: explicit officer duties, personal liability provisions for governance failures, stronger financial reporting requirements, and mandatory conflict of interest processes. All existing incorporated societies were required to re-register under the new Act — updating their constitutions to meet these new requirements — by 5 April 2026.</p>
+<p>As of April 2025 — a year before the deadline — fewer than 25% of New Zealand's approximately 24,000 incorporated societies had completed re-registration. The final rush in early 2026 brought more across the line, but a meaningful proportion did not make it in time.</p>
+
+<h2>What Happens to a Society That Missed the Deadline</h2>
+<p>A society that failed to re-register by 5 April 2026 has been removed from the register of incorporated societies. This has several immediate legal consequences:</p>
+<ul>
+<li>The society no longer has legal status as an incorporated body</li>
+<li>It cannot hold property in its own name</li>
+<li>It cannot enter contracts as a legal entity</li>
+<li>Officers may be personally liable for debts and obligations incurred in the society's name after deregistration</li>
+<li>The Registrar of Incorporated Societies has the power to apply to the court for distribution of the society's assets</li>
+</ul>
+<p>For many small societies, the practical consequences are manageable in the short term — they continue to operate informally. But the loss of incorporated status creates real legal and financial exposure that compounds over time.</p>
+
+<h2>Personal Liability for Officers</h2>
+<p>This is where the insurance dimension becomes critical. Officers of a society that has lost incorporated status may face personal liability for the organisation's debts and obligations. Unlike the position under the 1908 Act, the 2022 Act's officer duty framework was specifically designed to create clearer personal accountability. Officers who continue to act as though the society remains incorporated — entering contracts, spending money, making commitments — may find themselves personally exposed for those actions.</p>
+<p>If your society's D&O or Association Liability policy was tied to the society's incorporated status, check with your insurer and broker immediately. Cover may not extend to a deregistered entity, leaving officers exposed at precisely the moment they need protection most.</p>
+
+<h2>What Can Deregistered Societies Do?</h2>
+<p>There are two main options for a society that missed the deadline.</p>
+<p>The first is restoration. The Incorporated Societies Act 2022 includes a process for restoring a society to the register, broadly similar to the company restoration process under the Companies Act 1993. This typically involves applying to the Registrar, demonstrating that the society meets the requirements of the Act, and paying any applicable fees. A society restored under this process regains incorporated status from the date of restoration — but there is a period of lost status in the interim during which officers carry personal exposure.</p>
+<p>The second option, for societies that no longer have active operations, is to wind up properly rather than simply ceasing to exist as an unregistered entity. A proper winding-up protects officers from the ongoing liability exposure of an unresolved defunct entity.</p>
+
+<h2>Re-registration and Insurance: What to Check</h2>
+<p>For societies that did re-register, now is a good time to review whether your insurance programme has been updated to reflect the new Act. The 2022 Act's explicit officer duties mean that Association Liability (D&O) cover is materially more important than it was under the 1908 Act. Policy wordings vary in how they treat statutory liability claims — claims arising directly from breach of statutory duties. Check with your broker that your policy covers civil liability claims arising from the new Act's officer duty provisions, not just common law governance claims.</p>
+
+<h2>For Societies That Are Not Sure of Their Status</h2>
+<p>The Companies Office maintains the register of incorporated societies at companiesoffice.govt.nz. You can search for your society by name to confirm its current status. If your society is not on the register, or if its status is listed as anything other than registered and active, you should seek legal advice promptly.</p>
+<p>The period between losing incorporated status and either restoring it or properly winding up is the period of greatest personal liability exposure for officers. It should be as short as possible.</p>
+
+<h2>A Governance Moment, Not Just a Legal One</h2>
+<p>The re-registration requirement was not a bureaucratic exercise. It was a moment for every incorporated society to review its governance structures, update its constitution to modern standards, and ensure the people serving as officers understood their new obligations. Societies that completed this process are better governed as a result — and better placed to protect the officers who serve them.</p>
+<p>For those that didn't, the restoration process is the next step. Do it promptly, seek legal advice, and review your insurance with a specialist broker as part of the process.</p>
+<p>To discuss your organisation's cover after re-registration or restoration, <a href="/contact/">get a quote</a> from one of our specialist charity insurance brokers.</p>
+    `,
+  },
+  {
+    slug: 'charities-amendment-act-2023-governance-review-deadline',
+    title: 'Your Charity\'s Governance Review Deadline Is October 2026',
+    excerpt: 'The Charities Amendment Act 2023 requires all registered charities to formally review their governance procedures before 5 October 2026 — and the expanded "officer" definition means more people are exposed than most charities realise.',
+    date: '2026-08-07',
+    author: 'The CharityInsurance Crew',
+    readTime: '7 min read',
+    category: 'Governance & Compliance',
+    image: 'https://images.unsplash.com/photo-1553484771-371a605b060b?auto=format&fit=crop&w=1920&q=80',
+    content: `
+<p>Most registered charities are aware that the Charities Amendment Act 2023 introduced significant changes to the sector. Fewer are aware that one of those changes — the requirement for a formal governance review — has a deadline of 5 October 2026, and that many charities are running out of time to complete it.</p>
+
+<h2>What the Charities Amendment Act 2023 Requires</h2>
+<p>The Charities Amendment Act 2023 came into effect in stages — July 2023, October 2023, and July 2024. Among its most significant practical changes for registered charities is a mandatory governance review requirement. Every registered charity must formally review its governance procedures on a schedule, with the first review required to be completed before 5 October 2026. After that, reviews must occur at least every three years.</p>
+<p>This is not a paper exercise. Charities Services has signalled that governance review compliance will be part of its oversight framework. A charity that cannot demonstrate it has completed a governance review when asked to do so is at risk of regulatory scrutiny — and potentially deregistration in serious cases.</p>
+
+<h2>What Counts as a Governance Review?</h2>
+<p>The Act does not prescribe a single format for a governance review, but it should be a genuine assessment of the charity's governance procedures against good practice standards. Areas that a robust governance review typically covers include:</p>
+<ul>
+<li>Whether the charity's constitution and rules remain fit for purpose</li>
+<li>Whether officer roles, responsibilities, and accountability structures are clear</li>
+<li>How conflicts of interest are identified and managed</li>
+<li>Financial oversight and reporting processes</li>
+<li>Volunteer and staff management procedures</li>
+<li>Compliance with the charity's own rules and with Charities Act requirements</li>
+<li>Whether the charity's activities remain within its stated charitable purposes</li>
+</ul>
+<p>The governance review is also a natural moment to review insurance — because governance reviews consistently surface insurance gaps that boards were not previously aware of.</p>
+
+<h2>Insurance Gaps That Governance Reviews Surface</h2>
+<p>In the experience of specialist charity brokers, governance reviews commonly reveal one or more of these insurance gaps:</p>
+<p>Inadequate D&O limits — the trustee liability policy was set when the charity was smaller or had fewer activities, and the limit hasn't kept pace with the organisation's growth and risk profile.</p>
+<p>Volunteer cover absent or inadequate — the charity relies heavily on volunteers but has never arranged Volunteer Personal Accident insurance, assuming ACC coverage is sufficient for all purposes.</p>
+<p>Event cover assumptions — the board assumes all events are covered under the charity's annual public liability policy without ever having confirmed this with the broker.</p>
+<p>Cyber and privacy gaps — the charity holds significant personal data but has never discussed cyber insurance, assuming data protection is a technology issue rather than an insurance one.</p>
+<p>Professional indemnity absent for advice-giving activities — charities that provide budgeting advice, counselling, legal advocacy, or other professional services often lack the professional indemnity cover that these activities warrant.</p>
+
+<h2>The Expanded "Officer" Definition</h2>
+<p>One of the most significant changes in the Charities Amendment Act 2023 is the expansion of the definition of "officer." Under the new definition, an officer is not limited to formally appointed trustees or board members — it extends to anyone who has, or who regularly exercises, significant influence over the management or administration of the charity.</p>
+<p>In practice, this means that senior staff members, long-serving programme managers, key volunteers with significant operational authority, and influential advisors may now qualify as officers — with the personal liability consequences that officer status carries. Most Trustee Liability insurance policies are structured around named trustees or formally appointed board members. Whether these newly defined officers fall within your existing cover is a question worth putting directly to your broker.</p>
+
+<h2>Officers Can Now Be Disqualified Without Deregistering the Charity</h2>
+<p>Another significant change under the 2023 Amendment is that Charities Services can now disqualify individual officers without deregistering the entire charity. This is a targeted enforcement tool — it allows the regulator to remove individuals who have breached their duties or are unsuitable to serve, without punishing the whole organisation and the communities it serves.</p>
+<p>For individuals, this makes the personal liability dimension of officer status even more real. An officer disqualification can have significant professional and reputational consequences beyond the charity itself. D&O cover that includes regulatory defence costs — not just civil liability — is the appropriate protection.</p>
+
+<h2>Acting Before October 2026</h2>
+<p>If your charity has not yet completed a governance review, now is the time to begin. The review process itself is an opportunity to strengthen governance, not just a compliance box to tick. And it is the right moment to sit down with a specialist charity insurance broker and confirm that your insurance programme reflects the actual governance, activities, and risk profile of your organisation in 2026 — not what it was when your policy was first arranged.</p>
+<p>To discuss your organisation's cover and what a governance review might reveal, <a href="/contact/">get a quote</a> from one of our specialist charity insurance brokers.</p>
+    `,
+  },
+  {
+    slug: 'budget-2026-charity-tax-changes-insurance-implications',
+    title: 'Budget 2026 Charity Tax Changes: What It Means for Cover',
+    excerpt: 'Budget 2026 included ten tax changes affecting charities. Finance Minister Nicola Willis shelved the commercial income tax proposal in May 2025 — but other changes still affect how charities manage their finances and their insurance.',
+    date: '2026-08-07',
+    author: 'Sarah Connell',
+    readTime: '6 min read',
+    category: 'Industry News',
+    image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1920&q=80',
+    content: `
+<p>Budget 2026 brought ten tax-related changes for the charity sector — a significant number that reflects both ongoing policy work and the political aftermath of proposals that generated intense sector pushback. Finance Minister Nicola Willis confirmed in May 2025 that the proposal to tax charities on their commercial income would not proceed, following sustained objection from the sector. What remains in the Budget still has real implications for how charities manage their finances — and, by extension, how they should think about insurance.</p>
+
+<h2>What Was Shelved and Why It Matters</h2>
+<p>The commercial income taxation proposal — which would have applied income tax to revenue that registered charities earn from commercial activities, even where that revenue is used to fund charitable purposes — was the most controversial element of the government's earlier consultation. Charities argued persuasively that the proposal would reduce their capacity to fund frontline services without any corresponding benefit to the communities they serve.</p>
+<p>The decision to shelve this proposal means that charities which operate social enterprises, trading subsidiaries, or commercial activities to cross-subsidise their charitable work retain their current tax position. For insurance purposes, this is relevant because it preserves a funding model that many charities depend on — and the commercial activities themselves create insurance obligations (public liability, employers liability, property cover for commercial premises) that are distinct from the charity's core activities.</p>
+
+<h2>Donation Tax Credit Changes</h2>
+<p>Budget 2026 did include changes to the donation tax credit regime. These changes affect the incentive structure for individual charitable giving — the tax credit that donors receive when they make qualifying donations to registered charities. The details of these changes affect charities' income forecasting and budgeting, which has a downstream effect on insurance.</p>
+<p>Charities that rely significantly on individual donations to fund their operations should review their income assumptions and consider whether their current insurance programme reflects the right asset values and liability limits given their actual financial position. If donation income is expected to change materially, the charity's ability to self-fund a significant uninsured loss also changes.</p>
+
+<h2>Tier 4 and the Combined Annual Return</h2>
+<p>One of the ongoing administrative simplifications for the sector is the Tier 4 regime. Charities with annual operating payments below $140,000 can file a Combined Tier 4 Annual Return, which reduces reporting burden. From April 2025, charities with only exempt income do not need to file income tax returns at all — a meaningful administrative relief for smaller organisations.</p>
+<p>Tier 4 charities are often the least well-resourced when it comes to insurance review. The same budget pressure that qualifies them for simplified reporting often means their insurance arrangements are the least likely to have been reviewed recently. A charity with $100,000 in annual turnover may still have significant assets (a community hall), significant liability exposure (public events, volunteers), and real governance risk (incorporated society officers) — none of which changes because of a Tier 4 classification.</p>
+
+<h2>The Insurance Implication of Funding Uncertainty</h2>
+<p>Any change to the tax and regulatory environment for charities affects the sector's financial confidence. When income is less predictable — whether because of donation tax credit changes, government contract reviews, or broader economic conditions — the temptation to reduce costs, including insurance costs, increases. This is the wrong response.</p>
+<p>Insurance is not a cost to cut when budgets are tight; it is a financial protection that becomes more important when the organisation's ability to absorb an uninsured loss is reduced. A charity with declining reserves and a significant uninsured claim is in a far worse position than a well-insured charity facing the same claim. The right response to funding pressure is right-sizing insurance — ensuring cover reflects actual assets and risk — not removing it.</p>
+
+<h2>Records in Te Reo Māori</h2>
+<p>One positive administrative change that received less attention than it deserved: as of March 2025, charities can maintain their financial and governance records in te reo Māori. This is a meaningful recognition of the many organisations — including marae, iwi trusts, and kura — that operate primarily in te reo. For insurance purposes, the underlying obligations remain the same; the language in which records are kept does not change the need for adequate cover.</p>
+
+<h2>Reviewing Your Insurance in the Context of Tax Changes</h2>
+<p>Budget 2026's charity tax changes are a good prompt for an insurance review — not because the tax changes directly affect insurance, but because both reflect the current financial and regulatory environment your organisation is operating in. A specialist charity broker will ask the right questions about your current income, assets, and risk profile and ensure your cover is appropriate for where you are now, not where you were three years ago.</p>
+<p>To discuss your organisation's cover in light of recent changes, <a href="/contact/">get a quote</a> from one of our specialist charity insurance brokers.</p>
+    `,
+  },
+  {
+    slug: 'expanded-officer-definition-trustee-liability',
+    title: 'Who Is an \'Officer\' Now? The Change That Matters',
+    excerpt: 'The Charities Amendment Act 2023 expanded the definition of "officer" to cover anyone with significant influence over management — not just named trustees. Many charities don\'t realise their senior staff and key volunteers may now be personally exposed.',
+    date: '2026-08-07',
+    author: 'The CharityInsurance Crew',
+    readTime: '7 min read',
+    category: 'Governance & Compliance',
+    image: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1920&q=80',
+    content: `
+<p>When a charity's trustees sit down to review their D&O or Trustee Liability insurance, they usually think about the named board members around the table. Under the Charities Amendment Act 2023, that mental model is no longer adequate. The expanded definition of "officer" means that personal governance liability in the charity sector now reaches further than most organisations have planned for.</p>
+
+<h2>The Old Definition and the New One</h2>
+<p>Before the Charities Amendment Act 2023, the concept of "officer" in the charitable sector context was broadly understood to mean formally appointed trustees, board members, or committee members — the people whose names appear on the charity's governance register and who are formally accountable to Charities Services.</p>
+<p>The 2023 Amendment expanded this. Under the new framework, an officer includes any person who has, or who regularly exercises, significant influence over the management or administration of a charity. The key word is "regularly exercises." This is a functional test, not a formal one — it turns on what a person actually does, not what their title says.</p>
+
+<h2>Who Might Now Be an "Officer"?</h2>
+<p>The expanded definition is broad enough to potentially capture a range of people in a charity who would not traditionally have thought of themselves as carrying governance liability. Consider these scenarios:</p>
+<p>A chief executive or executive director who makes operational decisions with significant financial or programme implications without routinely referring them to the board. The formal governance structure says the board is in charge — but in practice, the CEO exercises significant management influence.</p>
+<p>A long-serving programme manager who has accumulated de facto authority over a significant part of the charity's operations. Their decisions affect staff, beneficiaries, and expenditure. They are never formally consulted as a governance matter — but functionally they exercise significant management influence.</p>
+<p>A trusted patron, advisor, or founder who, while not formally on the board, is regularly consulted before major decisions are made and whose views effectively determine those decisions. Their influence is informal but significant.</p>
+<p>In each case, the question is whether that person "regularly exercises significant influence over the management or administration" of the charity. If the answer is yes, they may be an officer under the Act — with the duty and liability consequences that come with it.</p>
+
+<h2>What Officer Status Means for Liability</h2>
+<p>Officers of registered charities carry duties under the Charities Act 2005 as amended. These include duties of good faith, duties to act within the charity's purposes, and duties relating to financial management and compliance. Breach of these duties can result in:</p>
+<ul>
+<li>Personal liability for losses caused to the charity</li>
+<li>Regulatory action by Charities Services, including disqualification from acting as an officer</li>
+<li>Investigation and potential prosecution in serious cases</li>
+<li>Civil claims from donors, beneficiaries, or creditors of the charity</li>
+</ul>
+<p>The Charities Amendment Act 2023 specifically introduced the power to disqualify individual officers without deregistering the charity — a targeted enforcement tool that makes individual officer accountability a real and practical consideration, not a theoretical one.</p>
+
+<h2>The Insurance Gap: Are Your New "Officers" Actually Covered?</h2>
+<p>This is the critical question. Most Trustee Liability (D&O) policies for charities are structured around named insured persons — typically the formally appointed trustees or board members. The policy schedule lists who is covered: "all present, past, and future directors, trustees, and officers of the organisation." In practice, these schedules are written with the traditional understanding of "officer" in mind.</p>
+<p>Whether the newly expanded definition of officer — the functional test that reaches to senior staff, key volunteers, and influential advisors — is captured within your existing policy wording is a question that deserves a direct conversation with your broker. Some policy wordings will capture the broader definition; others may not without endorsement.</p>
+<p>There is also an employment liability dimension. Senior staff who are now arguably officers face both governance liability (the Charities Act officer duty) and employment liability (their employment relationship with the charity). These are different risks that may require different covers. If a senior manager is now an officer for Charities Act purposes, does the charity's D&O policy respond to a claim against them in that capacity — or is that claim treated as an employment matter under employers liability? The interaction between these policies is worth examining carefully.</p>
+
+<h2>A Practical Checklist for Charities</h2>
+<p>Given the expanded officer definition, we recommend working through the following with your broker:</p>
+<ul>
+<li>Map the people in your organisation who exercise significant management influence — not just formal trustees</li>
+<li>Review your D&O policy wording for the definition of "insured persons" and whether it captures the functional officer test</li>
+<li>Check whether your policy covers regulatory investigation costs under the Charities Act — not just civil litigation</li>
+<li>Consider whether your policy limit is adequate to protect all potentially exposed individuals, including senior staff</li>
+<li>Ensure that newly identified "officers" are aware of their potential status and the responsibilities it carries</li>
+</ul>
+<p>Governance is not just a board-level responsibility. For many charities, the expanded officer definition makes it a whole-of-leadership responsibility — and insurance programmes need to reflect that.</p>
+<p>To discuss your organisation's cover and whether all your officers are protected, <a href="/contact/">get a quote</a> from one of our specialist charity insurance brokers.</p>
+    `,
+  },
+  {
+    slug: 'charity-funding-pressure-2026-insurance-implications',
+    title: 'Funding Pressure in 2026: Don\'t Cut the Wrong Costs',
+    excerpt: 'Charities across the sector are under financial pressure in 2026 — from government contract reviews to cost-of-living donation declines. When budgets tighten, insurance is often cut first. It shouldn\'t be.',
+    date: '2026-08-07',
+    author: 'Sarah Connell',
+    readTime: '7 min read',
+    category: 'Insurance Basics',
+    image: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=1920&q=80',
+    content: `
+<p>The funding environment for community organisations in 2026 is genuinely difficult. Government contract reviews have resulted in funding reductions or non-renewals for some providers. Cost-of-living pressures have reduced discretionary charitable giving in many communities. Grant competition has intensified as more organisations compete for a pool that hasn't grown commensurately with sector need. Boards and executives across the sector are making hard decisions about where to find savings.</p>
+<p>Insurance appears on those spreadsheets as a discretionary cost. It shouldn't be cut — and here is why.</p>
+
+<h2>The Financial Logic of Insurance Under Pressure</h2>
+<p>When an organisation's financial reserves are strong, an uninsured loss — a significant public liability claim, a trustee liability action, a cyber breach — is painful but survivable. The organisation can draw on reserves, renegotiate cash flow, or find short-term funding to manage the cost.</p>
+<p>When an organisation is already financially constrained — running lean reserves, managing cash flow carefully, dependent on specific grant tranches — the same uninsured loss can be existential. There is no buffer. A $50,000 uninsured legal defence cost or a $100,000 uninsured cyber breach response lands on an organisation that cannot absorb it.</p>
+<p>This is precisely backwards from the intuition that drives insurance cuts during financial pressure. The less financial resilience your organisation has, the more important insurance becomes — not less. Insurance exists to replace the financial buffer your reserves no longer provide.</p>
+
+<h2>Three Consequences of Cutting Insurance During Funding Pressure</h2>
+<p>The pattern of consequences when charities reduce or eliminate cover follows a predictable sequence.</p>
+<p>The first consequence is claims left unfunded. A public liability claim from a community event, a personal grievance from a departing staff member, or a property loss from a fire or flood arrives without warning. An uninsured organisation must fund the response from operating budgets or reserves — resources that were already under pressure before the claim arrived. What was a manageable cost with insurance becomes a crisis without it.</p>
+<p>The second consequence is trustees personally exposed. When an organisation cannot fund a governance-related legal claim — a Charities Services investigation, a dispute with a major funder, or an employment action directed at the board — the individuals serving as trustees face the prospect of personal financial exposure. Trustee Liability (D&O) insurance is not a luxury; it is the protection that allows people to volunteer their governance skills without risking their personal assets. Remove it, and you risk losing the trustees you most need in difficult times.</p>
+<p>The third consequence is volunteers unprotected. Volunteer Personal Accident insurance — often one of the most affordable covers in the package — provides the supplement to ACC that makes a real financial difference when a skilled volunteer is injured and unable to work. Charities that cut this cover in the name of budget savings may find that their most committed volunteers quietly reduce their involvement when they understand the financial risk they are carrying.</p>
+
+<h2>Right-Sizing Is Not the Same as Removing</h2>
+<p>When budget pressure is real, the right response to insurance costs is not elimination — it is right-sizing. There is a meaningful difference between removing cover you genuinely need and right-sizing cover that has grown beyond your current risk profile.</p>
+<p>Right-sizing might look like reviewing whether your public liability limit needs to be $10M or whether $5M is adequate for your current activity level. Or confirming that a property item you no longer own has been removed from your policy. Or reassessing whether a professional indemnity limit of $2M is appropriate given the scale of your advice-giving activities.</p>
+<p>What right-sizing should never look like: removing Trustee Liability cover because it seems unlikely anyone will sue the board; dropping Volunteer Personal Accident insurance because ACC seems to cover everything; or reducing property cover below replacement cost because the premium is more affordable at a lower sum insured.</p>
+
+<h2>Have the Conversation with Your Broker</h2>
+<p>A specialist charity insurance broker, properly briefed on your organisation's financial position and risk profile, can help you identify where genuine savings exist without creating dangerous gaps. They have visibility across the sector — they know what comparable organisations carry, what underwriters are offering, and where there is room to negotiate without sacrificing protection.</p>
+<p>If you have not had that conversation this year, now is the time. Come to the meeting with your current policy schedule, your annual accounts, and an honest assessment of your current activities and assets. Leave with a cover programme that is appropriately sized for your organisation's actual position — not the position it was in three years ago, and not the stripped-back minimum that looks affordable until something goes wrong.</p>
+<p>To discuss right-sizing your organisation's cover, <a href="/contact/">get a quote</a> from one of our specialist charity insurance brokers.</p>
+    `,
+  },
+  {
+    slug: 'ai-risk-nz-charities-insurance-gaps',
+    title: 'AI Tools and Charity Insurance: The Gap Nobody Talks About',
+    excerpt: 'Charities are adopting AI tools for grant writing, communications, and data analysis — but most standard insurance policies don\'t cover AI-related risks. Here is what to check.',
+    date: '2026-08-07',
+    author: 'The CharityInsurance Crew',
+    readTime: '7 min read',
+    category: 'Cyber & Privacy',
+    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1920&q=80',
+    content: `
+<p>Walk into almost any not-for-profit office in 2026 and you will find AI tools in use somewhere. Fundraising teams use them to draft grant applications. Communications staff use them to generate newsletter content and social media posts. Finance teams use them to summarise reports and analyse data. Volunteer coordinators use them to schedule and correspond. The adoption is fast, largely informal, and almost entirely uninsured.</p>
+<p>In August 2026, not-for-profit.org.nz published AI risk assessment guidance specifically for community organisations — the first sector-specific guidance of its kind in New Zealand. It identified three categories of AI risk that most charities have not considered: data protection, advice reliability, and accountability gaps. Each of these maps to a potential insurance shortfall.</p>
+
+<h2>The Data Protection Gap</h2>
+<p>When a staff member enters donor data, beneficiary information, or organisational financial details into an AI tool — whether a general-purpose large language model or a specialist productivity tool — that data leaves the organisation's systems and enters the AI provider's environment. What happens to it there depends entirely on the provider's terms of service, which most users do not read in full.</p>
+<p>Under the Privacy Act 2020, the charity remains responsible for the personal information it holds, regardless of what third-party tool it shares that information with. If a beneficiary's name, address, or health information is entered into an AI tool and subsequently exposed through a breach of that tool's systems, the charity is the responsible organisation for notification and regulatory purposes — even though the breach occurred in a system it does not control.</p>
+<p>Standard cyber insurance policies written in the last three to five years may not clearly address this scenario. The policy was designed around a breach of the organisation's own systems. A breach occurring through a third-party AI tool used by the organisation's staff sits in a grey area that some policy wordings do not resolve clearly. Ask your broker to review your policy specifically for this scenario.</p>
+
+<h2>The Grant Writing and Advice Reliability Gap</h2>
+<p>AI-generated grant applications are increasingly common in the not-for-profit sector. They are faster to produce, often better structured, and — when a human reviews and refines them — frequently competitive. But they carry a risk that paper-based applications did not: the risk of AI-generated inaccuracy.</p>
+<p>If an AI tool drafts a grant application that contains an inaccurate representation of the charity's activities, outcomes, or financial position — and the error is not caught before submission — the organisation may be in a position of having made a misrepresentation to a funder. Depending on the nature of the misrepresentation and the funder's terms, this could result in a grant recovery demand, a contractual dispute, or in extreme cases an allegation of fraud.</p>
+<p>Professional indemnity insurance typically covers claims arising from negligent misrepresentation in the provision of professional services. Whether the submission of a grant application drafted with AI assistance falls within this cover depends on the policy wording and the circumstances. It is not a settled question, and it is one worth raising with your broker — particularly if your organisation relies heavily on grant income and uses AI tools in the application process.</p>
+
+<h2>The Service User Advice Gap</h2>
+<p>Some charities are using AI tools to assist in the delivery of services to beneficiaries and service users. A budgeting service might use an AI tool to generate initial budget summaries. A community legal service might use AI to draft plain-language explanations of entitlements. A mental health support service might use AI to generate resource suggestions for callers.</p>
+<p>In each of these cases, an AI-generated output is being used as input to advice or support provided to a person who may rely on it. If that advice is wrong — if the AI tool produces an inaccurate summary of a legal entitlement, a miscalculated budget, or an inappropriate resource referral — and the service user suffers harm as a result, the question is whether the charity's professional indemnity policy responds.</p>
+<p>Professional indemnity policies are written to cover claims arising from negligent acts, errors, or omissions by the insured in the provision of professional services. AI-generated advice used in service delivery sits at the intersection of the insured's professional activity and a third-party tool's output. Whether the policy responds, and to what extent, is not always clear — and the answer may matter significantly for organisations that are increasingly integrating AI into their service delivery.</p>
+
+<h2>What Charities Should Do Now</h2>
+<p>AI risk in the charity sector is not hypothetical. It is already present wherever AI tools are in use — which, by 2026, is most organisations. The response is not to ban AI tools; they provide genuine productivity and capability benefits for resource-constrained organisations. The response is to understand the risk and ensure insurance reflects it.</p>
+<p>Three practical steps for any charity using AI tools:</p>
+<ul>
+<li>Audit which AI tools your staff use and what types of data they process — donor information, beneficiary records, financial data, service user communications</li>
+<li>Review your privacy policy and data handling procedures to ensure they address AI tool use, as required by the Privacy Act 2020</li>
+<li>Discuss your AI tool use with your insurance broker at your next renewal and ask specifically whether your cyber, professional indemnity, and public liability policies respond to AI-related claims</li>
+</ul>
+<p>The not-for-profit.org.nz guidance published in August 2026 provides a starting framework for AI risk assessment. Using it as a prompt for an insurance review conversation is a practical and timely step for any charity that has adopted AI tools without formally considering the risk implications.</p>
+
+<h2>The Broader Picture</h2>
+<p>AI risk is one dimension of a broader pattern: technology adoption outpacing insurance. Cloud storage, mobile payment platforms, social media fundraising, and now AI tools have all created new risk categories that policy wordings have not always kept pace with. A specialist charity insurance broker who keeps up with the evolving risk landscape — including the guidance being developed by sector bodies and regulators — is the right partner for organisations navigating this territory.</p>
+<p>To discuss your organisation's cover and AI-related risk gaps, <a href="/contact/">get a quote</a> from one of our specialist charity insurance brokers.</p>
     `,
   },
 ];

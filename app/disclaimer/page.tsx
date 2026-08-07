@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Disclaimer | CharityInsurance.co.nz',
-  alternates: { canonical: 'https://charityinsurance.co.nz/disclaimer/' },
+  alternates: { canonical: 'https://www.charityinsurance.co.nz/disclaimer/' },
 };
 
 export default function DisclaimerPage() {

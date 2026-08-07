@@ -6,10 +6,10 @@ import QuoteForm from '@/components/QuoteForm';
 export const metadata: Metadata = {
   title: 'Insurance Cover Types for Charities & Not-for-Profits',
   description: 'Complete guide to insurance cover types for NZ charities, sports clubs, and community organisations — from public liability and trustee cover to cyber insurance and property protection.',
-  alternates: { canonical: 'https://charityinsurance.co.nz/coverage/' },
+  alternates: { canonical: 'https://www.charityinsurance.co.nz/coverage/' },
 };
 
-const trustBadges = ['✓ Licensed NZ Brokers', '✓ Free Broker Matching', '✓ 6+ Specialist Insurers', '✓ Reply in 1 Business Day'];
+const trustBadges = ['✓ Registered Financial Service Providers', '✓ Free Broker Matching', '✓ 6+ Specialist Insurers', '✓ Reply in 1 Business Day'];
 
 export default function CoveragePage() {
   return (
@@ -26,7 +26,7 @@ export default function CoveragePage() {
               <span key={b} className="inline-flex items-center px-3 py-1.5 bg-white/15 backdrop-blur-sm border border-white/25 text-white text-xs font-semibold rounded-full shadow-sm">{b}</span>
             ))}
           </div>
-          <Link href="/contact/" className="inline-flex items-center px-7 py-3.5 bg-emerald-600 text-white font-bold rounded-xl hover:bg-emerald-700 transition shadow-lg text-base">Get a Free Quote →</Link>
+          <Link href="/contact/" className="inline-flex items-center px-7 py-3.5 bg-emerald-600 text-white font-bold rounded-xl hover:bg-emerald-700 transition shadow-lg text-base">Get a Quote →</Link>
         </div>
       </section>
 
