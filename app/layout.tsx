@@ -61,6 +61,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en-NZ">
       <head>
+        {/* Google tag (gtag.js) – GA4 */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-JKTDN358JQ" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-JKTDN358JQ');`,
+          }}
+        />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
