@@ -413,4 +413,32 @@ export const landingPages: LandingPage[] = [
       'Regulatory investigation defence cover is the governance insurance feature most relevant to the post-Charities Amendment Act 2023 environment. Charities Services has strengthened its powers to investigate governance conduct, and a formal investigation — even one that results in no adverse finding — can consume substantial legal resources over months or years. A T&O policy with investigation defence cover pays the reasonable legal costs of responding to a Charities Services inquiry from the date it is notified, without requiring the board to wait for a formal claim to be issued. For boards facing the October 2026 governance review deadline, having this protection in place before that milestone is straightforward risk management.',
     cta: 'Get a Quote',
   },
+  {
+    slug: 'volunteer-accident-insurance',
+    metaTitle: 'Volunteer Accident Insurance | Get a Quote',
+    metaDesc:
+      'Volunteer personal accident cover for charities, clubs and community groups. Bridges the gap ACC leaves for unpaid volunteers. Get a Quote.',
+    h1: 'Volunteer Personal Accident Insurance',
+    intro:
+      'Volunteers are the operating capacity of most community organisations, and the assumption that ACC will look after them if something goes wrong is only partly true. ACC covers treatment costs, but weekly compensation is calculated on earnings \u2014 which means an unpaid volunteer injured while working for your organisation may receive little or nothing to replace lost income. Volunteer Personal Accident insurance is the cover that closes that gap, and it is one of the most affordable policies a community organisation can carry.',
+    heroImage: 'https://images.unsplash.com/photo-1593113630400-ea4288922497?auto=format&fit=crop&w=1920&q=80',
+    keyPoints: [
+      'Weekly benefit payments for volunteers unable to work following an injury sustained on your activities',
+      'Capital benefits for permanent disablement, loss of limb or sight, and accidental death',
+      'Cover for volunteers of all ages, including retired members who receive no ACC earnings-related compensation',
+      'Top-up benefits for treatment costs, ambulance transport, and rehabilitation expenses not fully met by ACC',
+      'Blanket cover on a named-activity basis \u2014 no need to schedule individual volunteers by name',
+      'Cover extends to travel directly to and from sanctioned organisational activities',
+    ],
+    whyUs:
+      'charityinsurance.co.nz connects community organisations with Registered Financial Service Providers who place volunteer accident cover every week and know how the ACC interaction actually works in practice. Our brokers will assess your volunteer numbers, the activities they undertake, and the age profile of your team, then structure a policy with benefit levels that mean something rather than a token schedule. Get a Quote and a specialist will be in touch within one business day.',
+    relatedOrgs: [
+      'registered-charities',
+      'sports-clubs',
+      'emergency-rescue-organisations',
+    ],
+    coverageAngle:
+      'The exposure that most often surprises boards is the retired or non-earning volunteer. ACC weekly compensation replaces a percentage of pre-injury earnings, so a superannuitant, a student, or a full-time parent who is injured while volunteering receives treatment cover but no meaningful income replacement \u2014 and that same group frequently makes up the most active and longest-serving part of a volunteer base. A Volunteer Personal Accident policy pays a stated weekly benefit regardless of earnings, along with lump sum capital benefits for permanent injury, which is the difference between an organisation that can look a family in the eye after a serious accident and one that cannot. For organisations running physical activity \u2014 building maintenance, conservation planting, event set-down, coastal or search operations \u2014 this cover should sit alongside public liability rather than behind it.',
+    cta: 'Get a Quote',
+  },
 ];

@@ -65,9 +65,9 @@ export const blogPosts: BlogPost[] = [
     slug: 'volunteer-insurance-nz-what-acc-doesnt-cover',
     title: 'What ACC Doesn\'t Cover for Your Volunteers — and Why You Need Voluntary Workers Insurance',
     excerpt: 'ACC handles most workplace injuries in NZ — but it has real gaps for volunteers. If you\'re relying solely on ACC to protect your voluntary workforce, you may be leaving people exposed.',
-    date: '2026-04-18',
+    date: '2026-08-15',
     author: 'The CharityInsurance Crew',
-    readTime: '6 min read',
+    readTime: '7 min read',
     category: 'Volunteer Management',
     image: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=1920&q=80',
     content: `
@@ -107,6 +107,9 @@ export const blogPosts: BlogPost[] = [
 
 <h2>The Reputational Dimension</h2>
 <p>Beyond the financial protection, Voluntary Workers Accident insurance sends a clear message to your volunteers: we value your contribution and we\'ve made sure you\'re protected. In a sector that depends entirely on volunteer goodwill, that matters.</p>
+<h2>Where This Sits in 2026</h2>
+<p>Two things have changed since this cover was last a routine agenda item for most boards. Officer duties under the Incorporated Societies Act 2022 are now explicit, which means a committee that knowingly leaves its volunteer workforce unprotected is making a governance decision rather than an oversight. And the statutory duty on registered charities to review governance procedures before 5 October 2026 gives every board a natural point to check whether volunteer protection has ever been formally considered.</p>
+<p>If your organisation has never priced this cover, the exercise is usually quick. For a fuller breakdown of benefit structures, age-related exposures, and how blanket cover works, see our <a href="/charity-insurance/volunteer-accident-insurance/">volunteer accident insurance</a> page.</p>
     `,
   },
   {
@@ -664,7 +667,6 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'community-event-insurance-nz',
-    image: 'https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?auto=format&fit=crop&w=1920&q=80',
     title: 'Event Insurance for NZ Charities and Community Groups',
     excerpt: 'Running a charity gala, community market, sports tournament, or fundraising event? Here is everything you need to know about event insurance in New Zealand.',
     date: '2026-05-03',
@@ -983,6 +985,88 @@ export const blogPosts: BlogPost[] = [
 <h2>The Broader Picture</h2>
 <p>AI risk is one dimension of a broader pattern: technology adoption outpacing insurance. Cloud storage, mobile payment platforms, social media fundraising, and now AI tools have all created new risk categories that policy wordings have not always kept pace with. A specialist charity insurance broker who keeps up with the evolving risk landscape — including the guidance being developed by sector bodies and regulators — is the right partner for organisations navigating this territory.</p>
 <p>To discuss your organisation's cover and AI-related risk gaps, <a href="/contact/">get a quote</a> from one of our specialist charity insurance brokers.</p>
+    `,
+  },
+  {
+    slug: 'accumulated-funds-reporting-charity-reserves',
+    title: 'Accumulated Funds Reporting and Your Reserves Strategy',
+    excerpt: 'Charities with operating expenses above $140,000 now have to explain why they hold accumulated funds. That scrutiny changes how boards should think about reserves \u2014 and about insurance.',
+    date: '2026-08-15',
+    author: 'Sarah Connell',
+    readTime: '8 min read',
+    category: 'Governance & Compliance',
+    image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1920&q=80',
+    content: `
+<p>One of the quieter changes to come out of the Charities Amendment Act 2023 has turned out to be one of the most consequential for boards. Charities Services now asks charities with annual operating expenditure above $140,000 to explain, in their annual return, the reasons they hold accumulated funds \u2014 the cash, investments, and other resources carried forward rather than spent on charitable activity in the year they were received.</p>
+<p>The policy intent behind the change was transparency. Successive reviews of the sector had raised questions about organisations sitting on substantial reserves while public funding and donor generosity continued to flow in, and the Government response was to require an explanation rather than a cap. No charity is being told how much it may hold. It is simply being asked to say why.</p>
+<p>In practice, that question has pushed reserves policy onto board agendas at organisations that had never formally written one. And it has surfaced an uncomfortable overlap between two things boards tend to treat separately: the reserves they hold against future shocks, and the insurance they hold against the same shocks.</p>
+
+<h2>Why Reserves and Insurance Are the Same Conversation</h2>
+<p>Most reserves policies, when they exist at all, justify the balance in broadly similar terms. The organisation holds funds to cover a period of operating costs if income stops. It holds funds against a major building repair. It holds funds against a legal dispute, a contract loss, or an unforeseen liability. Those are risk justifications, and every one of them describes a risk that could also be transferred to an insurer.</p>
+<p>That does not mean insurance replaces reserves. It means the two need to be planned together. A charity that holds $400,000 in reserves partly to cover the possibility of a serious liability claim, while also carrying a $10 million public liability policy, is holding capital against a risk it has already transferred. Conversely, a charity that has trimmed its reserves to fund frontline delivery while carrying no trustee liability cover has neither the transfer nor the buffer.</p>
+<p>When a board is asked to explain accumulated funds in an annual return, the most defensible answer is one that shows the reasoning has been done. Reserves are held for identified purposes; risks that can be economically transferred have been transferred; and the balance reflects what remains after that analysis. That is a stronger position than a generic statement about prudence.</p>
+
+<h2>What Charities Services Is Actually Asking For</h2>
+<p>The annual return question is not an audit. It asks the organisation to describe the reasons for the funds it holds, and boards can answer in their own words. Typical justifications that stand up well include committed but unspent grant funding, an approved capital project with a defined timeline, a stated operating reserve expressed as a number of months of expenditure, an endowment or bequest with donor-imposed restrictions, and provisions against known contingent liabilities.</p>
+<p>Answers that read as weaker are those that describe no purpose at all, or that simply record the balance without explaining it. The risk is not a penalty \u2014 it is that a charity that cannot explain its reserves to the regulator will find it equally hard to explain them to a major funder, a philanthropic trust, or a journalist. Funders increasingly read the Charities Register before they read an application.</p>
+
+<h2>The October 2026 Governance Review Sits Alongside This</h2>
+<p>Charities also have a statutory duty to review their governance procedures before 5 October 2026, and at least every three years thereafter. The review means formally assessing whether the organisation\u2019s governance documents remain fit for purpose and changing them if they do not.</p>
+<p>For most boards, that review is already scheduled or under way. It is the natural place to deal with the reserves question too. A governance review that covers the rules or trust deed, delegations, conflict of interest processes, and financial controls can reasonably extend to a reserves policy and an insurance schedule, because all of them describe how the organisation manages risk to its charitable purpose.</p>
+<p>Boards that treat the two exercises separately tend to do the governance review as a compliance task and the insurance renewal as a procurement task, and the connection between them never gets made. Boards that combine them come out with a document that explains, in one place, what the organisation is exposed to and how each exposure is managed \u2014 through controls, through reserves, or through insurance.</p>
+
+<h2>Where Cover Reduces the Reserves You Need to Hold</h2>
+<p>Several covers commonly carried by community organisations map directly onto the reasons charities give for holding funds.</p>
+<p>Trustee liability, sometimes written as Directors and Officers or Trustees and Officers cover, responds to claims against individual board members arising from governance decisions, and typically funds legal defence costs from the point a claim or investigation is notified. Boards that have set aside reserves against the possibility of a governance dispute are, in effect, self-insuring a risk the market prices in the low thousands of dollars a year.</p>
+<p>Material damage and business interruption cover addresses the building repair scenario. A charity holding reserves against the cost of repairing its premises after a fire or a storm should first confirm that its sum insured reflects current replacement cost, including compliance upgrades and demolition. Where cover is adequate, the reserve required against that scenario is the excess, not the repair bill.</p>
+<p>Crime or fidelity cover addresses internal theft, which Charities Services has identified as a real and recurring problem in the sector. Employers liability and statutory liability address employment and regulatory exposures respectively. Cyber cover addresses breach response and notification costs under the Privacy Act 2020.</p>
+<p>None of these removes the case for reserves entirely. Insurance has excesses, sub-limits, and exclusions, and there are always uninsurable risks \u2014 the loss of a major contract being the most obvious. But a reserves figure that has been set with an accurate picture of what is already insured is both smaller and easier to defend.</p>
+
+<h2>A Practical Sequence for Boards</h2>
+<p>The work is not complicated, but it does need to happen in order. Start by listing the risks the organisation would genuinely struggle to absorb, with a rough figure attached to each. Then map the current insurance programme against that list and mark which exposures are transferred, which are partly transferred, and which sit entirely with the organisation. Set the reserves target against what remains, and write down the reasoning.</p>
+<p>That document does three jobs at once. It answers the accumulated funds question in the annual return. It forms part of the governance review required before October 2026. And it gives your broker a far better brief than a request to renew last year\u2019s policy, because it tells them which exposures the board actually cares about.</p>
+<p>If your board is working through its governance review this year and wants the insurance side of that picture properly assessed, <a href="/contact/">get a quote</a> from one of our specialist charity insurance brokers.</p>
+    `,
+  },
+  {
+    slug: 'charity-fraud-fidelity-cover-nz',
+    title: 'Fraud in the Charitable Sector: The Cover Most Miss',
+    excerpt: 'Charities Services has uncovered frauds costing the sector hundreds of thousands of dollars. Crime and fidelity cover is one of the cheapest policies available \u2014 and one of the least often bought.',
+    date: '2026-08-15',
+    author: 'The CharityInsurance Crew',
+    readTime: '8 min read',
+    category: 'Risk Management',
+    image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1920&q=80',
+    content: `
+<p>Charities Services has published its own account of what it finds when it investigates the sector, and it makes for sobering reading. Its investigations have uncovered examples of significant fraud resulting in the loss of hundreds of thousands of dollars to the charitable sector \u2014 money donated, granted, or raised for charitable purposes that never reached the people it was intended for.</p>
+<p>The uncomfortable part is that these are the cases that were found. Fraud in small organisations is frequently discovered by accident: a treasurer goes on leave and someone else opens the bank statements, an auditor asks a question nobody had asked before, a supplier calls about an invoice that does not match anything in the ledger. The cases that surface are unlikely to be the whole picture.</p>
+
+<h2>Why Community Organisations Are Exposed</h2>
+<p>The conditions that make charities vulnerable are the same conditions that make them work. Small teams operate on trust because trust is cheaper than process. One volunteer or part-time staff member often holds the finance function entirely \u2014 raising invoices, approving payments, reconciling the bank account, and preparing the reports the board reviews. Segregation of duties, the single most effective control against internal fraud, is difficult to achieve when there are three people in the office and one of them is the person you are trying to segregate.</p>
+<p>Longevity compounds it. The treasurer who has served the club faithfully for fifteen years is the person nobody questions, and is also the person with the longest uninterrupted access to the accounts. Boards rotate; the finance volunteer often does not.</p>
+<p>Cash-handling activities add another layer. Raffles, door sales, sausage sizzles, collection buckets, op shop tills, and event gate takings all generate cash that exists in no system until someone records it. The gap between money received and money banked is where a meaningful share of sector losses occur, and it is close to invisible after the fact.</p>
+
+<h2>The External Threat Has Changed Shape</h2>
+<p>Internal fraud is only half the problem. CERT NZ has received more than 10,000 cyber security reports in a year covering phishing, scams, unauthorised access to email and bank accounts, denial of service attempts, ransomware, and compromised websites. Charities appear in that data both as targets and as brands being impersonated.</p>
+<p>Fake charity scams follow disasters with grim reliability. After major events in New Zealand, CERT NZ has warned about emails circulating with links to fake banking logins or fraudulent accounts set up to intercept donations intended for legitimate appeals. The damage to the genuine charity is real even though no money left its own accounts: donors who gave to a fake page believe they gave to you, and the reputational cleanup falls on the organisation whose name was used.</p>
+<p>Invoice redirection is the variant that hits charities hardest financially. An attacker gains access to an email account \u2014 often through a reused password on a volunteer\u2019s personal address \u2014 watches the correspondence, and sends a plausible request to change bank account details on a genuine invoice or a supplier payment. The payment is authorised by someone acting in good faith on what looks like an ordinary email. Because the organisation authorised the transfer itself, recovery from the bank is difficult and often impossible.</p>
+
+<h2>What Crime and Fidelity Cover Actually Does</h2>
+<p>Crime cover, also written as fidelity guarantee, responds to the direct financial loss an organisation suffers from dishonest acts. In a well-structured policy for a not-for-profit, that typically extends to theft of money, securities, or property by employees, volunteers, or committee members; forgery and alteration of cheques or payment instructions; loss of funds through fraudulent electronic transfer; and, in broader wordings, social engineering losses where a staff member was deceived into making a payment.</p>
+<p>Good policies also fund the work that follows the loss. Investigation and forensic accounting costs are frequently the larger number in a small organisation\u2019s claim, because establishing what happened over several years of transactions is expensive and the organisation cannot begin recovery, reporting, or insurance claims without it.</p>
+<p>Two limitations matter. Cover generally responds to the direct loss of funds, not to consequential effects such as lost grant income or the cost of rebuilding donor confidence. And insurers expect a baseline of controls; a policy is not a substitute for dual authorisation on payments, and an application that overstates the controls in place creates a disclosure problem at claim time.</p>
+
+<h2>Crime Cover Is Not Cyber Cover, and Neither Is D&O</h2>
+<p>This is where most organisations discover a gap. A cyber policy responds to a breach of systems and data \u2014 forensic response, notification obligations under the Privacy Act 2020, restoration of systems, and often extortion. It is not primarily designed to reimburse money stolen from a bank account. A trustee liability policy responds to claims against individuals arising from governance decisions; it does not restore funds taken by an employee.</p>
+<p>An invoice redirection fraud can sit at the intersection of all three: an email account was compromised, a payment was authorised, and the board may face questions about oversight. Whether any of your policies responds \u2014 and which one \u2014 depends on how the wordings interact. That question is worth asking your broker explicitly rather than assuming the package covers it.</p>
+
+<h2>The Controls Worth Having Regardless</h2>
+<p>Insurers price crime cover partly on controls, so the same steps that reduce risk also reduce premium. Dual authorisation on every payment above a modest threshold, with no exceptions for the chief executive or the treasurer, is the single most valuable control. Bank account changes for any supplier should be verified by a phone call to a number already on file, never to a number supplied in the email requesting the change. Someone other than the person who prepares the accounts should review bank statements each month. Two people should count and sign for cash at every event. Access to banking systems should be reviewed whenever anyone leaves a role.</p>
+<p>None of these require a finance team. They require a board willing to say that trust in individuals and process discipline are separate things, and that having controls is not an accusation against anyone.</p>
+
+<h2>The Cost Comparison</h2>
+<p>Crime and fidelity cover is typically among the least expensive lines in a not-for-profit insurance package, particularly when written as part of a combined management liability policy rather than purchased standalone. Set that against the scale of losses Charities Services has documented in its investigations, and the case is straightforward. For most small and mid-sized organisations, a single modest fraud would exceed several decades of premium.</p>
+<p>If your organisation handles cash, holds grant funds, or processes supplier payments without a formal dual-authorisation rule, this is a conversation worth having before your next renewal. To review your crime and fidelity exposure, <a href="/contact/">get a quote</a> from one of our specialist charity insurance brokers.</p>
     `,
   },
 ];
