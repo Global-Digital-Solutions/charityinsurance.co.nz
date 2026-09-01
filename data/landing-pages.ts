@@ -441,4 +441,32 @@ export const landingPages: LandingPage[] = [
       'The exposure that most often surprises boards is the retired or non-earning volunteer. ACC weekly compensation replaces a percentage of pre-injury earnings, so a superannuitant, a student, or a full-time parent who is injured while volunteering receives treatment cover but no meaningful income replacement \u2014 and that same group frequently makes up the most active and longest-serving part of a volunteer base. A Volunteer Personal Accident policy pays a stated weekly benefit regardless of earnings, along with lump sum capital benefits for permanent injury, which is the difference between an organisation that can look a family in the eye after a serious accident and one that cannot. For organisations running physical activity \u2014 building maintenance, conservation planting, event set-down, coastal or search operations \u2014 this cover should sit alongside public liability rather than behind it.',
     cta: 'Get a Quote',
   },
+  {
+    slug: 'charity-cyber-insurance',
+    metaTitle: 'Charity Cyber Insurance | Get a Quote',
+    metaDesc:
+      'Cyber liability cover for charities, trusts and community groups. Privacy Act breach response, ransomware, and funds transfer fraud. Get a Quote.',
+    h1: 'Cyber Insurance for Charities and Community Organisations',
+    intro:
+      'Community organisations hold exactly the kind of data attackers want — supporter records, payment details, and case notes about people who are often vulnerable — usually on cloud platforms administered by whoever in the team is most comfortable with technology. The National Cyber Security Centre responded to 1,129 incident reports between April and June 2026, with 92 of those serious enough to require specialist technical support. Cyber liability cover funds the investigation, notification, and recovery work that follows a breach, none of which a volunteer board can absorb from reserves.',
+    heroImage: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&w=1920&q=80',
+    keyPoints: [
+      'Incident response and forensic investigation costs from the first hour of a suspected breach',
+      'Privacy Act 2020 notification costs, including legal advice on whether a breach is notifiable',
+      'Regulatory defence costs for an Office of the Privacy Commissioner investigation',
+      'System restoration, data recovery, and the cost of rebuilding compromised donor or client databases',
+      'Cyber extortion and ransomware cover, including access to specialist negotiators',
+      'Third-party liability where beneficiaries, donors, or funders bring a claim following a data breach',
+    ],
+    whyUs:
+      'charityinsurance.co.nz connects community organisations with Registered Financial Service Providers who place cyber cover for the not-for-profit sector and understand how it needs to sit alongside crime, fidelity, and trustee liability policies rather than duplicate them. Our brokers will look at what data you actually hold, how donations are collected, and who has administrative access, then structure cover around the exposures that follow. Get a Quote and a specialist will be in touch within one business day.',
+    relatedOrgs: [
+      'registered-charities',
+      'social-services',
+      'hospices-health-charities',
+    ],
+    coverageAngle:
+      'The exposure boards consistently underestimate is the cost of finding out what happened. When credentials are harvested through a phishing email, the organisation cannot notify anyone until it establishes which records were accessed, and that forensic work runs into tens of thousands of dollars before a single letter is sent. Two adjacent gaps matter just as much. A cyber policy funds breach response but generally does not reimburse money stolen from a bank account, which is crime or fidelity territory; and trustee liability cover responds to claims against individual board members but restores neither the funds nor the systems. Organisations collecting donations through QR codes carry a further practical risk, since fraudulent codes overlaid on legitimate ones at events are simple to deploy and are typically discovered only when takings fail to match attendance.',
+    cta: 'Get a Quote',
+  },
 ];

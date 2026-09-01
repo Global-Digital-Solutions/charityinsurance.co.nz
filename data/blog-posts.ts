@@ -775,8 +775,8 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'charities-amendment-act-2023-governance-review-deadline',
     title: 'Your Charity\'s Governance Review Deadline Is October 2026',
-    excerpt: 'The Charities Amendment Act 2023 requires all registered charities to formally review their governance procedures before 5 October 2026 — and the expanded "officer" definition means more people are exposed than most charities realise.',
-    date: '2026-08-07',
+    excerpt: 'The Charities Amendment Act 2023 requires all registered charities to formally review their governance procedures before 5 October 2026 — the deadline is now weeks away, and the annual return will ask whether the review has been done.',
+    date: '2026-09-01',
     author: 'The CharityInsurance Crew',
     readTime: '7 min read',
     category: 'Governance & Compliance',
@@ -817,8 +817,13 @@ export const blogPosts: BlogPost[] = [
 <p>Another significant change under the 2023 Amendment is that Charities Services can now disqualify individual officers without deregistering the entire charity. This is a targeted enforcement tool — it allows the regulator to remove individuals who have breached their duties or are unsuitable to serve, without punishing the whole organisation and the communities it serves.</p>
 <p>For individuals, this makes the personal liability dimension of officer status even more real. An officer disqualification can have significant professional and reputational consequences beyond the charity itself. D&O cover that includes regulatory defence costs — not just civil liability — is the appropriate protection.</p>
 
+<h2>The Annual Return Will Ask</h2>
+<p>Charities Services has indicated that the annual return form will ask whether a governance review has been completed and, if so, on what date. That turns the requirement from a general duty into a specific disclosure, made by the charity, on the record, with a date attached.</p>
+<p>Boards should treat that in the same way they treat an insurance proposal form. A declaration made without documentation behind it is a problem waiting to surface. If the return records that a review was completed in September 2026, there should be minutes recording the discussion, a note of what was examined, and a record of anything the board resolved to change as a result. Charities Services does not require a prescribed template, but it does expect the review to have actually happened.</p>
+<p>The same discipline applies on the insurance side. Proposal forms for trustee liability and management liability policies increasingly ask about governance processes, conflict-of-interest procedures, and financial controls. Answering those questions from a completed governance review is straightforward; answering them from memory at renewal is how disclosure problems begin.</p>
+
 <h2>Acting Before October 2026</h2>
-<p>If your charity has not yet completed a governance review, now is the time to begin. The review process itself is an opportunity to strengthen governance, not just a compliance box to tick. And it is the right moment to sit down with a specialist charity insurance broker and confirm that your insurance programme reflects the actual governance, activities, and risk profile of your organisation in 2026 — not what it was when your policy was first arranged.</p>
+<p>With the deadline now only weeks away, any charity that has not yet completed a governance review should begin immediately. The review process itself is an opportunity to strengthen governance, not just a compliance box to tick. And it is the right moment to sit down with a specialist charity insurance broker and confirm that your insurance programme reflects the actual governance, activities, and risk profile of your organisation in 2026 — not what it was when your policy was first arranged.</p>
 <p>To discuss your organisation's cover and what a governance review might reveal, <a href="/contact/">get a quote</a> from one of our specialist charity insurance brokers.</p>
     `,
   },
@@ -1067,6 +1072,92 @@ export const blogPosts: BlogPost[] = [
 <h2>The Cost Comparison</h2>
 <p>Crime and fidelity cover is typically among the least expensive lines in a not-for-profit insurance package, particularly when written as part of a combined management liability policy rather than purchased standalone. Set that against the scale of losses Charities Services has documented in its investigations, and the case is straightforward. For most small and mid-sized organisations, a single modest fraud would exceed several decades of premium.</p>
 <p>If your organisation handles cash, holds grant funds, or processes supplier payments without a formal dual-authorisation rule, this is a conversation worth having before your next renewal. To review your crime and fidelity exposure, <a href="/contact/">get a quote</a> from one of our specialist charity insurance brokers.</p>
+    `,
+  },
+  {
+    slug: 'qr-code-scams-charity-cyber-cover',
+    title: 'QR Code Scams and Your Charity\'s Cyber Cover',
+    excerpt: 'The National Cyber Security Centre\'s latest quarterly report shows fewer dollars lost but more incidents serious enough to need specialist help — and a rise in QR code and malware scams that community organisations are unusually exposed to.',
+    date: '2026-09-01',
+    author: 'Sarah Connell',
+    readTime: '8 min read',
+    category: 'Cyber & Privacy',
+    image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1920&q=80',
+    content: `
+<p>The National Cyber Security Centre published its Cyber Security Insights report for the second quarter of 2026 on 20 August, covering the period from 1 April to 30 June. For charities, sports clubs, churches and community trusts, two numbers in it are worth sitting with.</p>
+
+<h2>What the Latest Quarter Actually Showed</h2>
+<p>The NCSC responded to 1,129 incident reports in the quarter, broadly level with the 1,164 reports received in the first three months of the year. Reporting volumes, in other words, are steady. What changed is severity. Of those reports, 92 were triaged for specialist technical support because of their potential national significance, up from 77 in the previous quarter. The remaining 1,037 did not require that level of response.</p>
+<p>Reported direct financial losses came to $2.7 million for the quarter, a 52 percent fall from the $5.6 million reported between January and March. That headline drop is genuinely good news, but it hides an uncomfortable distribution. Scams and fraud returned as the most commonly reported category with 348 incidents, yet accounted for only around $860,000 of the total. Unauthorised access incidents were far less common and accounted for roughly $1.3 million — about half the quarter\'s entire reported loss. A small number of intrusions did most of the damage.</p>
+<p>Phishing and credential harvesting sat second on volume. It remains the entry point for a large share of the unauthorised access that follows.</p>
+
+<h2>Why the Report Singled Out QR Codes</h2>
+<p>The NCSC devoted one of the report\'s two feature articles to QR code phishing, under the title "QR codes: Think before you scan". The technique attracted wider public attention this year after incidents involving Christchurch parking meters, where fraudulent codes were used to direct people to pages designed to capture payment details.</p>
+<p>The mechanics are simple. A printed sticker or a code embedded in an email carries no visible destination. A person who would never click a suspicious hyperlink will scan a code on a poster without hesitation, because the code looks like part of the physical furniture of the venue. The phone opens the page in a mobile browser, where the address bar is truncated and the visual cues that help people spot a fake are largely absent.</p>
+<p>Community organisations are unusually exposed here for reasons that have nothing to do with technical sophistication. Charities have moved donation collection onto QR codes at speed, precisely because contactless giving works: a code on a collection bucket, a table card at a fundraising dinner, a poster in a shop window, a slide at the end of a presentation. Those codes are printed in bulk, distributed to volunteers, displayed in public spaces for weeks, and almost never audited. Overlaying a fraudulent sticker on a legitimate donation code is trivially easy, and the charity may only discover it when the takings do not match the foot traffic — or when a donor calls to ask why their card was charged twice.</p>
+<p>The second feature article, "Malware: Silent predators of cyberspace", covers a related trend the NCSC observed this quarter: an increase in reports where victims were persuaded to install malicious software themselves. That pattern travels well into volunteer environments, where the person managing the database is often the person who is most willing to help and least likely to have had security training.</p>
+
+<h2>The Gap Between an Incident and a Claim</h2>
+<p>A fraudulent donation code is an unpleasant discovery, but the loss to the organisation is often modest — the money never reached the charity\'s account in the first place. The exposures that carry real financial consequence sit elsewhere, and they are the ones most community organisations have not priced.</p>
+<p>The first is the Privacy Act 2020 obligation. If credentials harvested through a phishing email give someone access to a supporter database, a client management system, or a shared drive holding case notes, the organisation has a notifiable privacy breach if the breach has caused or is likely to cause serious harm. That triggers notification to the Office of the Privacy Commissioner and to affected individuals. Working out who was affected, what was accessed, and what must be disclosed requires forensic investigation, and that investigation is not something a volunteer treasurer can run.</p>
+<p>The second is business interruption in the non-commercial sense. A ransomware event or a locked-out finance system does not stop a charity earning revenue in the way it stops a retailer, but it does stop grant reporting, payroll, rostering, and service delivery. Organisations working with vulnerable people cannot simply pause for three weeks while systems are rebuilt.</p>
+<p>The third is funds transfer fraud. Where a compromised email account is used to redirect a supplier payment or a grant disbursement, the money leaves the account legitimately, on the organisation\'s own authority. Whether that loss is recoverable depends on whether the policy in question is a cyber policy, a crime or fidelity policy, or neither.</p>
+
+<h2>What Cyber Cover Does and Does Not Reach</h2>
+<p>A cyber liability policy for a not-for-profit typically funds the response rather than reimbursing the theft. Expect incident response and forensic investigation costs, legal advice on notification obligations, the cost of notifying affected individuals, system restoration and data recovery, defence costs for regulatory investigation, and in most wordings, cover for extortion demands and the specialists who negotiate them.</p>
+<p>What it usually does not do is replace money taken from a bank account. That sits with crime or fidelity cover, and the two policies are frequently held by different organisations or not held at all. Trustee liability cover is a third distinct thing again: it responds to claims against individual board members arising from governance decisions, which may include a claim that the board failed to manage a foreseeable risk, but it does not restore the funds or fund the breach response.</p>
+<p>Most claims of this kind touch two or three of those policies at once. The question worth putting to a broker in plain terms is: if our email is compromised, a supplier payment is redirected, and our donor list is copied, which of our policies responds to which part of that, and where are the gaps between them?</p>
+
+<h2>Controls That Cost Nothing</h2>
+<p>Insurers price cyber cover partly on process, so several of the steps that reduce risk also reduce premium. Multi-factor authentication on email and cloud storage is the single highest-value control and is free on every mainstream platform. Donation QR codes should be checked physically at the start and end of every event and should be generated by one named person rather than by whoever is closest to a laptop. Bank account changes for any supplier should be verified by calling a number already held on file. Access to systems should be reviewed whenever a staff member or volunteer leaves a role, which in a high-turnover volunteer environment means quarterly rather than annually.</p>
+<p>None of this requires an IT department. It requires a board that treats digital process the way it treats cash handling.</p>
+
+<h2>Where to Start</h2>
+<p>If your organisation holds supporter data, takes donations electronically, or runs any part of its operations through cloud services, cyber cover belongs in the same conversation as public liability rather than as an afterthought at the end of it. Premiums for small and mid-sized community organisations are typically modest, and the response costs the policy funds are the part boards consistently underestimate.</p>
+<p>To review your organisation\'s cyber and privacy exposure alongside the rest of your programme, <a href="/contact/">get a quote</a> from one of our specialist charity insurance brokers.</p>
+    `,
+  },
+  {
+    slug: 'tier-3-4-reporting-charity-insured-values',
+    title: 'New Reporting Rules and Your Insured Values',
+    excerpt: 'The revised Tier 3 and Tier 4 reporting standards simplified life for small charities — but one of the things they simplified away was the annual list of assets that used to prompt boards to check their sums insured.',
+    date: '2026-09-01',
+    author: 'The CharityInsurance Crew',
+    readTime: '7 min read',
+    category: 'Governance & Compliance',
+    image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1920&q=80',
+    content: `
+<p>Most small charities experienced the revised reporting standards as a relief. The External Reporting Board issued updated Tier 3 and Tier 4 not-for-profit standards in May 2023, mandatory for accounting periods beginning on or after 1 April 2024, with early adoption permitted for periods ending after 15 June 2023. For a Tier 4 organisation — one with annual operating expenses under $140,000 — the new standard is meaningfully less demanding than the one it replaced. That is a good outcome for boards run by volunteers.</p>
+<p>It also removed something quietly useful.</p>
+
+<h2>What Changed in the Standards</h2>
+<p>The revised standards apply to registered charities and to incorporated societies that have re-registered under the Incorporated Societies Act 2022 and are not classified as small. Tier 3 covers organisations with annual expenses under $2 million; Tier 4 covers those under $140,000. Both tiers prepare a Performance Report rather than a full set of financial statements.</p>
+<p>Two changes matter for the purposes of this article. The service performance section dropped the terms "outcomes" and "outputs" in favour of language aligned with the Tier 2 standard, which is a presentational improvement rather than a substantive one. More consequentially for Tier 4 entities, the standard no longer requires a Statement of Resources and Commitments.</p>
+<p>Separately, the Charities Amendment Act 2023 gave the Chief Executive of the Department of Internal Affairs power to exempt very small charities from preparing general purpose financial reports in accordance with the standards altogether. Those charities still file an annual return containing basic financial information, but the reporting burden drops again.</p>
+
+<h2>Why the Statement of Resources Mattered</h2>
+<p>The Statement of Resources and Commitments was never intended as an insurance document. It asked an organisation to list what it owned and what it was committed to — land and buildings, vehicles, significant equipment, investments, and on the other side, loans, leases, and guarantees. It was a plain-language inventory, prepared annually, reviewed by the board, and filed publicly.</p>
+<p>For a great many small charities it was also the only moment in the year when anyone sat down and wrote out a list of the organisation\'s physical assets. Preparing it surfaced the marquee bought two years ago, the trailer donated by a member, the sound system upgraded after a fundraiser, the kitchen refit at the hall. Whether or not the treasurer then thought about insurance, the list existed, and it was the natural thing to hand a broker at renewal.</p>
+<p>Without that annual prompt, nothing in the reporting cycle asks a Tier 4 board what it owns. The sums insured on the policy stay where they were set, renewal after renewal, while the asset base moves underneath them.</p>
+
+<h2>How Underinsurance Actually Develops</h2>
+<p>Underinsurance in the community sector rarely arrives through carelessness. It accumulates through three ordinary processes.</p>
+<p>The first is acquisition without registration. Donated and grant-funded assets enter an organisation outside the normal purchasing path. Nobody raises a purchase order for a trailer someone gifted, and nobody tells the broker.</p>
+<p>The second is replacement cost drift. Construction and equipment costs have moved substantially over the past five years. A hall insured for a rebuild figure set in 2020 may be materially short of what rebuilding it would cost today, and the gap widens every year the figure is not revisited. This bites hardest on exactly the buildings communities can least afford to lose — halls, clubrooms, marae facilities, heritage churches — because their rebuild cost bears little relation to any market valuation.</p>
+<p>The third is scope creep in activities. An organisation that added a food rescue operation, a van, and a commercial-grade chiller has changed its risk profile in ways a property schedule written for an office and a photocopier does not reflect.</p>
+<p>Where a policy carries an average or co-insurance clause, the consequence of underinsurance is not simply that a total loss pays out less than the rebuild cost. A partial loss can also be reduced in proportion to the shortfall. An organisation insured for 60 percent of true replacement value may recover 60 percent of a partial claim, which is the point at which a manageable event becomes an existential one.</p>
+
+<h2>The Governance Review Is the Obvious Place to Do This</h2>
+<p>Registered charities must formally review their governance procedures before 5 October 2026, and at least every three years after that. Charities Services has indicated the annual return will ask whether the review has been done and when. That review is a compliance obligation with a deadline, which means it is one of the few pieces of work a volunteer board will reliably schedule.</p>
+<p>It is also the right container for an asset and insured-values check. A governance review that examines financial oversight without asking whether the organisation\'s assets are adequately insured has looked at half the picture. The practical version takes an hour: list what the organisation owns, note what each item would cost to replace today rather than what it cost to buy, flag anything acquired since the last renewal, and identify any building where the sum insured has not been revisited in three years or more.</p>
+
+<h2>Building the Register the Standards No Longer Require</h2>
+<p>An asset register does not need to be sophisticated. A spreadsheet with a description, an acquisition date, a current replacement estimate, and a location column covers most of what a broker needs. Buildings warrant more care: a formal replacement-cost valuation is worth commissioning every three to five years for any structure the organisation could not operate without, and insurers will generally accept a professional valuation as the basis for a sum insured without further argument.</p>
+<p>Keep the register with the governance review documentation rather than in the treasurer\'s personal files. Volunteer boards turn over, and the value of a register lies in the next committee being able to find it.</p>
+
+<h2>A Reporting Simplification, Not a Risk Reduction</h2>
+<p>The revised standards reduced what small organisations must report. They did not reduce what those organisations own or what it would cost to replace it. Boards that relied, even unconsciously, on the annual reporting cycle to keep asset information current now need to create that prompt deliberately.</p>
+<p>If your organisation has not reviewed its sums insured since the reporting changes took effect, the governance review deadline is a natural moment to do it. To have your property schedule and replacement values reviewed alongside the rest of your cover, <a href="/contact/">get a quote</a> from one of our specialist charity insurance brokers.</p>
     `,
   },
 ];
