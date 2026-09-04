@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import LeadEvent from '@/components/LeadEvent';
 
 export const metadata: Metadata = {
   title: 'Thank You | Quote Request Received',
@@ -9,6 +10,7 @@ export const metadata: Metadata = {
 export default function ThankYouPage() {
   return (
     <main className="min-h-[60vh] flex items-center justify-center px-4">
+      <LeadEvent variant="quote_form" />
       <div className="max-w-lg text-center">
         <div className="text-6xl mb-6">🤝</div>
         <h1 className="text-3xl font-extrabold text-slate-900 mb-4">Thank You!</h1>
