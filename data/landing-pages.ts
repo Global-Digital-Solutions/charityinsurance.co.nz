@@ -469,4 +469,32 @@ export const landingPages: LandingPage[] = [
       'The exposure boards consistently underestimate is the cost of finding out what happened. When credentials are harvested through a phishing email, the organisation cannot notify anyone until it establishes which records were accessed, and that forensic work runs into tens of thousands of dollars before a single letter is sent. Two adjacent gaps matter just as much. A cyber policy funds breach response but generally does not reimburse money stolen from a bank account, which is crime or fidelity territory; and trustee liability cover responds to claims against individual board members but restores neither the funds nor the systems. Organisations collecting donations through QR codes carry a further practical risk, since fraudulent codes overlaid on legitimate ones at events are simple to deploy and are typically discovered only when takings fail to match attendance.',
     cta: 'Get a Quote',
   },
+  {
+    slug: 'community-trust-insurance',
+    metaTitle: 'Community Trust Insurance | Get a Quote',
+    metaDesc:
+      'Insurance for community trusts running contracted services, property and grant-funded programmes. Trustee liability, public liability and more. Get a Quote.',
+    h1: 'Community Trust Insurance',
+    intro:
+      'Community trusts sit in an awkward gap in the insurance market. They are often larger and more complex than a volunteer group, running contracted services, employing staff, holding property and administering restricted grant funds — but they are not commercial businesses, and commercial policy wordings rarely reflect how they actually operate. The result is a programme assembled from mismatched parts, usually discovered at claim time.',
+    heroImage: 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?auto=format&fit=crop&w=1920&q=80',
+    keyPoints: [
+      'Trustee liability cover for board decisions on contracts, property, employment and restricted funds',
+      'Public liability across every activity the trust runs, including services delivered in clients\' homes',
+      'Employment practices liability — the cover that responds when a restructure follows a lost contract',
+      'Fidelity and crime cover sized to the restricted grant funds the trust actually holds',
+      'Property, contents and business interruption for owned or leased premises and community facilities',
+      'Run-off cover for claims-made policies when a contracted service ends or transfers to another provider',
+    ],
+    whyUs:
+      'charityinsurance.co.nz connects community trusts with Registered Financial Service Providers who place cover for multi-activity not-for-profits every week. Our brokers will map what the trust actually does — contracted services, property, grant programmes, employed staff, volunteers — against the policies currently in place, and tell you where the seams are. Get a Quote and a specialist will be in touch within one business day.',
+    relatedOrgs: [
+      'community-groups-trusts',
+      'social-services',
+      'foundations-trusts',
+    ],
+    coverageAngle:
+      'The exposure that catches community trusts hardest is change. A trust that wins or loses a government contract alters its headcount, its fleet, its premises and its liability profile in a single funding round, and the insurance programme almost never keeps pace. Two technical points do most of the damage. Professional indemnity and trustee liability are claims-made policies, so cancelling them when a service ends leaves years of past work uninsured unless run-off cover is arranged before the policy lapses. And employment practices cover — usually an extension with a sub-limit well below the main policy limit — is what funds the defence of personal grievance claims arising from a restructure, but only if it was in place before the restructure was known about. Alongside that sits the restricted-funds question: trusts holding grant money for specified purposes carry both a repayment exposure to funders and a fidelity exposure where segregation of duties is thin, and those are two different problems needing two different answers.',
+    cta: 'Get a Quote',
+  },
 ];

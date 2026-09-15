@@ -1160,4 +1160,126 @@ export const blogPosts: BlogPost[] = [
 <p>If your organisation has not reviewed its sums insured since the reporting changes took effect, the governance review deadline is a natural moment to do it. To have your property schedule and replacement values reviewed alongside the rest of your cover, <a href="/contact/">get a quote</a> from one of our specialist charity insurance brokers.</p>
     `,
   },
+  {
+    slug: 'losing-a-government-contract-insurance-review',
+    title: 'Losing a Major Contract: The Insurance Review Boards Forget',
+    excerpt: 'When a large government contract ends, boards move quickly on staffing and premises. The insurance programme is usually left until renewal — and that is where the expensive mistakes happen.',
+    date: '2026-09-15',
+    author: 'Sarah Connell',
+    readTime: '8 min read',
+    category: 'Risk Management',
+    image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1920&q=80',
+    content: `
+<p>In early September, Visionwest Community Trust went public with the news that it understood Health New Zealand had awarded a five-year, roughly one-billion-dollar Home and Community Support Services contract to a group of businesses, excluding several established charitable providers. Visionwest said the decision could disrupt care relationships for more than a quarter of the 7,000 older and disabled people it supports across Auckland, Bay of Plenty, Waikato and the Rotorua Lakes District, and would affect more than 650 employees delivering care in people's homes. Health New Zealand's internal audit review of the procurement process concluded it was fair, reasonable and transparent.</p>
+
+<p>Whatever view you take of the procurement question, the operational reality is one that hundreds of contracted providers will recognise. A single tender outcome can remove a large share of an organisation's revenue and workforce inside one funding round. Boards respond quickly on the obvious fronts: staff consultation, premises, vehicle fleets, service transition. The insurance programme almost always gets left until the next renewal date, and that delay is where organisations lose money they did not need to lose.</p>
+
+<h2>Claims-Made Policies Do Not End When the Contract Does</h2>
+
+<p>The most costly misunderstanding in this situation involves how professional indemnity, trustee liability and employment practices policies actually work. These are claims-made policies. They respond to claims <em>notified during the policy period</em>, not to work performed during the policy period. If your organisation delivered home-based support for eight years, cancelled its professional indemnity policy when the contract ended, and a complaint about care delivered in 2024 arrives in 2027, there is no live policy to notify. The claim is uninsured.</p>
+
+<p>The answer is run-off cover, sometimes called extended reporting period cover. It keeps a claims-made policy alive for claims arising from past work after the activity itself has stopped. Run-off is usually purchased for a defined period — three years and six years are common — and is typically cheaper than the original premium because no new work is being performed. It is also almost always cheaper to arrange at the point the policy would otherwise lapse than to reconstruct after a claim has landed.</p>
+
+<p>Organisations exiting a service line should identify every claims-made policy in the programme and decide consciously whether each one needs a run-off period. That decision belongs in the board minutes, because if a complaint surfaces three years later, the question of who decided to leave the exposure uninsured will be asked.</p>
+
+<h2>Restructures Generate Employment Claims</h2>
+
+<p>An organisation that loses hundreds of care roles is running a restructure, and restructures are the most reliable source of employment disputes in the not-for-profit sector. Personal grievance claims commonly allege procedural defects rather than bad faith: consultation that was too short, a selection matrix applied inconsistently, redeployment options that were not genuinely offered, or a decision that appeared to have been made before the consultation began.</p>
+
+<p>Employment practices liability cover — sold in this country as a standalone policy or, more often, as an extension to a trustee liability or management liability policy — funds the legal costs of defending those claims and, depending on wording, settlements and awards. Two features matter more than the headline limit. The first is whether the policy covers claims by volunteers and contractors, not just employees, which is relevant where support workers are engaged on varied terms. The second is the sub-limit, because employment practices extensions frequently carry a sub-limit well below the main policy limit, and a moderately sized restructure can exhaust it.</p>
+
+<p>The timing point matters as much as the cover point. A policy taken out after the restructure has been announced will exclude the circumstances that were known before inception. The time to check the employment practices section is before the consultation document goes out, not after the first grievance arrives.</p>
+
+<h2>Reducing Cover Too Fast</h2>
+
+<p>The instinct when revenue falls is to reduce expenses, and insurance is a visible line item. The risk is that an organisation reduces cover faster than it reduces exposure. Several specific traps recur.</p>
+
+<p>Vehicle fleets do not disappear on the day a contract ends. Cars stay on the books, insured and often still driven, while they are sold or redeployed. Cancelling motor cover in advance of actual disposal leaves a period where a staff member drives an uninsured vehicle on organisational business.</p>
+
+<p>Leased premises carry obligations that outlast the service. If the lease runs for another four years, so does the requirement to insure the fitout, the glass and the landlord's interest — regardless of whether the programme that occupied the building still exists.</p>
+
+<p>Public liability limits reflect the severity of a potential claim rather than the volume of activity. Running half as many services does not halve the cost of a serious injury claim. Reducing a limit from five million to two million to save premium creates a gap that only becomes visible in the one claim that exceeds it.</p>
+
+<p>Statutory liability and cyber cover respond to exposures tied to records and obligations rather than to current activity. An organisation still holds client files, still has Privacy Act 2020 obligations in relation to them, and still faces regulatory investigation risk after a service transfers.</p>
+
+<h2>The Wraparound Problem</h2>
+
+<p>Brook Turner, Visionwest's director of partnerships, made a point in the September release that has a direct insurance consequence. Removing a major service from a charity, he said, "does not affect just one operational division." It changes what the organisation is able to do when people's needs fall outside a single government contract.</p>
+
+<p>Integrated charities cross-subsidise. Revenue from a contracted service supports the infrastructure — the coordinators, the case management systems, the vehicles, the office — that makes housing support, food assistance, financial mentoring and counselling possible alongside it. When the contracted service goes, those other activities continue with a thinner support structure behind them.</p>
+
+<p>From a risk perspective this is the moment when incidents become more likely, not less. Fewer staff supervise the same volunteers. Policies are reviewed less often. Health and safety systems that were maintained because a funder audited them stop being audited. Documentation slips because the person who maintained it has gone. Reducing insurance at exactly the point where operational controls are weakening is the wrong direction of travel, and a broker who understands the sector will say so.</p>
+
+<h2>What to Do in the First Fortnight</h2>
+
+<p>The practical sequence is short. List every policy in the programme and mark which are claims-made and which are occurrence-based, because only the first group needs a run-off decision. Confirm the employment practices position, including the sub-limit and whether contractors are covered, before any consultation document is issued. Identify which assets and obligations survive the contract — vehicles, leases, equipment, client records — and insure those on their actual timeline rather than the contract's. Ask the broker to model a reduced programme against the exposures that genuinely fall away, rather than applying a flat percentage cut.</p>
+
+<p>Then record the decisions. Charities registered with Charities Services now have a statutory duty to review governance procedures before 5 October 2026 and at least every three years afterwards, and a documented insurance review carried out during a major operational change is exactly the kind of evidence that duty contemplates. It is also the record that protects individual board members if the wisdom of a decision is questioned years later.</p>
+
+<h2>Talk to Someone Who Places This Cover</h2>
+
+<p>Run-off periods, employment practices sub-limits and the interaction between statutory liability and trustee liability are technical areas where generic commercial advice tends to be thin. charityinsurance.co.nz connects organisations with Registered Financial Service Providers who work with not-for-profit clients and have managed contract transitions before. Get a Quote and a specialist will be in touch within one business day.</p>
+
+<p><em>Sources: VisionWest Community Trust media release, 3 September 2026; Charities Amendment Act 2023; Charities Services guidance on reviewing governance procedures.</em></p>
+`,
+  },
+  {
+    slug: 'pokie-grant-findings-charity-funding-risk',
+    title: 'What the Pokie Grant Findings Mean for Funded Groups',
+    excerpt: 'Internal Affairs found up to $28 million that should have reached community groups was spent on trust costs instead. For grant-funded organisations, the follow-on effects are practical.',
+    date: '2026-09-15',
+    author: 'The CharityInsurance Crew',
+    readTime: '8 min read',
+    category: 'Governance & Compliance',
+    image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1920&q=80',
+    content: `
+<p>On 11 September 2026 the Department of Internal Affairs released the findings of a multi-year investigation into class 4 gambling operators — the trusts that run pokie machines in pubs and clubs and distribute the proceeds as community grants. The department's director of gambling, Vicki Scott, told RNZ that up to $28 million which should have been available for community grants had instead been used to cover trust expenses, including buying gaming machines. About three-quarters of the country's 32 trusts were non-compliant to some degree, and roughly a third engaged in what she described as deliberate creative accounting.</p>
+
+<p>The department has secured commitments to return $11.5 million to community organisations through grants, suspended one operator's licence for six days, and issued new financial guidance to the sector. Scott said she was hopeful around $20 million could eventually be recovered through repayment plans, and that the investigation was continuing.</p>
+
+<p>For context, Scott put the annual flow of class 4 proceeds to communities at roughly $340 million. Sector representatives pushed back on the framing rather than the facts. Gaming Machine Association chair Peter Dengate Thrush noted the figure was spread across the ten-year period the department reviewed and represented a small proportion of total flow. Pub Charity chief executive Martin Cheer accepted some trusts may have misunderstood the rules but told RNZ that ignorance of the law was no excuse and that the trusts should have done better.</p>
+
+<h2>Why This Reaches Funded Organisations</h2>
+
+<p>Sports clubs, community halls, rescue services, arts organisations and youth groups across the country are funded in part by these grants. None of them did anything wrong here. But three consequences land on the recipient side regardless.</p>
+
+<p>The first is funding volatility. Scott was explicit that trusts will have to tighten their belts over coming years to return money to communities. Repayment plans have to come from somewhere, and the operating costs of a gaming trust are relatively fixed. Organisations that budget on the assumption that last year's grant will roughly repeat should treat the next two funding rounds as genuinely uncertain.</p>
+
+<p>The second is tighter administration. A regulator that has just published findings about accounting practices and issued new financial guidance will expect operators to demonstrate control over where grant money goes. That expectation flows downhill as more specific grant conditions, more detailed acquittal requirements, and more willingness to seek repayment where funds were applied outside the approved purpose.</p>
+
+<p>The third is reputational. Public confidence in the funding model is now a live question. Hāpai Te Hauora's chief operating officer Jason Alexander said in a statement that giving back money that should never have been misspent is not a penalty but the bare minimum. Organisations that receive gaming grants and want to keep receiving them benefit from being visibly, demonstrably clean about how the money is applied.</p>
+
+<h2>Grant Conditions Are a Liability Exposure</h2>
+
+<p>Boards tend to treat grant conditions as administrative, and they are not. A grant made for a specific purpose creates an obligation to apply the funds to that purpose. Where the money is spent elsewhere — even for a defensible operational reason, even with good intentions — the funder can seek repayment, and depending on the structure the individuals who authorised the spending can be named in that recovery action.</p>
+
+<p>This is more common than it sounds, and it usually has nothing to do with dishonesty. A grant is approved for a minivan; the vehicle purchase is delayed; the funds sit in the general account and get used for wages during a cashflow squeeze; the intention is to replace them. Six months later the money has not been replaced and the acquittal is due. Nobody stole anything, but the organisation has a repayment obligation it cannot meet and a board that authorised the transfer.</p>
+
+<p>Three controls prevent almost all of this. Restricted grant funds should be tracked separately in the accounts and reported to the board as a distinct line, so the balance is visible every month rather than at year end. Any decision to apply restricted funds to another purpose should require explicit board approval and, where the grant conditions require it, funder consent in writing before the money moves. And the acquittal deadline for every grant should sit on the governance calendar alongside the annual return, not in one staff member's inbox.</p>
+
+<h2>Where Insurance Fits, and Where It Does Not</h2>
+
+<p>Two covers are relevant here and they are frequently confused.</p>
+
+<p>Fidelity or crime cover responds where money is taken dishonestly — an employee or volunteer diverting funds, falsifying invoices, or manipulating records for personal gain. It reimburses the organisation for the stolen amount, subject to policy terms and proof. This matters in the grant context because organisations handling restricted funds often have thin segregation of duties, with one person raising invoices, approving payments and reconciling the account. Most fidelity policies require some level of internal control as a condition of cover, and a board that has never asked what those requirements are may find them unmet at claim time.</p>
+
+<p>Trustee liability cover, by contrast, responds to claims made against individual board members for governance decisions — including a funder's action to recover misapplied funds, or a Charities Services investigation into how an organisation was run. It funds legal defence costs, which are usually the largest expense in any such matter, and can respond to damages awarded personally against a trustee.</p>
+
+<p>The distinction is worth stating plainly. Fidelity cover addresses money taken dishonestly. Trustee liability addresses claims against the people who govern. Neither policy reimburses a grant that was spent on the wrong thing through ordinary administrative error, because that is not a loss caused by dishonesty and it is not a third-party claim. The only protection against that outcome is the control environment, which is precisely why funders are increasingly interested in it.</p>
+
+<h2>What Boards Should Do This Quarter</h2>
+
+<p>The immediate task is a stocktake. Identify every current grant, its approved purpose, its acquittal deadline, and the balance of funds still held against it. Reconcile that list to the bank position. Organisations that cannot complete this exercise from existing records have identified their first governance improvement.</p>
+
+<p>The second task is a stress test on the budget. If gaming grant income fell by a quarter over the next two funding rounds, which activities stop, and which fixed costs — insurance, lease, audit, compliance — continue regardless? Answering that in September is considerably more comfortable than answering it in the week a grant application is declined.</p>
+
+<p>The third task fits neatly with a deadline already in the diary. Registered charities must review their governance procedures before 5 October 2026 and at least every three years thereafter under the Charities Amendment Act 2023. Financial delegations, restricted fund handling, grant acquittal responsibility and insurance adequacy all sit within scope of that review. Organisations doing the work anyway should use it to cover the ground this investigation has just made topical.</p>
+
+<h2>Getting the Cover Right</h2>
+
+<p>Fidelity limits are frequently set at a level chosen years ago and never revisited, and the internal control conditions attached to them are rarely read until a claim is made. charityinsurance.co.nz connects community organisations with Registered Financial Service Providers who place fidelity and trustee liability cover for grant-funded groups and can tell you what your policy actually requires of you. Get a Quote and a specialist will be in touch within one business day.</p>
+
+<p><em>Sources: Department of Internal Affairs class 4 gambling investigation findings, 11 September 2026; RNZ interview with DIA director of gambling Vicki Scott; Hāpai Te Hauora statement, September 2026; Charities Amendment Act 2023.</em></p>
+`,
+  },
 ];
