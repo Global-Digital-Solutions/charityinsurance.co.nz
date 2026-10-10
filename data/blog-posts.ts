@@ -723,52 +723,47 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'incorporated-societies-re-registration-what-happened',
-    title: 'The Re-registration Deadline Has Passed: What Now?',
-    excerpt: 'The Incorporated Societies Act 2022 required all ~24,000 societies to re-register by 5 April 2026. Many missed it — and the consequences for officers are serious.',
-    date: '2026-08-07',
-    author: 'Sarah Connell',
-    readTime: '8 min read',
+    title: "The Re-registration Deadline Has Passed: What Now?",
+    excerpt: "Societies that did not reregister under the Incorporated Societies Act 2022 by 5 April 2026 have been removed from the register. What that means, how restoration works before 6 April 2032, and the insurance questions to ask.",
+    date: "2026-10-10",
+    author: "The CharityInsurance Crew",
+    readTime: "6 min read",
     category: 'Governance & Compliance',
     image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1920&q=80',
     content: `
-<p>The deadline passed on 5 April 2026. Every incorporated society in the country — the sports clubs, hobby associations, professional bodies, and community organisations that form the backbone of civil society — was required to re-register under the Incorporated Societies Act 2022 by that date. Those that didn't re-register have been removed from the register of incorporated societies. Their officers now face a situation that few of them anticipated when they first put their hand up to serve on a committee.</p>
+<p>The reregistration deadline under the Incorporated Societies Act 2022 passed on 5 April 2026. Sports clubs, hobby groups, professional bodies and community organisations registered under the 1908 Act had two years and six months to reregister, and the transition period is now over. For societies that missed it, the questions are what has happened to them, whether they can come back, and what it means for the people who run them.</p>
 
-<h2>What the Deadline Actually Meant</h2>
-<p>The Incorporated Societies Act 2022 replaced legislation that had been in place since 1908. The new Act introduced significant changes: explicit officer duties, personal liability provisions for governance failures, stronger financial reporting requirements, and mandatory conflict of interest processes. All existing incorporated societies were required to re-register under the new Act — updating their constitutions to meet these new requirements — by 5 April 2026.</p>
-<p>As of April 2025 — a year before the deadline — fewer than 25% of New Zealand's approximately 24,000 incorporated societies had completed re-registration. The final rush in early 2026 brought more across the line, but a meaningful proportion did not make it in time.</p>
-
-<h2>What Happens to a Society That Missed the Deadline</h2>
-<p>A society that failed to re-register by 5 April 2026 has been removed from the register of incorporated societies. This has several immediate legal consequences:</p>
+<h2>What Happened to Societies That Did Not Reregister</h2>
+<p>The Companies Office's guidance on <a href="https://is-register.companiesoffice.govt.nz/help-centre/getting-started/how-recent-law-changes-affect-incorporated-societies/" target="_blank" rel="noopener noreferrer">how recent law changes affect incorporated societies</a> is direct: "Any society that did not reregister by 5 April 2026 has been removed from the Incorporated Societies Register." According to that guidance, a removed society no longer legally exists. The practical consequences it lists include:</p>
 <ul>
-<li>The society no longer has legal status as an incorporated body</li>
-<li>It cannot hold property in its own name</li>
-<li>It cannot enter contracts as a legal entity</li>
-<li>Officers may be personally liable for debts and obligations incurred in the society's name after deregistration</li>
-<li>The Registrar of Incorporated Societies has the power to apply to the court for distribution of the society's assets</li>
+<li>losing access to bank accounts and potentially needing a new IRD number</li>
+<li>assets being distributed as the Registrar directs</li>
+<li>members potentially becoming personally liable for the society's debts, obligations or leases</li>
+<li>the society being unable to sign new contracts in its name</li>
+<li>the society's name no longer being protected, so another group could register it</li>
 </ul>
-<p>For many small societies, the practical consequences are manageable in the short term — they continue to operate informally. But the loss of incorporated status creates real legal and financial exposure that compounds over time.</p>
+<p>Societies that were already in liquidation under the 1908 Act before 5 April 2026 remain under that Act, and their liquidators must still file the required reports.</p>
 
-<h2>Personal Liability for Officers</h2>
-<p>This is where the insurance dimension becomes critical. Officers of a society that has lost incorporated status may face personal liability for the organisation's debts and obligations. Unlike the position under the 1908 Act, the 2022 Act's officer duty framework was specifically designed to create clearer personal accountability. Officers who continue to act as though the society remains incorporated — entering contracts, spending money, making commitments — may find themselves personally exposed for those actions.</p>
-<p>If your society's D&O or Association Liability policy was tied to the society's incorporated status, check with your insurer and broker immediately. Cover may not extend to a deregistered entity, leaving officers exposed at precisely the moment they need protection most.</p>
+<h2>Restoration Is Available Until 2032</h2>
+<p>A removed society can apply to be restored. The Companies Office page on <a href="https://is-register.companiesoffice.govt.nz/help-centre/restoring-an-incorporated-society-to-the-register/1908-act-societies/" target="_blank" rel="noopener noreferrer">restoring a 1908 Act society</a> says anyone who was an officer or member when the society was removed can apply, and that applications must be made before 6 April 2032. The fee is $177.78 plus GST.</p>
+<p>To be restored, the society needs at least 10 members, a constitution that complies with the 2022 Act, a registered office with a full physical address, at least three officers, most of whom must be members, evidence that it was operating when it was removed, and its latest financial statements if they have not already been filed. Once an application is accepted, a public notice is published and there is a 20 working day objection period. If there are no objections, the society is generally restored the next working day, and it must then meet the 2022 Act's ongoing requirements. Societies registered with Charities Services file their annual return with Charities Services rather than the Companies Office.</p>
 
-<h2>What Can Deregistered Societies Do?</h2>
-<p>There are two main options for a society that missed the deadline.</p>
-<p>The first is restoration. The Incorporated Societies Act 2022 includes a process for restoring a society to the register, broadly similar to the company restoration process under the Companies Act 1993. This typically involves applying to the Registrar, demonstrating that the society meets the requirements of the Act, and paying any applicable fees. A society restored under this process regains incorporated status from the date of restoration — but there is a period of lost status in the interim during which officers carry personal exposure.</p>
-<p>The second option, for societies that no longer have active operations, is to wind up properly rather than simply ceasing to exist as an unregistered entity. A proper winding-up protects officers from the ongoing liability exposure of an unresolved defunct entity.</p>
+<h2>The Exposure for Members and Officers</h2>
+<p>The period between removal and restoration is when the people involved are most exposed. A group that keeps operating after removal is no longer acting through a legal entity. The Companies Office warns that members may become personally liable for the society's debts, obligations or leases, and any new arrangements made in the society's name sit on uncertain ground.</p>
+<p>Insurance needs attention in the same period. An association liability or trustee liability policy names the society as the insured entity. If that entity has been removed from the register, ask your insurer or adviser in writing how the policy responds to claims against the individuals involved, both for decisions made before removal and for anything done since. Public liability, property and volunteer accident policies should be checked in the same way, because each of them assumes the policyholder exists.</p>
 
-<h2>Re-registration and Insurance: What to Check</h2>
-<p>For societies that did re-register, now is a good time to review whether your insurance programme has been updated to reflect the new Act. The 2022 Act's explicit officer duties mean that Association Liability (D&O) cover is materially more important than it was under the 1908 Act. Policy wordings vary in how they treat statutory liability claims — claims arising directly from breach of statutory duties. Check with your broker that your policy covers civil liability claims arising from the new Act's officer duty provisions, not just common law governance claims.</p>
+<h2>If the Society Should Not Continue</h2>
+<p>Not every removed society needs to be restored. If the group has stopped operating, the remaining questions are what happens to any assets and how to deal with obligations such as leases. Removal is not a substitute for dealing with those properly, and legal advice is worthwhile before assuming the matter is closed. If the society was also a registered charity, the Charities Services guidance on winding up and deregistration applies as well; our guide to <a href="/blog/closing-or-merging-a-charity-insurance-checklist/">closing or merging a charity</a> covers the insurance decisions involved, including run-off cover for former officers.</p>
 
-<h2>For Societies That Are Not Sure of Their Status</h2>
-<p>The Companies Office maintains the register of incorporated societies at companiesoffice.govt.nz. You can search for your society by name to confirm its current status. If your society is not on the register, or if its status is listed as anything other than registered and active, you should seek legal advice promptly.</p>
-<p>The period between losing incorporated status and either restoring it or properly winding up is the period of greatest personal liability exposure for officers. It should be as short as possible.</p>
+<h2>For Societies That Did Reregister</h2>
+<p>The 2022 Act sets out officer duties explicitly, which makes association liability cover more relevant than it was under the 1908 Act. If you reregistered with a new constitution, check that the policy's description of the insured entity and insured persons still matches it, and that the people the Act treats as officers are covered.</p>
 
-<h2>A Governance Moment, Not Just a Legal One</h2>
-<p>The re-registration requirement was not a bureaucratic exercise. It was a moment for every incorporated society to review its governance structures, update its constitution to modern standards, and ensure the people serving as officers understood their new obligations. Societies that completed this process are better governed as a result — and better placed to protect the officers who serve them.</p>
-<p>For those that didn't, the restoration process is the next step. Do it promptly, seek legal advice, and review your insurance with a specialist broker as part of the process.</p>
-<p>To discuss your organisation's cover after re-registration or restoration, <a href="/contact/">get a quote</a> from one of our specialist charity insurance brokers.</p>
-    `,
+<h2>Check Your Status</h2>
+<p>The Incorporated Societies Register is searchable by name on the Companies Office website. If your society does not appear, or its status is anything other than registered, take advice promptly and keep the period of uncertainty as short as possible.</p>
+<p>To review your cover after reregistration or restoration, <a href="/contact/">Get a Quote</a> and a Registered Financial Service Provider who works with not-for-profits will be in touch within one business day.</p>
+
+<p><em>Sources: Companies Office, How recent law changes affect incorporated societies (updated April 2026) and Applying to restore a 1908 Act society to the register (updated April 2026). Checked 10 October 2026.</em></p>
+`,
   },
   {
     slug: 'charities-amendment-act-2023-governance-review-deadline',
@@ -822,39 +817,50 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'budget-2026-charity-tax-changes-insurance-implications',
-    title: 'Budget 2026 Charity Tax Changes: What It Means for Cover',
-    excerpt: 'Budget 2026 included ten tax changes affecting charities. Finance Minister Nicola Willis shelved the commercial income tax proposal in May 2025 — but other changes still affect how charities manage their finances and their insurance.',
-    date: '2026-08-07',
-    author: 'Sarah Connell',
-    readTime: '6 min read',
+    title: "Budget 2026 Charity Tax Changes: What It Means for Cover",
+    excerpt: "Inland Revenue's Budget 2026 information sheet lists ten tax changes for charities and not-for-profits, starting from April 2027. What they are, who they affect, and where insurance needs to keep pace.",
+    date: "2026-10-10",
+    author: "The CharityInsurance Crew",
+    readTime: "6 min read",
     category: 'Industry News',
     image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1920&q=80',
     content: `
-<p>Budget 2026 brought ten tax-related changes for the charity sector — a significant number that reflects both ongoing policy work and the political aftermath of proposals that generated intense sector pushback. Finance Minister Nicola Willis confirmed in May 2025 that the proposal to tax charities on their commercial income would not proceed, following sustained objection from the sector. What remains in the Budget still has real implications for how charities manage their finances — and, by extension, how they should think about insurance.</p>
+<p>Budget 2026 included a package of tax changes for charities and not-for-profits. Inland Revenue's <a href="https://www.taxpolicy.ird.govt.nz/-/media/project/ir/tp/publications/2026/is-charities-not-for-profits.pdf?modified=20260528020135" target="_blank" rel="noopener noreferrer">information sheet on charities and not-for-profits</a> lists ten changes, with start dates running from April 2027 to the 2028–29 income year. None of them is an insurance change, but several affect income, administration and the way organisations engage volunteers, and those are the things an insurance programme has to fit around.</p>
 
-<h2>What Was Shelved and Why It Matters</h2>
-<p>The commercial income taxation proposal — which would have applied income tax to revenue that registered charities earn from commercial activities, even where that revenue is used to fund charitable purposes — was the most controversial element of the government's earlier consultation. Charities argued persuasively that the proposal would reduce their capacity to fund frontline services without any corresponding benefit to the communities they serve.</p>
-<p>The decision to shelve this proposal means that charities which operate social enterprises, trading subsidiaries, or commercial activities to cross-subsidise their charitable work retain their current tax position. For insurance purposes, this is relevant because it preserves a funding model that many charities depend on — and the commercial activities themselves create insurance obligations (public liability, employers liability, property cover for commercial premises) that are distinct from the charity's core activities.</p>
+<p>The information sheet notes that the proposals may change as the legislation moves through Parliament, so treat the details below as the policy as announced.</p>
 
-<h2>Donation Tax Credit Changes</h2>
-<p>Budget 2026 did include changes to the donation tax credit regime. These changes affect the incentive structure for individual charitable giving — the tax credit that donors receive when they make qualifying donations to registered charities. The details of these changes affect charities' income forecasting and budgeting, which has a downstream effect on insurance.</p>
-<p>Charities that rely significantly on individual donations to fund their operations should review their income assumptions and consider whether their current insurance programme reflects the right asset values and liability limits given their actual financial position. If donation income is expected to change materially, the charity's ability to self-fund a significant uninsured loss also changes.</p>
+<h2>The Ten Changes in Brief</h2>
+<ul>
+<li>A cap on donations eligible for the donation tax credit at the lower of $100,000 or the donor's taxable income, for donations made on or after 1 April 2027. The 33⅓% rate is retained.</li>
+<li>Membership subscriptions and levies to remain non-taxable for taxable not-for-profits, maintaining the existing position, from 1 April 2027 for most taxpayers.</li>
+<li>The effective tax-free threshold for smaller not-for-profits raised from $1,000 to $10,000, from the 2027–28 income year.</li>
+<li>Taxable not-for-profits with income of $10,000 or less not required to file a return unless Inland Revenue asks, from the 2027–28 income year.</li>
+<li>Financial institutions to report interest paid to customers exempt from resident withholding tax, from 1 April 2028.</li>
+<li>Optional in-year donation tax credit refunds for people with reportable income such as salary and wages, from 1 April 2028.</li>
+<li>An option for donors to transfer their donation tax credit refund to the charity, paid anonymously to the charity's nominated bank account, from 1 April 2028.</li>
+<li>An option for not-for-profits to treat volunteer honoraria as salary or wages rather than schedular payments, from 1 April 2028.</li>
+<li>Repeal of the income tax exemption for non-resident charities on income sourced here that is not business income, from 1 April 2028.</li>
+<li>A requirement for trusts allocating income to tax-exempt beneficiaries to pay it in money within a specified period, or have it taxed at the trustee rate, from the 2028–29 income year.</li>
+</ul>
 
-<h2>Tier 4 and the Combined Annual Return</h2>
-<p>One of the ongoing administrative simplifications for the sector is the Tier 4 regime. Charities with annual operating payments below $140,000 can file a Combined Tier 4 Annual Return, which reduces reporting burden. From April 2025, charities with only exempt income do not need to file income tax returns at all — a meaningful administrative relief for smaller organisations.</p>
-<p>Tier 4 charities are often the least well-resourced when it comes to insurance review. The same budget pressure that qualifies them for simplified reporting often means their insurance arrangements are the least likely to have been reviewed recently. A charity with $100,000 in annual turnover may still have significant assets (a community hall), significant liability exposure (public events, volunteers), and real governance risk (incorporated society officers) — none of which changes because of a Tier 4 classification.</p>
+<h2>Donation Income for Charities With Large Donors</h2>
+<p>Inland Revenue's <a href="https://www.taxpolicy.ird.govt.nz/-/media/project/ir/tp/publications/2026/ris-changing-donation-tax-credit.pdf?modified=20260811213329" target="_blank" rel="noopener noreferrer">regulatory impact statement on the donation tax credit</a> estimates the cap affects about 350 donors, around 0.1% of claimants, but that those donors account for about 10% of all donations claimed. It rates the impact on donee organisations as unknown and notes that arts and similar charities may be most exposed to reduced high-value giving.</p>
+<p>Most charities will see no change. For the minority that depend on a few very large gifts, income from April 2027 is less predictable, and income uncertainty is when boards are most tempted to trim insurance. The right response is to review sums insured and limits against actual exposure, not to cut cover by a flat percentage. A smaller reserve means less capacity to absorb an uninsured loss, not more.</p>
 
-<h2>The Insurance Implication of Funding Uncertainty</h2>
-<p>Any change to the tax and regulatory environment for charities affects the sector's financial confidence. When income is less predictable — whether because of donation tax credit changes, government contract reviews, or broader economic conditions — the temptation to reduce costs, including insurance costs, increases. This is the wrong response.</p>
-<p>Insurance is not a cost to cut when budgets are tight; it is a financial protection that becomes more important when the organisation's ability to absorb an uninsured loss is reduced. A charity with declining reserves and a significant uninsured claim is in a far worse position than a well-insured charity facing the same claim. The right response to funding pressure is right-sizing insurance — ensuring cover reflects actual assets and risk — not removing it.</p>
+<h2>Smaller Organisations and the $10,000 Threshold</h2>
+<p>Raising the effective tax-free threshold to $10,000 and removing the filing requirement below it will reduce compliance work for many small taxable not-for-profits, such as clubs and societies that are not registered charities. Less contact with Inland Revenue does not change their liability exposure. A club with modest income can still run events, hold a lease on a clubroom and rely on volunteers, so public liability and volunteer accident cover remain as relevant as before.</p>
 
-<h2>Records in Te Reo Māori</h2>
-<p>One positive administrative change that received less attention than it deserved: as of March 2025, charities can maintain their financial and governance records in te reo Māori. This is a meaningful recognition of the many organisations — including marae, iwi trusts, and kura — that operate primarily in te reo. For insurance purposes, the underlying obligations remain the same; the language in which records are kept does not change the need for adequate cover.</p>
+<h2>Volunteer Honoraria</h2>
+<p>The option to treat honoraria as salary or wages from April 2028 is intended to simplify volunteers' tax obligations and reduce PAYE and ACC compliance. Because the change touches PAYE and ACC compliance, organisations that pay honoraria should take advice before adopting it, and confirm that their volunteer personal accident policy still describes the people who receive honoraria correctly.</p>
 
-<h2>Reviewing Your Insurance in the Context of Tax Changes</h2>
-<p>Budget 2026's charity tax changes are a good prompt for an insurance review — not because the tax changes directly affect insurance, but because both reflect the current financial and regulatory environment your organisation is operating in. A specialist charity broker will ask the right questions about your current income, assets, and risk profile and ensure your cover is appropriate for where you are now, not where you were three years ago.</p>
-<p>To discuss your organisation's cover in light of recent changes, <a href="/contact/">get a quote</a> from one of our specialist charity insurance brokers.</p>
-    `,
+<h2>Receipts and Refund Transfers</h2>
+<p>From 1 April 2028, donors would be able to transfer refunds to the charity through myIR, and refunds would be claimed through receipt upload. Charities should make sure their receipts meet Inland Revenue's requirements and that a nominated bank account is in place. Our guide to <a href="/blog/donation-receipts-donee-status-budget-2026/">donation receipts and donee status</a> covers the detail, including the controls that matter for fidelity cover.</p>
+
+<h2>Reviewing Cover in Light of the Changes</h2>
+<p>The Budget 2026 package is a good prompt for a review because it changes the financial picture many organisations will be working with over the next two years. A specialist will ask about current income, assets and activities and make sure limits reflect where the organisation actually is. To arrange that, <a href="/contact/">Get a Quote</a> and a Registered Financial Service Provider who works with not-for-profits will be in touch within one business day.</p>
+
+<p><em>Sources: Inland Revenue Tax Policy, Budget 2026 charities and not-for-profits information sheet and regulatory impact statement on the donation tax credit (12 May 2026). Checked 10 October 2026.</em></p>
+`,
   },
   {
     slug: 'expanded-officer-definition-trustee-liability',
@@ -1415,6 +1421,135 @@ export const blogPosts: BlogPost[] = [
 <p>charityinsurance.co.nz passes enquiries to Registered Financial Service Providers who place cyber cover for not-for-profit organisations and can explain how a policy treats incidents at your suppliers. Get a Quote and a specialist will be in touch within one business day.</p>
 
 <p><em>Sources: NCSC Cyber Threat Report 2026; Office of the Privacy Commissioner. All checked 10 October 2026.</em></p>
+`,
+  },
+  {
+    slug: "donation-receipts-donee-status-budget-2026",
+    title: "Donation Receipts and Donee Status: Getting It Right",
+    excerpt: "A receipt missing one detail can cost a donor their tax credit. What Inland Revenue requires, how donee status works, and what Budget 2026's cap and refund transfers mean for receipting from 2027 and 2028.",
+    date: '2026-10-10',
+    author: 'The CharityInsurance Crew',
+    readTime: '7 min read',
+    category: 'Governance & Compliance',
+    image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1920&q=80',
+    content: `
+<p>For many charities, the donation receipt is the least glamorous document they produce and one of the most consequential. A receipt that is missing a required detail can cost the donor their tax credit, and Budget 2026 has set out changes that will make receipts more central still. Inland Revenue's <a href="https://www.taxpolicy.ird.govt.nz/-/media/project/ir/tp/publications/2026/is-charities-not-for-profits.pdf?modified=20260528020135" target="_blank" rel="noopener noreferrer">Budget 2026 information sheet on charities and not-for-profits</a> describes a cap on the donation tax credit from April 2027, followed in April 2028 by in-year refunds and the option for donors to pass their refund straight to the charity.</p>
+
+<p>This guide covers what donee status is, what a valid receipt must contain, what is changing, and where the risks sit for the people who run receipting.</p>
+
+<h2>Donee Status Comes First</h2>
+
+<p>A donor can only claim a tax credit for a gift to an approved donee organisation. Inland Revenue's page on <a href="https://ird.govt.nz/roles/not-for-profits-and-charities/setting-up/donee-organisations" target="_blank" rel="noopener noreferrer">donee organisations</a> explains that to qualify an organisation must use at least 75% of its funds both on purposes within the country and for charity work, or for the public good if it is not a charity. For registered charities, Inland Revenue checks eligibility itself and the charity does not need to apply. Charities that spend more than 25% of their funds on purposes overseas can apply for overseas donee status, which is a separate process.</p>
+
+<p>Inland Revenue publishes a searchable list of approved donee organisations. It is worth checking that your organisation appears on it under its current name, particularly after a restructure, a merger or a change of legal form. A charity that has changed its structure should not assume donee status carried across automatically.</p>
+
+<h2>What a Valid Receipt Must Show</h2>
+
+<p>Inland Revenue's page on <a href="https://www.ird.govt.nz/roles/not-for-profits-and-charities/running-your-nfp/requirements-for-creating-donation-receipts" target="_blank" rel="noopener noreferrer">requirements for creating donation receipts</a>, last updated December 2025, lists what each receipt must include:</p>
+
+<ul>
+<li>the full name of the donor, or their partner's name</li>
+<li>the amount of money donated</li>
+<li>the date of the donation, or the tax year it was made in</li>
+<li>a clear statement that it was a donation</li>
+<li>the organisation's name and IRD number</li>
+<li>the Charities Services registration number, if the organisation has one</li>
+<li>official letterhead or an official stamp with the organisation's name</li>
+<li>the full name, designation and signature of an authorised person</li>
+<li>a unique receipt number, where applicable</li>
+<li>the word "copy" or "replacement" on a replacement receipt</li>
+</ul>
+
+<p>Inland Revenue warns that if any details are missing, the donor may not be able to get money back for that donation. It also states that donations of property, including cryptoassets, do not qualify. A charity that accepts goods, shares or digital assets should not issue a donation receipt for them, however generous the gift.</p>
+
+<h2>What Budget 2026 Changes</h2>
+
+<p>The information sheet lists ten changes affecting the sector. Three bear directly on receipting.</p>
+
+<p>From donations made on or after 1 April 2027, the amount eligible for the credit will be capped at the lower of $100,000 or the donor's taxable income. The rate stays at 33⅓%, so the maximum annual credit is $33,333.33. Inland Revenue's <a href="https://www.taxpolicy.ird.govt.nz/-/media/project/ir/tp/publications/2026/ris-changing-donation-tax-credit.pdf?modified=20260811213329" target="_blank" rel="noopener noreferrer">regulatory impact statement</a> estimates that about 350 donors, around 0.1% of claimants, would be affected, but that their donations represent about 10% of all donations claimed. It rates the effect on donee organisations as unknown. Charities that rely on a small number of very large gifts should talk to those donors early.</p>
+
+<p>From 1 April 2028, individuals with reportable income such as salary and wages would be able to choose to receive refunds during the year rather than after it, claimed through the receipt upload feature in myIR. From the same date, donors would be able to elect to transfer their refund to the charity. The information sheet says transferred refunds would be paid as a single deposit to the charity's nominated bank account and would be anonymous, and that if the charity has no account set up the refund goes back to the donor.</p>
+
+<p>The sheet notes that the proposals may change as the legislation moves through Parliament. The practical message is still clear: receipts that donors can upload cleanly, and a nominated bank account set up with Inland Revenue, will matter more from 2028 than they do now.</p>
+
+<h2>Where the Risks Sit</h2>
+
+<p>Receipting creates three exposures that boards tend to overlook.</p>
+
+<p>The first is internal fraud. Whoever controls receipting can issue receipts for donations that were never made, or record cash gifts in the receipt book but not in the bank. Separating the person who issues receipts from the person who banks donations, and reconciling receipt numbers to deposits each month, closes most of that gap. Fidelity or crime cover is the insurance that responds when money is taken dishonestly, and many policies expect basic controls of this kind to be in place.</p>
+
+<p>The second is privacy. A receipt file holds names, contact details and giving history, and donors who give to some causes may regard that history as sensitive. The same Privacy Act 2020 obligations apply to a spreadsheet of receipts as to any other database, and a breach involving donor records is exactly what cyber cover's breach response section is designed for.</p>
+
+<p>The third is governance. Receipting is a compliance process like any other, and repeated errors are a board issue rather than an administrative one. Trustee liability cover funds the defence of claims and investigations against board members, but it does not fix a receipting system; only the board can do that.</p>
+
+<h2>A Short Receipting Checklist</h2>
+
+<p>Confirm your organisation is on Inland Revenue's donee list under its current name. Check your receipt template against every item on Inland Revenue's list, and use the sample in Inland Revenue's donation receipt template, form IR1130, if you are unsure. Make sure property donations are acknowledged with a thank-you letter, not a receipt. Separate receipting from banking and reconcile monthly. Before April 2028, decide who will manage the charity's nominated bank account for transferred refunds and how those anonymous deposits will be recorded.</p>
+
+<h2>Check the Cover Behind the Controls</h2>
+
+<p>Fidelity limits, cyber breach response and trustee liability are often set once and forgotten. charityinsurance.co.nz passes enquiries to Registered Financial Service Providers who place cover for not-for-profit organisations. Get a Quote and a specialist will be in touch within one business day. For a wider view of the Budget 2026 changes, see our article on <a href="/blog/budget-2026-charity-tax-changes-insurance-implications/">Budget 2026 charity tax changes</a>.</p>
+
+<p><em>Sources: Inland Revenue, Donee organisations and Requirements for creating donation receipts; Inland Revenue Tax Policy, Budget 2026 charities and not-for-profits information sheet and regulatory impact statement on the donation tax credit. Checked 10 October 2026.</em></p>
+`,
+  },
+  {
+    slug: "closing-or-merging-a-charity-insurance-checklist",
+    title: "Closing or Merging a Charity: The Insurance Checklist",
+    excerpt: "Liability for past activity outlives the organisation. What Charities Services requires when a charity winds up or deregisters, and the run-off, asset and records decisions that should sit alongside it.",
+    date: '2026-10-10',
+    author: 'The CharityInsurance Crew',
+    readTime: '7 min read',
+    category: 'Risk Management',
+    image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1920&q=80',
+    content: `
+<p>When a board starts asking whether its organisation should merge with another, hand its work to a larger charity, or close, the focus is understandably on people, services and assets. Insurance tends to be handled last, often by cancelling every policy on the day the doors close. That is usually the most expensive way to do it.</p>
+
+<p>This guide covers what Charities Services requires when a charity winds up or deregisters, and the insurance decisions that should sit alongside those steps.</p>
+
+<h2>What Charities Services Requires</h2>
+
+<p>Charities Services' guidance on <a href="https://www.charities.govt.nz/im-a-registered-charity/deregistration-and-winding-up/winding-up-a-charity" target="_blank" rel="noopener noreferrer">winding up a charity</a>, updated in June 2026, says a registered charity can choose to wind up at any time. Before it does, it should pay its outstanding debts and liabilities, collect money owed to it, and follow any wind-up clause in its governing document. Remaining assets such as investments, cash or land "must be distributed in accordance with the governing document and used only for charitable purposes", and can be transferred to another registered charity if the governing document allows. The charity must notify Charities Services and apply to deregister, update the Companies Office if it is incorporated, and contact Inland Revenue about its tax position.</p>
+
+<p>The companion page on <a href="https://www.charities.govt.nz/im-a-registered-charity/deregistration-and-winding-up/deregistration" target="_blank" rel="noopener noreferrer">deregistration</a> sets out the consequences. A deregistered charity generally becomes liable for income tax unless another exemption applies, and may owe a one-off tax on accumulated assets held at the date of deregistration. To avoid that, within 12 months it must either distribute those assets to another registered charity or for charitable purposes, or reregister. It may also lose the ability to issue donation receipts and lose funders that only support registered charities.</p>
+
+<p>A charity that is changing its legal structure rather than closing, for example moving from a trust to an incorporated society, can keep its registration number by updating its details and providing its new governing document.</p>
+
+<h2>Claims Do Not Stop When the Charity Does</h2>
+
+<p>The most important insurance point is that liability for past activity outlives the organisation. A complaint about a counselling session, a building that was not maintained, or a decision the board made years earlier can surface long after the charity has stopped operating.</p>
+
+<p>Trustee liability, professional indemnity and employment practices policies are usually written on a claims-made basis. They respond to claims first made during the policy period, not to the work done during it. If those policies are cancelled when the charity closes, a later claim about earlier activity has nothing to respond to. Run-off cover, sometimes called an extended reporting period, keeps the policy able to accept claims about past activity for a set period after operations end. It is generally arranged before the policy lapses, so the decision belongs on the wind-up plan, not after it.</p>
+
+<p>Former trustees have a direct interest in this. They are the people most likely to be named in a later claim, and once the charity has distributed its assets there may be no organisation left to fund their defence.</p>
+
+<h2>Insure Assets on Their Real Timeline</h2>
+
+<p>Assets do not disappear on the day services stop. Buildings stay standing until they are sold or transferred, vehicles stay on the road until disposal, and leased premises carry obligations until the lease ends. Property, motor and public liability cover should run until each asset has actually left the charity's hands, not until the last service was delivered. A vacant building can also trigger conditions in a property policy, so tell the insurer if premises will be empty for any length of time.</p>
+
+<p>Wind-up is also a period of elevated fidelity risk. Assets are being sold, accounts closed and money moved to other charities, often by a shrinking group of people with less oversight than usual. Keeping fidelity or crime cover in place until the final distribution is made, and requiring two signatories for every transfer, is a sensible precaution.</p>
+
+<h2>Records and Personal Information</h2>
+
+<p>A closing charity still holds personal information about clients, donors, staff and volunteers, and the Privacy Act 2020 continues to apply to it. Decide early who will hold the records after closure, how long they need to be kept, and how anything no longer needed will be securely destroyed. If records are transferred to a successor charity, make sure the people concerned would reasonably expect that, and document the transfer. Cyber cover that is cancelled before the records are dealt with leaves a gap at an awkward moment.</p>
+
+<h2>Merging Is Different</h2>
+
+<p>In a merger, one organisation usually continues and takes on the activities, staff and sometimes the liabilities of the other. The continuing organisation's insurers need to know what it is taking on before the merger completes. Two questions matter most. First, does the continuing organisation's trustee liability and professional indemnity cover respond to claims about work the other organisation did before the merger? Many policies limit cover for earlier acts unless that is specifically agreed. Second, has the departing organisation arranged run-off on its own policies to protect its outgoing trustees? Both answers should be in writing before the merger date.</p>
+
+<h2>Incorporated Societies That Missed Reregistration</h2>
+
+<p>Some organisations are facing these questions involuntarily. According to the Companies Office's guidance on <a href="https://is-register.companiesoffice.govt.nz/help-centre/getting-started/how-recent-law-changes-affect-incorporated-societies/" target="_blank" rel="noopener noreferrer">recent law changes affecting incorporated societies</a>, any society that did not reregister by 5 April 2026 has been removed from the register. Restoration is possible on application before 6 April 2032. Our article on <a href="/blog/incorporated-societies-re-registration-what-happened/">what happens after the reregistration deadline</a> covers that process.</p>
+
+<h2>A Wind-Up Insurance Checklist</h2>
+
+<p>List every policy and mark which are claims-made. Decide on run-off for each claims-made policy, record the decision in the minutes, and arrange it before the policy lapses. Keep property, motor and public liability in place until each asset or obligation is actually gone. Maintain fidelity cover until the final distribution. Agree who will hold records and personal information after closure. If merging, confirm in writing how the continuing organisation's policies treat the other organisation's past activities.</p>
+
+<h2>Talk to Someone Who Has Done This Before</h2>
+
+<p>Run-off periods and merger arrangements are technical, and the decisions are hard to reverse once policies lapse. charityinsurance.co.nz passes enquiries to Registered Financial Service Providers who place cover for not-for-profit organisations. Get a Quote and a specialist will be in touch within one business day.</p>
+
+<p><em>Sources: Charities Services, Winding up a charity and Deregistration; Companies Office, How recent law changes affect incorporated societies. Checked 10 October 2026.</em></p>
 `,
   },
 ];

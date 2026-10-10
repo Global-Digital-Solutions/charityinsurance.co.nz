@@ -521,4 +521,28 @@ export const landingPages: LandingPage[] = [
     coverageAngle: "The exposure that most often catches conservation groups is the gap between how they started and what they have become. A group with no employees is a volunteer association and has no duties under the Health and Safety at Work Act 2015, although it can still be sued under the common law. Once it employs a coordinator, even part time, it takes on the Act's duties, and volunteers who work regularly as an integral part of its operations become volunteer workers. Changes to the Act taking effect on 1 April 2027 will focus small organisations on critical risks, the hazards likely to cause death or serious harm, which in conservation work typically means chainsaws, vehicles and quad bikes, water and steep ground. The same changes remove landowners' health and safety duties to people using their land purely for recreation, but not where the recreation is connected to the landowner's own work. Land-owning trusts should therefore keep public liability in place for visitors rather than assume the reform removes the risk. Alongside that sits volunteer accident cover, because ACC weekly compensation depends on earnings and many of the most committed conservation volunteers are retired.",
     cta: "Get a Quote",
   },
+  {
+    slug: "youth-organisation-insurance",
+    metaTitle: "Youth Organisation Insurance | Get a Quote",
+    metaDesc: "Insurance for youth groups, clubs and mentoring programmes. Public liability, abuse and molestation, volunteer accident and trustee cover. Get a Quote.",
+    h1: "Insurance for Youth Organisations and Youth Groups",
+    intro: "Youth organisations carry a duty of care that most adult community groups never face. Leaders take young people on camps, tramps and trips, run activities with real physical risk, transport them in private vehicles and hold personal information about them and their whānau. Most of this is done by volunteers, and the insurance programme often dates from when the group was a fraction of its current size.",
+    heroImage: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1920&q=80",
+    keyPoints: [
+      "Public liability for meetings, camps, outdoor activities, trips and events, with any adventure activities declared to the insurer",
+      "Abuse and molestation cover, which many liability policies exclude or sub-limit unless it is specifically included",
+      "Volunteer personal accident cover for leaders, including those who are students or retired",
+      "Trustee and committee liability for decisions on safeguarding, vetting, complaints and employment",
+      "Cyber and privacy cover for the personal information held about young people and their families",
+      "Property and equipment cover for halls, camp gear, boats and specialist equipment",
+    ],
+    whyUs: "charityinsurance.co.nz passes enquiries to Registered Financial Service Providers who place cover for not-for-profit organisations, including youth groups, clubs and mentoring programmes. A specialist will look at what your group actually does, how leaders are vetted and supervised, and where your current policies stop. Get a Quote and a specialist will be in touch within one business day.",
+    relatedOrgs: [
+      "youth-organisations",
+      "sports-clubs",
+      "community-groups-trusts",
+    ],
+    coverageAngle: "The exposure youth organisations most often misjudge is abuse and molestation. Many public liability policies exclude it outright or cap it at a low sub-limit, and the claims that arise can surface many years after the events concerned, which makes the policy wording at the time of the incident important long after it has been replaced. Safeguarding practice and insurance are linked: insurers ask how leaders are vetted, supervised and trained, and the answers shape both the cover offered and its terms. Groups funded by government agencies to work with children should note that the Children's Act 2014 requires safety checks for paid workers in government-funded organisations, renewed every three years; Oranga Tamariki's guidance states that most unpaid volunteers fall outside that requirement, so the group's own vetting policy decides how volunteers are checked. Adventure activities on camps, such as climbing, kayaking or river crossings, should be declared to the insurer, and volunteer accident cover matters because ACC weekly compensation is only paid to people who were earning when injured, which excludes many student and retired leaders.",
+    cta: "Get a Quote",
+  },
 ];
