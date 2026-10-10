@@ -10,7 +10,7 @@ export default function TermsPage() {
   return (
     <main className="max-w-4xl mx-auto px-4 py-16">
       <h1 className="text-3xl font-extrabold text-slate-900 mb-2">Terms of Use</h1>
-      <p className="text-slate-500 text-sm mb-10">Last updated: 4 May 2026</p>
+      <p className="text-slate-500 text-sm mb-10">Last updated: 10 October 2026</p>
       <div className="prose max-w-none">
         <h2>About This Service</h2>
         <p>CharityInsurance.co.nz is operated by Cover4You, a trading style of GDS (NZ). We are a comparison and broker referral service, not an insurer or licensed financial advice provider. All financial advice is provided by the licensed insurance broker handling your enquiry, in accordance with the Financial Markets Conduct Act 2013.</p>
@@ -30,6 +30,9 @@ export default function TermsPage() {
 
         <h2>Referral Service Disclosure</h2>
         <p>We may receive a referral fee from insurance brokers or insurers when a policy is arranged through our referral service. This fee is paid by the broker or insurer, not the consumer. All fees applicable to your cover will be disclosed by the broker prior to arranging any policy.</p>
+
+        <h2>Information About Insurers and Other Providers</h2>
+        <p>Information on this website about insurers, policy wordings and other providers was accurate at the time of publishing. Providers change their products, terms and prices, so this information may change after publication. Always confirm details directly with the provider before relying on them. If you are a reader or a provider and you notice information that is outdated or incorrect, please tell us at <a href="mailto:hello@cover4you.co.nz" className="text-emerald-600">hello@cover4you.co.nz</a> and we will review it.</p>
 
         <h2>Third-Party Links</h2>
         <p>This website may contain links to external websites. We have no control over the content of those sites and accept no responsibility for their content, privacy practices, or availability.</p>

@@ -63,54 +63,52 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'volunteer-insurance-nz-what-acc-doesnt-cover',
-    title: 'What ACC Doesn\'t Cover for Your Volunteers — and Why You Need Voluntary Workers Insurance',
-    excerpt: 'ACC handles most workplace injuries in NZ — but it has real gaps for volunteers. If you\'re relying solely on ACC to protect your voluntary workforce, you may be leaving people exposed.',
-    date: '2026-08-15',
+    title: "What ACC Doesn't Cover for Your Volunteers",
+    excerpt: "ACC covers treatment for injured volunteers, but weekly compensation depends on earnings, mental injury cover is narrow, and overseas treatment costs are excluded. Here is where volunteer accident cover fits.",
+    date: "2026-10-10",
     author: 'The CharityInsurance Crew',
     readTime: '7 min read',
     category: 'Volunteer Management',
     image: 'https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=1920&q=80',
     content: `
-<p>New Zealand\'s ACC system is one of the country\'s great social achievements — a no-fault accident compensation scheme that covers most personal injuries for residents and visitors alike. But "most" doesn\'t mean "all". And when it comes to volunteers, the gaps matter.</p>
+<p>ACC is a no-fault scheme that covers most accidental injuries, including injuries to people who are volunteering. That is a strong foundation, but it was designed around earners, and many of the people who keep charities running are not earning. The gaps matter most to exactly the volunteers organisations rely on most.</p>
 
 <h2>What ACC Does Cover for Volunteers</h2>
-<p>ACC covers volunteers for physical injuries suffered during volunteer activities — sprains, fractures, cuts, and similar physical harm. Treatment costs, and weekly compensation at a reduced rate (set at minimum wage for volunteers, as they have no actual earnings base), are provided through the standard ACC scheme.</p>
+<p>A volunteer injured in an accident while helping your organisation can claim ACC in the same way as anyone else for treatment and rehabilitation. The limits appear when the injury stops someone from working, causes harm that is not physical, or happens overseas.</p>
 
 <h2>The Gaps That Catch Organisations Out</h2>
 
-<h3>Weekly Compensation Rate</h3>
-<p>ACC pays weekly compensation based on earnings. For a volunteer — who has no earnings — the default rate is the minimum wage. For a skilled professional volunteering their expertise (a doctor giving their Saturday to a free clinic, a lawyer volunteering with a legal aid service), this is a fraction of what they would otherwise earn. Voluntary Workers Accident insurance can supplement ACC up to a specified level more reflective of the volunteer\'s actual income.</p>
+<h3>Weekly Compensation</h3>
+<p>According to <a href="https://www.acc.co.nz/im-injured/financial-support/weekly-compensation" target="_blank" rel="noopener noreferrer">ACC's weekly compensation page</a>, to receive weekly compensation a person needs to be an employee, self-employed or a shareholder-employee, and ACC pays up to 80% of their income. A volunteer who also has a paid job may therefore receive weekly compensation based on that income. A retired volunteer, a student, or a parent at home full time generally has no income for ACC to replace, so they receive treatment support but no weekly payments. For many charities that describes the most active part of the volunteer base.</p>
 
-<h3>Non-Physical Harm</h3>
-<p>ACC only covers physical injury. Mental injury suffered as a direct result of physical injury may be covered — but standalone psychological harm (such as PTSD from witnessing a traumatic event without personal physical injury) generally is not. This is a meaningful gap for organisations whose volunteers work in high-stress environments: disaster response, mental health services, animal welfare emergencies.</p>
+<h3>Mental Injury</h3>
+<p>ACC's cover for mental injury is narrower than its cover for physical injury. Its <a href="https://www.acc.co.nz/assets/Policy-and-Procedure-documents/Work-related-mental-injury-policy.pdf" target="_blank" rel="noopener noreferrer">work-related mental injury policy</a> requires the injury to have been caused by a single, sudden event that occurred in the person's employment, and the policy does not address volunteers. A volunteer who experiences psychological harm after attending a traumatic event, without any physical injury, should not assume ACC will respond. That matters for organisations whose volunteers work in rescue, crisis support or disaster response.</p>
 
-<h3>Death Benefits</h3>
-<p>ACC pays a lump sum on death — but the lump sum for a volunteer (based on minimum wage) is lower than for a paid employee. If a volunteer dies while serving your organisation, the gap between the ACC death benefit and what their family might reasonably expect can be significant. Voluntary Workers Accident insurance can provide a specified death benefit regardless of earnings.</p>
+<h3>Volunteering Overseas</h3>
+<p>ACC's page for <a href="https://www.acc.co.nz/im-injured/what-we-cover/if-youre-a-new-zealander-injured-overseas" target="_blank" rel="noopener noreferrer">residents injured overseas</a> says it can cover an injury that happens overseas for people ordinarily resident here, generally on trips of less than six months. It does not pay overseas treatment costs, emergency travel or disrupted travel plans, and ACC itself says travellers still need travel insurance. Charities sending volunteers offshore should arrange travel and personal accident cover for each trip.</p>
 
-<h3>Overseas Volunteers</h3>
-<p>ACC does not cover injuries suffered overseas, even if the volunteer is on an organisation-sanctioned trip. Any charities sending volunteers offshore need travel insurance with appropriate personal accident cover in addition to any ACC entitlements.</p>
+<h3>Serious and Permanent Injury</h3>
+<p>Where an injury is serious or fatal, ACC's support depends on the person's circumstances, including whether they were earning. Personal accident policies instead pay benefits set out in the policy schedule, such as lump sums for death or permanent disablement, which do not depend on the volunteer's income.</p>
 
-<h3>Gradual Process Claims</h3>
-<p>Injuries caused by gradual process — repetitive strain, chronic back injury from ongoing manual work — can be more complex to claim under ACC and may be partially or entirely declined depending on the work-related component assessment. Voluntary Workers Accident insurance provides an additional layer of certainty.</p>
-
-<h2>What Voluntary Workers Accident Insurance Provides</h2>
+<h2>What Volunteer Personal Accident Insurance Provides</h2>
+<p>Policy benefits vary, but cover commonly includes:</p>
 <ul>
-<li>Weekly compensation at a specified level (chosen by the organisation) — not minimum wage</li>
-<li>Death benefit at a specified sum insured</li>
-<li>Medical expenses top-up beyond ACC reimbursement</li>
-<li>Non-work-related accident cover in some policies</li>
-<li>Cover for overseas volunteering activities</li>
+<li>a weekly benefit at a level chosen by the organisation, payable regardless of the volunteer's earnings</li>
+<li>lump sum benefits for death or permanent disablement</li>
+<li>contributions towards some costs that ACC does not meet</li>
+<li>in some policies, cover for volunteering activities overseas</li>
 </ul>
+<p>Age limits, waiting periods and the definition of who counts as a volunteer differ between wordings, so read the schedule before relying on it.</p>
 
 <h2>Who Should Consider It</h2>
-<p>Any organisation that relies on volunteers for its operations should consider Voluntary Workers Accident insurance. This includes registered charities, community groups, sports clubs, churches, conservation organisations, and social service providers. The cost is typically modest — often a few hundred dollars per year for a small volunteer team — relative to the protection provided.</p>
+<p>Any organisation that relies on volunteers should consider this cover, particularly where volunteers do physical work, work in remote places, or are largely retired or not in paid employment. That includes registered charities, community groups, sports clubs, churches, conservation groups and social service providers.</p>
 
-<h2>The Reputational Dimension</h2>
-<p>Beyond the financial protection, Voluntary Workers Accident insurance sends a clear message to your volunteers: we value your contribution and we\'ve made sure you\'re protected. In a sector that depends entirely on volunteer goodwill, that matters.</p>
 <h2>Where This Sits in 2026</h2>
-<p>Two things have changed since this cover was last a routine agenda item for most boards. Officer duties under the Incorporated Societies Act 2022 are now explicit, which means a committee that knowingly leaves its volunteer workforce unprotected is making a governance decision rather than an oversight. And the statutory duty on registered charities to review governance procedures before 5 October 2026 gives every board a natural point to check whether volunteer protection has ever been formally considered.</p>
-<p>If your organisation has never priced this cover, the exercise is usually quick. For a fuller breakdown of benefit structures, age-related exposures, and how blanket cover works, see our <a href="/charity-insurance/volunteer-accident-insurance/">volunteer accident insurance</a> page.</p>
-    `,
+<p>Officer duties under the Incorporated Societies Act 2022 are now explicit, so a committee that knowingly leaves its volunteers unprotected is making a governance decision rather than an oversight. Registered charities have also just been through the first round of governance reviews required by the Charities Act 2005, which is a natural point to check whether volunteer protection has ever been formally considered. And changes to the Health and Safety at Work Act take effect on 1 April 2027, which we cover in <a href="/blog/health-and-safety-law-changes-volunteer-groups/">what volunteer groups need to know about the health and safety changes</a>.</p>
+<p>If your organisation has never priced this cover, Get a Quote and a specialist will be in touch within one business day. For more on benefit structures and how blanket cover works, see our <a href="/charity-insurance/volunteer-accident-insurance/">volunteer accident insurance</a> page.</p>
+
+<p><em>Sources: ACC, Weekly compensation; ACC, If you're a New Zealander injured overseas; ACC, Work-related mental injury policy. Checked 10 October 2026.</em></p>
+`,
   },
   {
     slug: 'incorporated-societies-act-2022-insurance-implications',
@@ -314,7 +312,7 @@ export const blogPosts: BlogPost[] = [
 </ul>
 
 <h3>Voluntary Workers Accident</h3>
-<p>Most sports club volunteers are covered by ACC for physical injuries. But as discussed in our full article on volunteer insurance, ACC\'s compensation rates for volunteers are based on minimum wage — not the volunteer\'s actual earning capacity. Voluntary Workers Accident insurance supplements ACC and provides a higher level of income replacement and a meaningful death benefit.</p>
+<p>Most sports club volunteers are covered by ACC for physical injuries. But as discussed in our full article on volunteer insurance, ACC weekly compensation is only available to people who were employees, self-employed or shareholder-employees when injured, so retired, student and other non-earning volunteers receive treatment support but no income replacement. Voluntary Workers Accident insurance supplements ACC with a weekly benefit that does not depend on earnings, and a specified death benefit.</p>
 
 <h3>Property and Equipment</h3>
 <p>Club equipment — uniforms, balls, training gear, timing equipment, scoreboards, maintenance machinery — represents a significant asset. Property insurance covering theft, accidental damage, and fire should be in place for all significant club property. Consider replacement value, not book value, when setting sums insured.</p>
@@ -481,13 +479,13 @@ export const blogPosts: BlogPost[] = [
 <p>Claims against trustees can arise from employment disputes, financial mismanagement, health and safety failures, regulatory investigations, and decisions that harm beneficiaries or creditors. Defence costs alone can run to tens of thousands of dollars. Trustee Liability insurance responds to these costs so individual board members are not left to fund their own defence.</p>
 
 <h3>Volunteer Personal Accident Insurance</h3>
-<p>ACC covers most physical injuries in New Zealand, including injuries to volunteers. However, ACC has important limitations: it pays income replacement based on minimum wage for volunteers (not their actual income), and it doesn't cover all types of harm. Volunteer Personal Accident insurance supplements ACC — providing better income replacement and covering gaps that ACC cannot address. For organisations with significant volunteer workforces, this is an important cover.</p>
+<p>ACC covers most physical injuries in New Zealand, including injuries to volunteers. However, ACC has important limitations: weekly compensation is only available to people who were earning when injured, so non-earning volunteers receive no income replacement, and it doesn't cover all types of harm. Volunteer Personal Accident insurance supplements ACC, providing benefits that do not depend on earnings and covering gaps that ACC cannot address. For organisations with significant volunteer workforces, this is an important cover.</p>
 
 <h3>Professional Indemnity Insurance</h3>
 <p>Professional indemnity insurance covers claims arising from professional advice or services your organisation provides. This is relevant for any NFP that delivers counselling, budgeting advice, legal advocacy, educational services, or other professional or quasi-professional activities. The standard of care expected does not diminish because your services are delivered for free — professional indemnity covers your defence costs and any damages awarded regardless of whether a fee was charged.</p>
 
 <h3>Employers Liability Insurance</h3>
-<p>If your organisation employs paid staff, employers liability insurance is essential. It covers claims from employees for work-related injury or illness that falls outside ACC's scope. In New Zealand, employers also have obligations under the Health and Safety at Work Act 2015, and statutory liability insurance covers defence costs and fines from prosecution under this legislation.</p>
+<p>If your organisation employs paid staff, employers liability insurance is essential. It covers claims from employees for work-related injury or illness that falls outside ACC's scope. In New Zealand, employers also have obligations under the Health and Safety at Work Act 2015, and statutory liability insurance can cover defence costs in a prosecution under this legislation. Fines under the Health and Safety at Work Act 2015 cannot lawfully be insured (section 29 of that Act).</p>
 
 <h3>Cyber Insurance</h3>
 <p>The Privacy Act 2020 introduced mandatory reporting requirements for serious privacy breaches. NFPs hold significant personal data — donor records, beneficiary information, health data, employment records — that creates real cyber risk. Cyber insurance covers the costs of responding to a data breach: forensic investigation, legal advice, individual notification, regulatory engagement, and business interruption. For organisations holding sensitive data about vulnerable people, cyber insurance is no longer optional.</p>
@@ -554,7 +552,7 @@ export const blogPosts: BlogPost[] = [
 <p>The costs of responding to a data breach — forensic investigation, legal advice, individual notification (which can be substantial for a facility with hundreds of current and former residents), and regulatory engagement — can easily exceed $100,000. Cyber insurance is not a nice-to-have for aged care organisations; it is a core risk management tool.</p>
 
 <h2>Regulatory and Statutory Liability</h2>
-<p>Aged care organisations operate under multiple pieces of legislation that create statutory liability exposure: the Health and Safety at Work Act 2015, the Privacy Act 2020, the Health and Disability Commissioner Act 1994, the Residential Care and Disability Support Services Standards, and the Vulnerable Children Act 2014 (for staff working with residents with cognitive impairment who may be considered vulnerable). Statutory liability insurance covers defence costs and fines from regulatory proceedings — even where the ultimate outcome is favourable.</p>
+<p>Aged care organisations operate under multiple pieces of legislation that create statutory liability exposure: the Health and Safety at Work Act 2015, the Privacy Act 2020, the Health and Disability Commissioner Act 1994, the Residential Care and Disability Support Services Standards, and the Vulnerable Children Act 2014 (for staff working with residents with cognitive impairment who may be considered vulnerable). Statutory liability insurance covers defence costs in regulatory proceedings, even where the ultimate outcome is favourable, and some fines and penalties where the law allows them to be insured. Fines under the Health and Safety at Work Act 2015 cannot lawfully be insured.</p>
 
 <h2>Getting the Right Broker</h2>
 <p>Specialist aged care insurance requires a broker who understands both the healthcare sector and the not-for-profit governance structure. The combination of professional liability, governance liability, complex property, and health data risk requires bespoke structuring — not an off-the-shelf charity package.</p>
@@ -774,58 +772,53 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'charities-amendment-act-2023-governance-review-deadline',
-    title: 'Your Charity\'s Governance Review Deadline Is October 2026',
-    excerpt: 'The Charities Amendment Act 2023 requires all registered charities to formally review their governance procedures before 5 October 2026 — the deadline is now weeks away, and the annual return will ask whether the review has been done.',
-    date: '2026-09-01',
+    title: "Governance Reviews After 5 October: What Charities Do Now",
+    excerpt: "The first round of governance reviews under section 42G of the Charities Act 2005 fell due in October 2026. What the law requires, how to confirm the review to Charities Services, and what to do if your charity missed the date.",
+    date: "2026-10-10",
     author: 'The CharityInsurance Crew',
     readTime: '7 min read',
     category: 'Governance & Compliance',
     image: 'https://images.unsplash.com/photo-1553484771-371a605b060b?auto=format&fit=crop&w=1920&q=80',
     content: `
-<p>Most registered charities are aware that the Charities Amendment Act 2023 introduced significant changes to the sector. Fewer are aware that one of those changes — the requirement for a formal governance review — has a deadline of 5 October 2026, and that many charities are running out of time to complete it.</p>
+<p>Registered charities have now passed the first milestone of a duty that will recur for as long as they stay on the register. Section 42G of the <a href="https://legislation.govt.nz/act/public/2005/39/en/2026-06-06.pdf" target="_blank" rel="noopener noreferrer">Charities Act 2005</a>, inserted by the Charities Amendment Act 2023 with effect from 5 October 2023, requires every charitable entity to review its governance procedures at least every three years. That is why the sector has been working towards 5 October 2026 as the date for the first round of reviews.</p>
 
-<h2>What the Charities Amendment Act 2023 Requires</h2>
-<p>The Charities Amendment Act 2023 came into effect in stages — July 2023, October 2023, and July 2024. Among its most significant practical changes for registered charities is a mandatory governance review requirement. Every registered charity must formally review its governance procedures on a schedule, with the first review required to be completed before 5 October 2026. After that, reviews must occur at least every three years.</p>
-<p>This is not a paper exercise. Charities Services has signalled that governance review compliance will be part of its oversight framework. A charity that cannot demonstrate it has completed a governance review when asked to do so is at risk of regulatory scrutiny — and potentially deregistration in serious cases.</p>
+<p>If your board completed its review in time, the job now is to record it properly and act on what it found. If it did not, the sensible course is to complete it promptly rather than wait for the annual return to raise the question.</p>
 
-<h2>What Counts as a Governance Review?</h2>
-<p>The Act does not prescribe a single format for a governance review, but it should be a genuine assessment of the charity's governance procedures against good practice standards. Areas that a robust governance review typically covers include:</p>
+<h2>What the Law Requires</h2>
+<p>Section 42G says a charitable entity must review its governance procedures, "whether those are set out in its rules or elsewhere", at least every three years. When doing so, it must consider whether those procedures are fit for purpose, whether they help the charity achieve its charitable purpose, and whether they help it comply with the Act.</p>
+<p>The Act does not prescribe a format. Charities Services' guidance on <a href="https://www.charities.govt.nz/im-a-registered-charity/running-your-charity/governance-review-requirements" target="_blank" rel="noopener noreferrer">governance review requirements</a>, updated in September 2026, confirms that its checklist is optional and that charities "do not need to send us any other review records or supporting documents."</p>
+
+<h2>Telling Charities Services</h2>
+<p>The same guidance says charities must tell Charities Services when the review is complete, and that this can be done through the Annual Return or the Update details form. The charity confirms whether it has reviewed within the last three years, gives the completion date, and provides any amended rules.</p>
+<p>Boards should treat that confirmation the way they treat an insurance proposal form. A date declared on the annual return should be backed by minutes recording the discussion, a note of what was examined, and a record of anything the board resolved to change. If the review is ever questioned, those records are the evidence that it actually happened.</p>
+
+<h2>If Your Charity Missed the Date</h2>
+<p>Charities Services' guidance does not set out what happens to a charity that has not completed its first review, so there is no published penalty to cite. What is clear is that the duty is ongoing and that the annual return asks about it. A charity that has not yet reviewed should schedule the review now, complete it, and confirm it through the Update details form or its next annual return, rather than leaving a gap on the record.</p>
+
+<h2>Who Counts as an Officer</h2>
+<p>A governance review is also a good moment to check who the Act treats as an officer. Under section 4, an officer includes anyone in a position to exercise significant influence over substantial decisions of the entity. For a trust that includes the trustees; for other entities it includes members of the board or governing body and others in a position to exercise that influence, such as a chief executive or treasurer. It also includes a person given powers to make decisions that would otherwise fall to the board, whether or not they hold a formal position.</p>
+<p>Many trustee liability policies define the insured persons by reference to trustees, directors or committee members. If your organisation has a chief executive, treasurer or delegated decision-maker who meets the Act's definition, ask whether they are insured persons under your policy.</p>
+
+<h2>Disqualification of Individual Officers</h2>
+<p>Section 36C allows the Charities Registration Board to disqualify an officer for up to five years where the officer has engaged in serious wrongdoing in connection with the entity, or has failed significantly or persistently to meet their obligations under the Act or any other enactment. The notice must be published on a publicly accessible website, and a disqualified person cannot be an officer of any charitable entity while disqualified.</p>
+<p>For individual trustees, that makes regulatory defence a practical concern. Trustee liability cover that includes costs of responding to a regulatory investigation, not just civil claims, is worth confirming at renewal.</p>
+
+<h2>Insurance Gaps a Review Tends to Surface</h2>
+<p>Governance reviews often prompt boards to look at insurance for the first time in years. Common questions include:</p>
 <ul>
-<li>Whether the charity's constitution and rules remain fit for purpose</li>
-<li>Whether officer roles, responsibilities, and accountability structures are clear</li>
-<li>How conflicts of interest are identified and managed</li>
-<li>Financial oversight and reporting processes</li>
-<li>Volunteer and staff management procedures</li>
-<li>Compliance with the charity's own rules and with Charities Act requirements</li>
-<li>Whether the charity's activities remain within its stated charitable purposes</li>
+<li>whether the trustee liability limit still reflects the size and activities of the organisation</li>
+<li>whether volunteers are protected beyond ACC, which pays weekly compensation only to people who were employees, self-employed or shareholder-employees when injured</li>
+<li>whether events are covered by the annual public liability policy or need separate arrangements</li>
+<li>whether the charity holds personal information that would justify cyber cover</li>
+<li>whether advice-giving activities such as budgeting, counselling or advocacy need professional indemnity cover</li>
 </ul>
-<p>The governance review is also a natural moment to review insurance — because governance reviews consistently surface insurance gaps that boards were not previously aware of.</p>
 
-<h2>Insurance Gaps That Governance Reviews Surface</h2>
-<p>In the experience of specialist charity brokers, governance reviews commonly reveal one or more of these insurance gaps:</p>
-<p>Inadequate D&O limits — the trustee liability policy was set when the charity was smaller or had fewer activities, and the limit hasn't kept pace with the organisation's growth and risk profile.</p>
-<p>Volunteer cover absent or inadequate — the charity relies heavily on volunteers but has never arranged Volunteer Personal Accident insurance, assuming ACC coverage is sufficient for all purposes.</p>
-<p>Event cover assumptions — the board assumes all events are covered under the charity's annual public liability policy without ever having confirmed this with the broker.</p>
-<p>Cyber and privacy gaps — the charity holds significant personal data but has never discussed cyber insurance, assuming data protection is a technology issue rather than an insurance one.</p>
-<p>Professional indemnity absent for advice-giving activities — charities that provide budgeting advice, counselling, legal advocacy, or other professional services often lack the professional indemnity cover that these activities warrant.</p>
+<h2>Next Steps</h2>
+<p>Record the review, confirm it to Charities Services, and put the next one in the governance calendar no later than three years from the completion date. Then take the findings to your insurance review, because the same decisions about officers, delegations and activities shape what your policies need to cover.</p>
+<p>To have your cover checked against the outcome of your governance review, <a href="/contact/">Get a Quote</a> and a Registered Financial Service Provider who works with charities will be in touch within one business day.</p>
 
-<h2>The Expanded "Officer" Definition</h2>
-<p>One of the most significant changes in the Charities Amendment Act 2023 is the expansion of the definition of "officer." Under the new definition, an officer is not limited to formally appointed trustees or board members — it extends to anyone who has, or who regularly exercises, significant influence over the management or administration of the charity.</p>
-<p>In practice, this means that senior staff members, long-serving programme managers, key volunteers with significant operational authority, and influential advisors may now qualify as officers — with the personal liability consequences that officer status carries. Most Trustee Liability insurance policies are structured around named trustees or formally appointed board members. Whether these newly defined officers fall within your existing cover is a question worth putting directly to your broker.</p>
-
-<h2>Officers Can Now Be Disqualified Without Deregistering the Charity</h2>
-<p>Another significant change under the 2023 Amendment is that Charities Services can now disqualify individual officers without deregistering the entire charity. This is a targeted enforcement tool — it allows the regulator to remove individuals who have breached their duties or are unsuitable to serve, without punishing the whole organisation and the communities it serves.</p>
-<p>For individuals, this makes the personal liability dimension of officer status even more real. An officer disqualification can have significant professional and reputational consequences beyond the charity itself. D&O cover that includes regulatory defence costs — not just civil liability — is the appropriate protection.</p>
-
-<h2>The Annual Return Will Ask</h2>
-<p>Charities Services has indicated that the annual return form will ask whether a governance review has been completed and, if so, on what date. That turns the requirement from a general duty into a specific disclosure, made by the charity, on the record, with a date attached.</p>
-<p>Boards should treat that in the same way they treat an insurance proposal form. A declaration made without documentation behind it is a problem waiting to surface. If the return records that a review was completed in September 2026, there should be minutes recording the discussion, a note of what was examined, and a record of anything the board resolved to change as a result. Charities Services does not require a prescribed template, but it does expect the review to have actually happened.</p>
-<p>The same discipline applies on the insurance side. Proposal forms for trustee liability and management liability policies increasingly ask about governance processes, conflict-of-interest procedures, and financial controls. Answering those questions from a completed governance review is straightforward; answering them from memory at renewal is how disclosure problems begin.</p>
-
-<h2>Acting Before October 2026</h2>
-<p>With the deadline now only weeks away, any charity that has not yet completed a governance review should begin immediately. The review process itself is an opportunity to strengthen governance, not just a compliance box to tick. And it is the right moment to sit down with a specialist charity insurance broker and confirm that your insurance programme reflects the actual governance, activities, and risk profile of your organisation in 2026 — not what it was when your policy was first arranged.</p>
-<p>To discuss your organisation's cover and what a governance review might reveal, <a href="/contact/">get a quote</a> from one of our specialist charity insurance brokers.</p>
-    `,
+<p><em>Sources: Charities Act 2005, sections 4, 36C and 42G; Charities Services, Governance review requirements. Checked 10 October 2026.</em></p>
+`,
   },
   {
     slug: 'budget-2026-charity-tax-changes-insurance-implications',
@@ -1280,6 +1273,148 @@ export const blogPosts: BlogPost[] = [
 <p>Fidelity limits are frequently set at a level chosen years ago and never revisited, and the internal control conditions attached to them are rarely read until a claim is made. charityinsurance.co.nz connects community organisations with Registered Financial Service Providers who place fidelity and trustee liability cover for grant-funded groups and can tell you what your policy actually requires of you. Get a Quote and a specialist will be in touch within one business day.</p>
 
 <p><em>Sources: Department of Internal Affairs class 4 gambling investigation findings, 11 September 2026; RNZ interview with DIA director of gambling Vicki Scott; Hāpai Te Hauora statement, September 2026; Charities Amendment Act 2023.</em></p>
+`,
+  },
+  {
+    slug: "health-and-safety-law-changes-volunteer-groups",
+    title: "Health and Safety Law Changes: What Volunteer Groups Need to Know",
+    excerpt: "Changes to the Health and Safety at Work Act take effect on 1 April 2027. Here is how the new small and large split, critical risk and the clarified officer duty interact with the rules on volunteers, and what insurance can and cannot do.",
+    date: '2026-10-10',
+    author: 'The CharityInsurance Crew',
+    readTime: '8 min read',
+    category: 'Governance & Compliance',
+    image: 'https://images.unsplash.com/photo-1593113598332-cd288d649433?auto=format&fit=crop&w=1920&q=80',
+    content: `
+<p>A substantial rewrite of workplace health and safety law is now on the statute book, and community organisations have less than six months to work out where they stand. The Health and Safety at Work Amendment Act 2026 received Royal Assent on 9 July 2026 and comes into force on 1 April 2027, according to <a href="https://www.mbie.govt.nz/business-and-employment/employment-and-skills/health-and-safety/health-and-safety-reform" target="_blank" rel="noopener noreferrer">MBIE's reform page</a>. For charities, clubs and trusts that run on volunteers, the changes interact with rules about volunteers that have been in the Act since 2015 and that many boards have never read closely.</p>
+
+<h2>What the Amendment Act Changes</h2>
+
+<p>WorkSafe's summary, <a href="https://www.worksafe.govt.nz/laws-and-regulations/acts/changes/understanding-the-changes-to-health-and-safety-law/" target="_blank" rel="noopener noreferrer">Understanding the changes to health and safety law</a>, describes four shifts that matter most to the sector.</p>
+
+<p>The first is a new split between small and large organisations. WorkSafe defines a small business as one "having fewer than 20 workers for at least nine months of a financial year." From April 2027, according to WorkSafe's guidance on the <a href="https://www.worksafe.govt.nz/laws-and-regulations/acts/changes/updated-purpose-hswa/" target="_blank" rel="noopener noreferrer">updated purpose of the Act</a>, small organisations will only need to manage critical risks, while larger organisations must still manage all risks but prioritise critical ones when deciding where to spend time and money.</p>
+
+<p>The second is the idea of critical risk itself. WorkSafe's page <a href="https://www.worksafe.govt.nz/laws-and-regulations/acts/changes/what-is-critical-risk/" target="_blank" rel="noopener noreferrer">What is a critical risk?</a> says a critical risk is one that is likely to lead to death, a notifiable injury, illness, incident or occupational disease, or a risk managed by regulations under the Act.</p>
+
+<p>The third is the officer duty. WorkSafe says officer duties "have been clarified to focus on governance functions": understanding the relevant risks, making sure the organisation has the resources and processes to manage them, and verifying that those resources and processes are being used. Any duties an officer has as a worker are separate.</p>
+
+<p>The fourth is recreational land. WorkSafe states that "Landowners will no longer have health and safety duties for people using their land for recreation purposes", although duties still apply where the recreation is connected to the landowner's work or where work is happening at the same time and place. Trusts that own reserves, tracks or sanctuaries open to the public should read that change carefully rather than assume it ends their exposure.</p>
+
+<h2>Where Volunteers Fit</h2>
+
+<p>None of the WorkSafe pages on the reform discusses volunteers directly, so the existing rules carry the weight. Under <a href="https://legislation.govt.nz/act/public/2015/70/en/2025-04-05B.pdf" target="_blank" rel="noopener noreferrer">section 19 of the Health and Safety at Work Act 2015</a>, a volunteer worker is a volunteer who works for the organisation with its knowledge or consent, on an ongoing and regular basis, as an integral part of what it does. WorkSafe's guidance on <a href="https://www.worksafe.govt.nz/managing-health-and-safety/getting-started/understanding-the-law/volunteers/keeping-volunteers-healthy-and-safe/" target="_blank" rel="noopener noreferrer">keeping volunteers healthy and safe</a> confirms that volunteer workers are classed as workers, while casual volunteers are treated as "other persons" at a workplace, in the same group as visitors.</p>
+
+<p>The Act also lists activities that never make someone a volunteer worker: participating in fundraising, assisting with sports or recreation for an educational institute, sports club or recreation club, assisting an educational institute with activities outside its premises, and providing care for another person in the volunteer's own home.</p>
+
+<p>This matters for the new small and large split. Because volunteer workers are workers under the Act, an organisation with a handful of paid staff and a large roster of regular volunteers should not assume it sits below the 20-worker line. WorkSafe has said it will publish further guidance on small organisations and critical risks before the changes take effect, and boards should check how that guidance treats volunteer workers before relying on small status.</p>
+
+<h2>Groups With No Employees</h2>
+
+<p>Some groups are outside the Act altogether. Section 17 defines a volunteer association as a group of volunteers working together for one or more community purposes where none of them employs anyone to carry out work for the association. WorkSafe confirms that volunteer associations are not PCBUs and so have no duties under the Act, but notes they may still owe a common law duty to take reasonable care of people involved in their activities. The moment a volunteer-run group employs someone, even part time, it becomes a PCBU.</p>
+
+<p>That common law duty is where public liability cover does its work. A group that falls outside the Act can still be sued by someone injured at a working bee or a community event, and the cost of defending that claim does not depend on whether the regulator has any interest.</p>
+
+<h2>Volunteer Officers</h2>
+
+<p>Many charity boards are made up entirely of unpaid trustees or committee members. WorkSafe's guidance states that volunteer officers have the same due diligence duty as other officers, but do not commit an offence if they fail to meet it. That position comes from section 51 of the Act, which says a volunteer does not commit an offence under sections 47, 48 or 49 for failing to comply with a duty, except their own duties as a worker or as another person at a workplace.</p>
+
+<p>Two cautions follow. First, an officer who is paid, such as a chief executive or a remunerated trustee, does not have that protection. Second, freedom from prosecution is not freedom from consequences. The organisation itself can still be prosecuted, and individual trustees can still face civil claims and, for registered charities, scrutiny under the Charities Act 2005. The clarified officer duty from April 2027 gives boards a clearer checklist to work through, and a minuted record of doing so is the best evidence that the duty was taken seriously.</p>
+
+<h2>What Insurance Cannot Do</h2>
+
+<p>Boards sometimes assume a statutory liability policy will pay a health and safety fine. It cannot. Section 29 of the Act provides that a policy indemnifying a person for a fine or infringement fee under the Act "is of no effect" to that extent, and makes it an offence to enter into, offer or pay such an indemnity, with penalties of up to $50,000 for an individual and $250,000 for any other person.</p>
+
+<p>Section 29 is aimed at fines and infringement fees. It does not stop a policy from paying legal defence costs. Policy wordings differ on whether they also respond to reparation orders, investigation costs before any charge is laid, and claims against individual officers, so it is worth asking for those points to be confirmed in writing.</p>
+
+<h2>Where Insurance Does Fit</h2>
+
+<p>Three covers line up against the exposures described above.</p>
+
+<p>Statutory liability responds to the organisation's own regulatory exposure, within the limits set by section 29. Trustee liability, sometimes called association liability or D&amp;O, responds to claims against individual board members for governance decisions, including how the board discharged its due diligence duty. Volunteer personal accident cover fills a different gap: ACC weekly compensation is available to people who were employees, self-employed or shareholder-employees when injured, according to <a href="https://www.acc.co.nz/im-injured/financial-support/weekly-compensation" target="_blank" rel="noopener noreferrer">ACC's weekly compensation page</a>, so a retired or non-earning volunteer receives treatment support but no income replacement.</p>
+
+<h2>A Practical Plan Before April 2027</h2>
+
+<p>Start by deciding which category the organisation falls into: volunteer association, small organisation or large organisation, counting volunteer workers carefully. Then list the activities most likely to cause death or serious harm, because under the new framework those are what WorkSafe will look at first. Typical examples in the sector include working at height on halls and churches, vehicle and quad bike use, chainsaw work, water-based activities and crowd management at events.</p>
+
+<p>Next, map the board's oversight against the three officer themes WorkSafe describes, and record it. Registered charities that have just completed their governance review under the Charities Act will find much of the groundwork already done. Finally, review the insurance programme with the same list in hand: confirm what the statutory liability policy pays given section 29, whether trustee liability extends to everyone who now counts as an officer, and whether volunteers who carry out critical-risk work are protected beyond ACC.</p>
+
+<h2>Get Your Cover Checked</h2>
+
+<p>Health and safety reform is a good moment to look at statutory liability, trustee liability and volunteer accident cover together rather than one at a time. charityinsurance.co.nz passes enquiries to Registered Financial Service Providers who place cover for not-for-profit organisations. Get a Quote and a specialist will be in touch within one business day. For more on protecting volunteers, see our <a href="/charity-insurance/volunteer-accident-insurance/">volunteer accident insurance</a> page.</p>
+
+<p><em>Sources: MBIE; WorkSafe; Health and Safety at Work Act 2015, sections 17, 19, 29 and 51; ACC. All checked 10 October 2026.</em></p>
+`,
+  },
+  {
+    slug: "supplier-cyber-breach-charity-obligations",
+    title: "When Your Software Supplier Is Hacked: What Charities Must Do",
+    excerpt: "The NCSC Cyber Threat Report 2026 puts digital supply chains among the major risks of the year. When a platform holding your donor or client data is breached, the Privacy Act obligations stay with you.",
+    date: '2026-10-10',
+    author: 'The CharityInsurance Crew',
+    readTime: '7 min read',
+    category: 'Cyber & Privacy',
+    image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1920&q=80',
+    content: `
+<p>Most charities no longer hold their most sensitive data on their own computers. Donor records sit in a cloud CRM, client notes in a case management platform, medication charts in a clinical system, and payroll with an outsourced provider. That arrangement is usually safer than a server in the office cupboard, but it creates a risk boards rarely discuss: what happens when the supplier is the one that gets hacked.</p>
+
+<p>The National Cyber Security Centre's <a href="https://www.ncsc.govt.nz/news/cyber-threat-report-2026-leaders-need-to-prepare-now-for-the-impact-of-ai/" target="_blank" rel="noopener noreferrer">Cyber Threat Report 2026</a>, released on 24 September 2026, makes that question hard to ignore.</p>
+
+<h2>What the NCSC Reported</h2>
+
+<p>The <a href="https://www.ncsc.govt.nz/assets/insights/Documents/NCSC-CyberReport_2026-RGB-18092026.pdf" target="_blank" rel="noopener noreferrer">full report</a> covers the year to June 2026. The NCSC received 4,673 incident reports, and $23.8 million in direct financial loss was reported to it. It handled 369 incidents of potential national significance, 162 of which were linked to criminal or financially motivated actors, an 18 percent increase on the previous year. Four incidents were classified as highly significant, which the NCSC says matches the number recorded over the previous ten years combined.</p>
+
+<p>One of the report's judgements is devoted to digital supply chains. It says supplier compromises have caused major incidents over the past year, and explains why attackers favour them: one compromised vendor can give access to many client organisations. It also notes that many suppliers are based overseas and that organisations here often have little visibility of their security settings.</p>
+
+<h2>Three Incidents Worth Knowing</h2>
+
+<p>The report describes several incidents that show how supplier compromises reach organisations that did nothing wrong themselves.</p>
+
+<p>In February 2026 a medication management platform used across the health and care sector was hacked. According to the NCSC, attackers altered some patient records, and operations were disrupted at many aged care facilities, hospices and community pharmacies while the system was offline.</p>
+
+<p>In late December 2025 an attacker used a valid user's credentials, stolen by information-stealing malware, to access a widely used patient portal. The NCSC reports that sensitive information for more than 99,000 patients was taken, and that the Ministry of Health concluded the breach was largely preventable, citing weaknesses including multi-factor authentication that was not mandatory.</p>
+
+<p>In May 2026 a breach of a US-owned cloud learning management system affected more than thirty tertiary institutions, schools and education suppliers, with the Ministry of Education estimating 110,000 to 120,000 students and staff affected. Any charity that runs training, tutoring or education programmes on a third-party platform faces the same structural risk.</p>
+
+<h2>Your Privacy Act Obligations Do Not Transfer</h2>
+
+<p>The most important point for boards is legal rather than technical. The Office of the Privacy Commissioner's guidance on <a href="https://www.privacy.org.nz/resources-and-learning/knowledge-base/view/596/" target="_blank" rel="noopener noreferrer">which agency reports a privacy breach</a> says an organisation that uses another organisation to handle a task on its behalf, such as storing data or running a mail-out, "remains responsible for reporting any privacy breaches". The guidance adds that the contract with the provider should require the provider to tell the organisation about any breach, and that section 11 of the Privacy Act 2020 determines whether one or both organisations are treated as holding the information.</p>
+
+<p>The Commissioner applied that principle after the patient portal incident. Its <a href="https://www.privacy.org.nz/assets/DOCUMENTS/20260901-Notice-for-Primary-Care-Providers-re-MMH-data-breach-reporting-requirements-A1151130.pdf" target="_blank" rel="noopener noreferrer">notice to primary care providers</a> explains that providers using third-party platforms are generally responsible for reporting serious breaches under section 114, but that in that case the platform's own notification satisfied the requirement and individual providers did not need to notify separately. That was a specific decision about one incident. A charity should not assume the same outcome when its own supplier is breached.</p>
+
+<p>In practice, the charity that collected the information is likely to be the one its clients, donors and funders hold responsible, regardless of where the breach occurred.</p>
+
+<h2>Questions to Ask Your Suppliers</h2>
+
+<p>The NCSC report recommends that organisations assess suppliers' cyber security as part of procurement, write specific data protection and security expectations into contracts, get ongoing assurance that suppliers maintain them, and plan and exercise a response to a breach involving a third-party application. For a charity, that translates into a short set of questions for each supplier that holds personal information.</p>
+
+<ul>
+<li>Where is our data stored, and who can access it?</li>
+<li>Is multi-factor authentication enforced for every user, including our staff and volunteers?</li>
+<li>How quickly will you tell us if our data may have been accessed, and is that commitment in the contract?</li>
+<li>What happens to our data if we end the contract or you cease trading?</li>
+<li>What does the contract say about your liability to us if a breach on your side causes us loss?</li>
+</ul>
+
+<p>The last question often has an uncomfortable answer. Software terms often cap the supplier's liability, which can mean the cost of responding to a supplier breach may fall largely on the charity.</p>
+
+<h2>Where Cyber Insurance Fits</h2>
+
+<p>Cyber policies differ considerably in how they treat incidents that start at a supplier, and this is one of the most important areas to check before renewal.</p>
+
+<p>Breach response cover, which funds forensic investigation, legal advice on notification, and communication with affected people, may respond where the charity's own data is compromised on a supplier's system, but some wordings require the incident to occur on systems the insured owns or controls. Business interruption cover is similar. Loss caused by a supplier's outage is often treated as dependent or contingent business interruption, which may be excluded, sub-limited or limited to named providers.</p>
+
+<p>The <a href="/charity-insurance/charity-cyber-insurance/">charity cyber insurance</a> page explains how cyber cover sits alongside crime and trustee liability policies. For supplier risk specifically, ask whether the policy responds to a breach of your data held by a third party, whether dependent business interruption is included and at what limit, and whether the insurer's incident response panel can work with an affected supplier.</p>
+
+<h2>A Short Checklist for the Board</h2>
+
+<p>List every external platform that holds personal information about donors, clients, staff or volunteers. For each one, note what data it holds, whether multi-factor authentication is enforced, and what the contract says about breach notification. Make sure the charity's incident response plan includes a scenario where the supplier, not the charity, is breached. Then take the list to your insurance review and confirm how the cyber policy responds to each platform.</p>
+
+<p>Registered charities that have just completed a governance review under the Charities Act 2005 may find supplier oversight was not covered. It is a reasonable item to add at the next board meeting.</p>
+
+<h2>Get Your Cyber Cover Reviewed</h2>
+
+<p>charityinsurance.co.nz passes enquiries to Registered Financial Service Providers who place cyber cover for not-for-profit organisations and can explain how a policy treats incidents at your suppliers. Get a Quote and a specialist will be in touch within one business day.</p>
+
+<p><em>Sources: NCSC Cyber Threat Report 2026; Office of the Privacy Commissioner. All checked 10 October 2026.</em></p>
 `,
   },
 ];

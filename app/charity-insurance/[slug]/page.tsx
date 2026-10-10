@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { landingPages, LandingPage } from '@/data/landing-pages';
+import { landingPages, type LandingPage as LandingPageData } from '@/data/landing-pages';
 import QuoteForm from '@/components/QuoteForm';
 
 // ---------------------------------------------------------------------------
@@ -174,7 +174,7 @@ export default async function LandingPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const page: LandingPage | undefined = landingPages.find(
+  const page: LandingPageData | undefined = landingPages.find(
     (p) => p.slug === slug
   );
 

@@ -497,4 +497,28 @@ export const landingPages: LandingPage[] = [
       'The exposure that catches community trusts hardest is change. A trust that wins or loses a government contract alters its headcount, its fleet, its premises and its liability profile in a single funding round, and the insurance programme almost never keeps pace. Two technical points do most of the damage. Professional indemnity and trustee liability are claims-made policies, so cancelling them when a service ends leaves years of past work uninsured unless run-off cover is arranged before the policy lapses. And employment practices cover — usually an extension with a sub-limit well below the main policy limit — is what funds the defence of personal grievance claims arising from a restructure, but only if it was in place before the restructure was known about. Alongside that sits the restricted-funds question: trusts holding grant money for specified purposes carry both a repayment exposure to funders and a fidelity exposure where segregation of duties is thin, and those are two different problems needing two different answers.',
     cta: 'Get a Quote',
   },
+  {
+    slug: "conservation-group-insurance",
+    metaTitle: "Conservation Group Insurance | Get a Quote",
+    metaDesc: "Insurance for conservation trusts, restoration groups and predator control projects. Public liability, volunteer accident and trustee cover. Get a Quote.",
+    h1: "Insurance for Conservation and Environmental Groups",
+    intro: "Conservation groups do some of the most physical work in the community sector. Volunteers plant steep riverbanks, service trap lines in the bush, clear weeds with brushcutters and chainsaws, and work from boats and quad bikes, often a long way from help. Many of these groups began as a handful of neighbours and grew into trusts that employ coordinators, hold land and manage funded projects, while their insurance stayed where it started.",
+    heroImage: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1920&q=80",
+    keyPoints: [
+      "Public liability for working bees, planting days, guided walks and public access to land the group owns or manages",
+      "Volunteer personal accident cover for injuries in remote terrain, including volunteers who are retired or not in paid work",
+      "Trustee liability for board decisions on land, funding agreements, employment and health and safety oversight",
+      "Statutory liability for regulatory investigations, noting that fines under the Health and Safety at Work Act cannot lawfully be insured",
+      "Property and equipment cover for traps, tools, boats, nursery stock, huts, fences and boardwalks",
+      "Motor cover that reflects off-road and quad bike use, declared accurately to the insurer",
+    ],
+    whyUs: "charityinsurance.co.nz passes enquiries to Registered Financial Service Providers who place cover for not-for-profit organisations, including groups whose work happens outdoors and on other people's land. A specialist will look at what your volunteers actually do, which agreements require you to hold cover, and where the gaps are between your policies. Get a Quote and a specialist will be in touch within one business day.",
+    relatedOrgs: [
+      "environmental-conservation",
+      "community-groups-trusts",
+      "animal-welfare",
+    ],
+    coverageAngle: "The exposure that most often catches conservation groups is the gap between how they started and what they have become. A group with no employees is a volunteer association and has no duties under the Health and Safety at Work Act 2015, although it can still be sued under the common law. Once it employs a coordinator, even part time, it takes on the Act's duties, and volunteers who work regularly as an integral part of its operations become volunteer workers. Changes to the Act taking effect on 1 April 2027 will focus small organisations on critical risks, the hazards likely to cause death or serious harm, which in conservation work typically means chainsaws, vehicles and quad bikes, water and steep ground. The same changes remove landowners' health and safety duties to people using their land purely for recreation, but not where the recreation is connected to the landowner's own work. Land-owning trusts should therefore keep public liability in place for visitors rather than assume the reform removes the risk. Alongside that sits volunteer accident cover, because ACC weekly compensation depends on earnings and many of the most committed conservation volunteers are retired.",
+    cta: "Get a Quote",
+  },
 ];

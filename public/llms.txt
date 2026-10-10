@@ -1,16 +1,15 @@
-# CharityInsurance.co.nz — LLMs.txt
+# CharityInsurance.co.nz - LLMs.txt
 
 ## About
-CharityInsurance.co.nz is a specialist insurance comparison and broker referral service for New Zealand charities, not-for-profits, sports clubs, churches, community groups, incorporated societies, and Māori organisations. Operated by Cover4You (a trading style of GDS), NZ owned and operated.
+CharityInsurance.co.nz is an insurance information and referral website for New Zealand charities, not-for-profits, sports clubs, churches, community groups, incorporated societies, and Māori organisations. Operated by Cover4You (a trading style of GDS), NZ owned and operated.
 
 ## What We Do
-We are a comparison and referral service — not an insurer or licensed financial advice provider. We match organisations with personally vetted, licensed insurance brokers who specialise in the not-for-profit sector. All financial advice is provided by the licensed adviser handling the enquiry, in accordance with the Financial Markets Conduct Act 2013. We may receive a referral fee when a policy is arranged.
+We publish information about insurance for not-for-profit organisations and refer enquiries to Registered Financial Service Providers who work with the sector. We are not an insurer and we do not provide financial advice. Any advice is provided by the Registered Financial Service Provider handling the enquiry.
 
 ## Service Highlights
-- Broker matching — no cost to the enquiring organisation
-- 6+ specialist charity insurers compared on your behalf (Chubb, AIG, Zurich, Berkley, Concordia Underwriting, QBE)
+- Broker matching: no cost to the enquiring organisation
 - 19+ organisation types covered
-- Registered Financial Service Providers — personally vetted brokers only
+- Enquiries referred to Registered Financial Service Providers
 - Reply within one business day
 
 ## Organisation Types Covered
@@ -47,22 +46,14 @@ We are a comparison and referral service — not an insurer or licensed financia
 - Event Liability
 - Fine Art & Collections
 
-## Specialist Insurers
-- Chubb New Zealand
-- AIG New Zealand
-- Zurich New Zealand
-- Berkley Insurance
-- Concordia Underwriting (Lloyd's panel — S&P AA- Very Strong rating)
-- QBE Insurance
-
 ## Regulatory Disclosure
-CharityInsurance.co.nz is a comparison and broker referral service. We are not an insurer or licensed financial advice provider. All financial advice is provided by the licensed insurance broker or adviser handling your enquiry, in accordance with the Financial Markets Conduct Act 2013. We may receive a referral fee when a policy is arranged. All insurers we work with are members of the Insurance Council of New Zealand (ICNZ) or Lloyd's of London underwriters operating in NZ.
+CharityInsurance.co.nz publishes general information and refers enquiries. It is not an insurer and does not provide financial advice. Information about insurers and other providers was accurate at the time of publishing; confirm details with the provider. Report outdated information to hello@cover4you.co.nz.
 
 ## Relevant NZ Legislation
-- Charities Act 2005 — governs registered charities
-- Incorporated Societies Act 2022 — governs incorporated societies (major reform effective 2023)
-- Trusts Act 2019 — governs trust structures
-- Te Ture Whenua Māori Act 1993 — governs Māori land trusts
+- Charities Act 2005: governs registered charities
+- Incorporated Societies Act 2022: governs incorporated societies (major reform effective 2023)
+- Trusts Act 2019: governs trust structures
+- Te Ture Whenua Māori Act 1993: governs Māori land trusts
 - Health and Safety at Work Act 2015
 - Privacy Act 2020 (mandatory breach notification)
 - Financial Markets Conduct Act 2013 (financial advice regulation)
@@ -101,10 +92,11 @@ https://www.charityinsurance.co.nz/contact/
 - Volunteer Accident Insurance: https://www.charityinsurance.co.nz/charity-insurance/volunteer-accident-insurance/
 - Charity Cyber Insurance: https://www.charityinsurance.co.nz/charity-insurance/charity-cyber-insurance/
 - Community Trust Insurance: https://www.charityinsurance.co.nz/charity-insurance/community-trust-insurance/
+- Conservation Group Insurance: https://www.charityinsurance.co.nz/charity-insurance/conservation-group-insurance/
 
-## Recent Blog Articles (Last updated: 2026-09-15)
+## Recent Blog Articles (Last updated: 2026-10-10)
 - Incorporated Societies Re-Registration: https://www.charityinsurance.co.nz/blog/incorporated-societies-re-registration-what-happened/
-- Charities Amendment Act 2023 Governance: https://www.charityinsurance.co.nz/blog/charities-amendment-act-2023-governance-review-deadline/
+- Governance Reviews After 5 October (Charities Act s42G): https://www.charityinsurance.co.nz/blog/charities-amendment-act-2023-governance-review-deadline/
 - Budget 2026 Charity Tax Changes: https://www.charityinsurance.co.nz/blog/budget-2026-charity-tax-changes-insurance-implications/
 - Expanded Officer Definition & Trustee Liability: https://www.charityinsurance.co.nz/blog/expanded-officer-definition-trustee-liability/
 - Charity Funding Pressure 2026: https://www.charityinsurance.co.nz/blog/charity-funding-pressure-2026-insurance-implications/
@@ -115,3 +107,5 @@ https://www.charityinsurance.co.nz/contact/
 - Tier 3 & 4 Reporting Rules and Insured Values: https://www.charityinsurance.co.nz/blog/tier-3-4-reporting-charity-insured-values/
 - Losing a Major Contract & the Insurance Review: https://www.charityinsurance.co.nz/blog/losing-a-government-contract-insurance-review/
 - Pokie Grant Findings & Funded Groups: https://www.charityinsurance.co.nz/blog/pokie-grant-findings-charity-funding-risk/
+- Health and Safety Law Changes for Volunteer Groups: https://www.charityinsurance.co.nz/blog/health-and-safety-law-changes-volunteer-groups/
+- When Your Software Supplier Is Hacked: https://www.charityinsurance.co.nz/blog/supplier-cyber-breach-charity-obligations/

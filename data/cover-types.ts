@@ -31,9 +31,9 @@ export const coverTypes: CoverType[] = [
     slug: 'volunteer-personal-accident',
     name: 'Volunteer Personal Accident',
     shortDesc: 'Supplements ACC for volunteers — providing better income replacement and meaningful death benefits based on real-world earnings.',
-    description: 'ACC covers most workplace injuries but pays volunteers at minimum wage. For skilled or high-income volunteers, this creates a significant gap. Voluntary Workers Accident insurance supplements ACC with specified income replacement, death benefits, and cover for scenarios ACC doesn\'t address — including overseas volunteering.',
+    description: 'ACC covers treatment for injured volunteers, but weekly compensation is only paid to people who were earning when injured. Retired, student and other non-earning volunteers receive no income replacement, which creates a significant gap. Voluntary Workers Accident insurance supplements ACC with specified income replacement, death benefits, and cover for scenarios ACC doesn\'t address, including overseas volunteering.',
     whoNeeds: ['Any organisation relying on volunteers', 'Conservation and environmental organisations', 'Youth programmes and scouts', 'Community service organisations', 'Charities sending volunteers overseas'],
-    whatCovers: ['Weekly income replacement (above ACC minimum wage level)', 'Death benefit at specified sum', 'Non-physical harm in some policies', 'Overseas volunteering activities', 'Gradual injury supplement'],
+    whatCovers: ['Weekly benefit that does not depend on the volunteer\'s earnings', 'Death benefit at specified sum', 'Non-physical harm in some policies', 'Overseas volunteering activities', 'Gradual injury supplement'],
     icon: '🤝',
   },
   {
@@ -57,10 +57,10 @@ export const coverTypes: CoverType[] = [
   {
     slug: 'statutory-liability',
     name: 'Statutory Liability',
-    shortDesc: 'Covers prosecution costs and fines under legislation like the Health and Safety at Work Act, Privacy Act, and Charities Act.',
-    description: 'New Zealand charities and not-for-profits operate under a range of legislation that carries prosecution risk — even for unintentional breaches. Statutory Liability insurance pays defence costs, fines, and penalties arising from regulatory prosecution under specified legislation.',
+    shortDesc: 'Covers defence costs in regulatory prosecutions and investigations under legislation like the Health and Safety at Work Act, Privacy Act, and Charities Act.',
+    description: 'New Zealand charities and not-for-profits operate under a range of legislation that carries prosecution risk, even for unintentional breaches. Statutory Liability insurance pays defence costs arising from regulatory prosecution under specified legislation, and some fines and penalties where the law allows them to be insured. Fines and infringement fees under the Health and Safety at Work Act 2015 cannot lawfully be insured (section 29 of that Act).',
     whoNeeds: ['All organisations with paid staff (H&S Act)', 'Organisations holding personal data (Privacy Act)', 'Registered charities (Charities Act)', 'Aged care and healthcare providers', 'Food service organisations (Food Act)'],
-    whatCovers: ['Defence costs in regulatory prosecutions', 'Fines and penalties under specified legislation', 'Worksafe NZ investigation defence', 'Privacy Commissioner investigation costs', 'Charities Services investigation costs'],
+    whatCovers: ['Defence costs in regulatory prosecutions', 'Insurable fines and penalties (not Health and Safety at Work Act fines, which cannot lawfully be insured)', 'Worksafe NZ investigation defence', 'Privacy Commissioner investigation costs', 'Charities Services investigation costs'],
     icon: '📜',
   },
   {
