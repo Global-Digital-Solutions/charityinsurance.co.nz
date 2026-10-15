@@ -545,4 +545,28 @@ export const landingPages: LandingPage[] = [
     coverageAngle: "The exposure youth organisations most often misjudge is abuse and molestation. Many public liability policies exclude it outright or cap it at a low sub-limit, and the claims that arise can surface many years after the events concerned, which makes the policy wording at the time of the incident important long after it has been replaced. Safeguarding practice and insurance are linked: insurers ask how leaders are vetted, supervised and trained, and the answers shape both the cover offered and its terms. Groups funded by government agencies to work with children should note that the Children's Act 2014 requires safety checks for paid workers in government-funded organisations, renewed every three years; Oranga Tamariki's guidance states that most unpaid volunteers fall outside that requirement, so the group's own vetting policy decides how volunteers are checked. Adventure activities on camps, such as climbing, kayaking or river crossings, should be declared to the insurer, and volunteer accident cover matters because ACC weekly compensation is only paid to people who were earning when injured, which excludes many student and retired leaders.",
     cta: "Get a Quote",
   },
+  {
+    slug: "animal-welfare-insurance",
+    metaTitle: "Animal Welfare Charity Insurance | Get a Quote",
+    metaDesc: "Insurance for animal rescues, shelters and welfare charities. Public liability, volunteer accident, trustee and property cover. Get a Quote.",
+    h1: "Insurance for Animal Welfare Charities and Rescues",
+    intro: "Animal welfare charities carry risks that few other community organisations share. Volunteers handle frightened or injured animals, foster carers look after rescues in their own homes, adoption days bring the public into contact with dogs and cats whose history is not fully known, and shelters hold vehicles, kennels, veterinary equipment and personal information about adopters. Many rescues started as a few people with spare rooms and grew into trusts with premises, staff and funding agreements, while their insurance stayed much as it was.",
+    heroImage: "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&w=1920&q=80",
+    keyPoints: [
+      "Public liability for adoption days, fundraising events, shelter visits and animals in the charity's care, including in foster homes",
+      "Volunteer personal accident cover for bites, scratches and handling injuries, including volunteers who are retired or not in paid work",
+      "Trustee liability for board decisions on animal care policies, funding agreements, employment and health and safety oversight",
+      "Statutory liability for regulatory investigations, with the wording checked for which Acts it responds to",
+      "Property and equipment cover for shelters, kennels, catteries, veterinary equipment, traps and transport crates",
+      "Motor cover for animal transport, with the use declared accurately to the insurer",
+    ],
+    whyUs: "charityinsurance.co.nz passes enquiries to Registered Financial Service Providers who place cover for not-for-profit organisations, including rescues, shelters and foster networks. A specialist will look at how your animals are cared for, who handles them, where they are housed and what your funding agreements require, and where the gaps are between your policies. Get a Quote and a specialist will be in touch within one business day.",
+    relatedOrgs: [
+      "animal-welfare",
+      "registered-charities",
+      "community-groups-trusts",
+    ],
+    coverageAngle: "The exposure that most often catches animal welfare charities is the foster home. A rescue dog that bites a visitor or a neighbour while in foster care can lead to a claim against the foster carer, the charity or both, and a foster carer's own home and contents policy may not respond to an animal they do not own. Check whether the charity's public liability policy extends to animals in its care wherever they are housed, and set out in the foster agreement who is responsible for what. The legal backdrop matters too. MPI's animal welfare overview describes the Animal Welfare Act 1999 as placing \"a duty of care on people in charge of animals to meet their animal's needs\", so the charity's care standards, and the board's oversight of them, are part of its governance risk. Health and safety law also applies once the charity employs anyone: under the Health and Safety at Work Act 2015, volunteers who work regularly as an integral part of its operations are volunteer workers, and animal handling, transport and cleaning chemicals are typical risks to manage. Volunteer accident cover matters because ACC weekly compensation is only paid to people who were employees or self-employed when injured, which excludes many of the retired volunteers rescues rely on.",
+    cta: "Get a Quote",
+  },
 ];

@@ -220,69 +220,65 @@ export const blogPosts: BlogPost[] = [
   {
     slug: 'nz-charity-privacy-breach-what-to-do',
     title: 'Your Charity Has Suffered a Privacy Breach. What Happens Next?',
-    excerpt: 'The Privacy Act 2020 requires charities to report serious breaches to the Privacy Commissioner. But what actually happens when donor or beneficiary data is compromised — and how does insurance help?',
-    date: '2026-03-12',
+    excerpt: 'The Privacy Act 2020 requires charities to report breaches likely to cause serious harm. What the Privacy Commissioner expects, the new IPP3A rule from May 2026, and where cyber insurance fits.',
+    date: '2026-10-15',
     author: 'The CharityInsurance Crew',
     readTime: '7 min read',
     category: 'Cyber & Privacy',
     image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1920&q=80',
     content: `
-<p>The Privacy Act 2020 introduced mandatory reporting of notifiable privacy breaches for all organisations in New Zealand — including charities and not-for-profits. A breach is notifiable if it is likely to cause serious harm to the individuals affected. Here\'s what the response looks like in practice — and how insurance changes the outcome.</p>
+<p>The Privacy Act 2020 requires every organisation that holds personal information, including charities and not-for-profits, to report notifiable privacy breaches. A breach is notifiable if it has caused, or is likely to cause, serious harm to the people affected. Here is what the response looks like in practice, what has changed recently, and where insurance fits.</p>
 
 <h2>What Counts as a Notifiable Privacy Breach?</h2>
-<p>A privacy breach occurs when personal information is lost, accessed by unauthorised people, or disclosed without authority. A notifiable breach is one that has caused, or is likely to cause, serious harm. Factors relevant to serious harm include:</p>
+<p>The Office of the Privacy Commissioner's guidance on <a href="https://www.privacy.org.nz/responsibilities/privacy-breaches/" target="_blank" rel="noopener noreferrer">privacy breaches</a> describes a breach as personal information that should have been held securely ending up where it should not, whether by accident or on purpose. It must be notified if it "has caused (or is likely to cause) anyone serious harm". The Commissioner lists examples of serious harm including financial fraud, identity theft, psychological or emotional harm, and threats to a person's safety.</p>
+<p>The Commissioner's <a href="https://www.privacy.org.nz/responsibilities/privacy-breaches/notify-us/evaluate/" target="_blank" rel="noopener noreferrer">self-assessment tool</a> asks organisations to weigh several factors:</p>
 <ul>
-<li>The sensitivity of the information (health data, financial information, and location data are higher risk)</li>
-<li>The likely scale of disclosure</li>
-<li>Whether the information could be used for identity theft or fraud</li>
-<li>The vulnerability of the people affected (beneficiaries of charities are often vulnerable people)</li>
+<li>How sensitive the information is, bearing in mind that context matters</li>
+<li>Who received it, and whether they are likely to cause harm</li>
+<li>The types of harm that could follow and how likely they are</li>
+<li>What has already been done to contain the breach, such as recovering the information or remotely wiping a device</li>
+<li>Whether security measures such as encryption were in place</li>
 </ul>
-<p>Most charities hold sensitive data: donor financial information, beneficiary personal and health details, volunteer records. A breach involving any of this information is likely to meet the threshold for notifiable breach.</p>
+<p>The guidance also asks organisations to consider whether the people affected are particularly vulnerable. Charities often hold exactly the kind of information that weighs heavily in that assessment: health and support records, details about family violence or housing, and donor financial information.</p>
 
-<h2>The Mandatory Reporting Timeline</h2>
-<p>Once you become aware of a notifiable breach, you must:</p>
-<ol>
-<li>Notify the Office of the Privacy Commissioner as soon as practicable</li>
-<li>Notify the individuals whose information was compromised (unless impractical or notification would cause greater harm)</li>
-</ol>
-<p>There is no defined time limit in the Act for notification — "as soon as practicable" applies. The Privacy Commissioner can investigate compliance and can make recommendations or determinations. The Human Rights Review Tribunal can award damages where breaches caused harm.</p>
+<h2>How Quickly to Notify</h2>
+<p>Notify the Privacy Commissioner and the affected people "as soon as you are practically able", using the Commissioner's online NotifyUs tool. The Act does not set a fixed deadline, but in a <a href="https://www.privacy.org.nz/news/statements-media-releases/how-long-is-72-hours/" target="_blank" rel="noopener noreferrer">May 2024 statement</a> the Office said "Our expectation is that you will do this within 72 hours of becoming aware that it's a notifiable breach", describing that as a guide rather than a hard deadline. Its advice where an organisation is unsure is simple: "if you're not sure, please notify."</p>
+<p>There are limited exceptions to notifying affected people, for example where notification would be likely to endanger someone's safety or be harmful to their health, and notification can be delayed where it would put the security of the information at risk for the time being. The Commissioner's tool notes that the duty returns if the circumstances change. Failing to report a notifiable breach to the Commissioner is an offence, and the Commissioner's guidance says it "may result in a fine of up to $10,000."</p>
 
-<h2>The True Cost of a Privacy Breach</h2>
-<p>The visible costs of a privacy breach for a charity include:</p>
-<ul>
-<li><strong>Forensic investigation:</strong> Understanding what happened and what data was accessed costs $5,000–$50,000+ depending on IT complexity</li>
-<li><strong>Legal advice:</strong> Regulatory counsel during a Privacy Commissioner investigation costs $10,000–$50,000+</li>
-<li><strong>Individual notification:</strong> Drafting and sending notification to hundreds or thousands of donors or beneficiaries costs time and money</li>
-<li><strong>Credit monitoring:</strong> Where financial data was compromised, providing credit monitoring to affected individuals is best practice</li>
-<li><strong>Reputational damage:</strong> Donor trust, once lost, is hard to rebuild. Fundraising revenue can decline materially following a publicised breach</li>
-</ul>
+<h2>A New Rule on Information Collected From Others</h2>
+<p>A further obligation took effect this year. The Privacy Amendment Act 2025 added Information Privacy Principle 3A, which the Commissioner's <a href="https://www.privacy.org.nz/resources-and-learning/a-z-topics/ipp3a/" target="_blank" rel="noopener noreferrer">IPP3A guidance</a> says "came into force on 1 May 2026". When an organisation collects personal information about someone from another source, such as a referral from another agency or details about a family member, it must take reasonable steps to tell that person about the collection, its purpose and their rights, unless an exception applies. Referral-based services should check their intake processes against it.</p>
+
+<h2>What a Breach Costs</h2>
+<p>The costs of a breach are rarely limited to fixing the system. A typical response involves forensic work to establish what was accessed, legal advice on notification and on any Commissioner inquiry, the staff time and cost of contacting everyone affected, support for people at risk of fraud, and communication with donors, funders and the public. Systems may be offline while all of this happens. Complaints that are not resolved can also go to the Human Rights Review Tribunal, which can award damages.</p>
 
 <h2>How Cyber Insurance Helps</h2>
-<p>Cyber insurance for charities covers the specific costs of a privacy incident:</p>
+<p>Cyber insurance is designed around the costs of responding to an incident. Depending on the policy wording, it can respond to:</p>
 <ul>
 <li>Forensic investigation to establish what happened</li>
-<li>Legal and regulatory costs during Privacy Commissioner investigation</li>
-<li>Notification costs to affected individuals</li>
-<li>Credit monitoring provision</li>
-<li>PR and reputation management costs</li>
-<li>Business interruption (if your systems are offline during incident response)</li>
+<li>Legal advice, including during a Privacy Commissioner inquiry</li>
+<li>The cost of notifying affected individuals</li>
+<li>Support for affected people, such as identity monitoring</li>
+<li>Public relations and reputation management</li>
+<li>Business interruption while systems are restored</li>
 </ul>
-<p>Without cyber insurance, all of these costs fall on the organisation. For small charities with limited reserves, a significant breach response can be existential.</p>
+<p>Without cover, those costs fall on the organisation's reserves. Many policies also give access to an incident response team from the first call, which matters when the clock for notification is already running. Check the wording for how it treats breaches caused by suppliers; our article on <a href="/blog/supplier-cyber-breach-charity-obligations/">supplier cyber breaches</a> covers that situation.</p>
 
-<h2>Prevention: The First Line of Defence</h2>
-<p>While insurance covers the costs of a breach, prevention is always preferable. Core steps for charities:</p>
+<h2>Prevention Comes First</h2>
+<p>Insurance pays for the response, but prevention is cheaper. Core steps for charities include:</p>
 <ul>
-<li>Use a reputable donor management system with strong access controls</li>
-<li>Enable multi-factor authentication on all accounts that hold personal data</li>
-<li>Limit data access to those who need it</li>
-<li>Have a written data retention and disposal policy</li>
-<li>Train all staff and regular volunteers on privacy obligations</li>
-<li>Have a documented breach response plan — knowing who to call and what to do in the first 24 hours is critical</li>
+<li>Using a reputable client or donor management system with strong access controls</li>
+<li>Turning on multi-factor authentication for every account that holds personal information</li>
+<li>Limiting access to the people who need it</li>
+<li>Keeping a written retention and disposal policy, and following it</li>
+<li>Training staff and regular volunteers on privacy obligations</li>
+<li>Having a documented breach response plan, so everyone knows who to call and what to do in the first 24 hours</li>
 </ul>
 
-<h2>Getting the Right Cyber Cover for Your Charity</h2>
-<p>Cyber insurance for charities varies significantly in quality and coverage. A specialist broker can help you find a policy that covers the full response cycle — not just data restoration, but the regulatory, legal, and notification costs that represent the true cost of a breach for a charitable organisation.</p>
-    `,
+<h2>Getting the Right Cyber Cover</h2>
+<p>Cyber policies vary widely in what they include. A specialist can help you find cover that responds to the full incident response, including the legal, notification and support costs that make up most of the bill. charityinsurance.co.nz passes enquiries to Registered Financial Service Providers who place cover for not-for-profit organisations. Get a Quote and a specialist will be in touch within one business day.</p>
+
+<p><em>Sources: Office of the Privacy Commissioner, Privacy breaches, NotifyUs self-assessment, How long is 72 hours? and IPP3A guidance. Checked 15 October 2026.</em></p>
+`,
   },
   {
     slug: 'sports-club-insurance-nz-complete-guide',
@@ -611,57 +607,49 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'disability-support-insurance-nz',
-    title: 'Insurance for Disability Support Organisations in New Zealand',
-    excerpt: 'Not-for-profit disability service providers face complex care liability, Whaikaha contract requirements, and sensitive data obligations. Here is what your board needs to know.',
-    date: '2026-05-03',
+    title: 'Insurance for Disability Support Organisations',
+    excerpt: 'Not-for-profit disability support providers face care liability, funding contract requirements and sensitive data obligations. Here is what your board needs to know.',
+    date: '2026-10-15',
     author: 'The CharityInsurance Crew',
     readTime: '7 min read',
     category: 'Organisation Types',
     image: 'https://images.unsplash.com/photo-1573497620053-ea5300f94f21?auto=format&fit=crop&w=1920&q=80',
     content: `
-<p>New Zealand's disability support sector is predominantly delivered by not-for-profit organisations — community-based providers, iwi health organisations, and charitable trusts that hold contracts with Whaikaha (Ministry of Disabled People), the Ministry of Social Development, and Health New Zealand. These organisations deliver essential support to tens of thousands of New Zealanders with physical, intellectual, sensory, and psychosocial disabilities.</p>
-<p>The insurance requirements of disability support providers are more complex than most other NFP types — reflecting the professional nature of care delivery, the sensitivity of the data held, and the contractual obligations imposed by government funders.</p>
+<p>Disability support is delivered largely by not-for-profit organisations: community-based providers, iwi and kaupapa Māori organisations, and charitable trusts funded by government agencies. Their insurance needs are more complex than most other not-for-profits, reflecting the personal nature of the support, the sensitivity of the information held and the conditions attached to funding.</p>
 
-<h2>Care Liability: Your Most Important Cover</h2>
-<p>Care liability — also called professional indemnity for care providers — is the cornerstone insurance cover for disability support organisations. It covers claims arising from the quality of care and support services your workers deliver. If a disabled person or their family alleges that support was inadequate, inappropriate, or negligently provided, a care liability claim results.</p>
-<p>The Health and Disability Commissioner's office handles complaints about disability support services and can refer matters to the Director of Proceedings for action before the Human Rights Review Tribunal. Civil claims are also possible. Defence costs — even for matters that are ultimately resolved in the organisation's favour — can be substantial. An adequate professional indemnity limit is not a nice-to-have; it is a fundamental operational requirement.</p>
-<p>When reviewing your professional indemnity policy, pay attention to:</p>
+<h2>Who Funds Disability Support Now</h2>
+<p>Funding arrangements have changed in the last two years. In August 2024 the Ministry of Social Development announced the <a href="https://www.msd.govt.nz/about-msd-and-our-work/newsroom/media-releases/2024/transition-of-disability-support-services-to-msd.html" target="_blank" rel="noopener noreferrer">transition of Disability Support Services to MSD</a> from Whaikaha, the Ministry of Disabled People, with a dedicated business unit in place by October 2024. Providers whose contracts and insurance documents still refer to their old funding arrangements should check that their contract register, and the insurance requirements in each contract, reflect the current funder.</p>
+
+<h2>Care Liability: The Cornerstone Cover</h2>
+<p>Care liability, sometimes arranged as professional indemnity for care providers, covers claims arising from the quality of the support your workers deliver. If a disabled person or their whānau alleges that support was inadequate, inappropriate or negligent, this is the policy that responds.</p>
+<p>Complaints about disability services can also go to the Health and Disability Commissioner. HDC's page on <a href="https://www.hdc.org.nz/making-a-complaint/formal-investigations/" target="_blank" rel="noopener noreferrer">formal investigations</a> explains that where a provider is found in breach, the final report may include recommendations such as changes to practice or an apology, and in rare, severe cases the provider may be referred to the Director of Proceedings, who decides whether to bring proceedings before a disciplinary tribunal or the Human Rights Review Tribunal. Responding to an investigation takes time and often legal advice, even when the outcome is favourable.</p>
+<p>When reviewing a care liability or professional indemnity policy, check:</p>
 <ul>
-<li>The retroactive date — claims can be made years after the services were delivered</li>
-<li>Coverage of residential and overnight support activities</li>
-<li>Coverage of volunteer support workers alongside employed staff</li>
-<li>Alignment between your policy limit and the scale of your service delivery</li>
+<li>The retroactive date, since claims can be made years after the support was delivered</li>
+<li>Whether residential and overnight support is covered</li>
+<li>Whether volunteers are covered alongside employed staff</li>
+<li>Whether the limit reflects the scale of your services</li>
+<li>Whether costs of responding to an HDC investigation are included</li>
 </ul>
 
-<h2>Whaikaha and MSD Contract Requirements</h2>
-<p>Government contracts for disability support services specify minimum insurance requirements as a condition of funding. These vary by contract type and service specification, but typically include:</p>
-<ul>
-<li>Minimum public liability levels (often $2M or $5M)</li>
-<li>Professional indemnity / care liability at specified minimum levels</li>
-<li>Employers liability</li>
-<li>In some cases, specific requirements around motor fleet cover for client transportation</li>
-</ul>
-<p>A broker experienced with disability sector funding contracts can review each contract your organisation holds and ensure your insurance programme satisfies every stated requirement. Non-compliance with insurance requirements is a contract breach that can result in funding suspension — a risk no disability provider can afford.</p>
+<h2>Funding Contract Requirements</h2>
+<p>Government funding contracts commonly set minimum insurance requirements, and the levels and types differ from contract to contract. Read each contract's insurance clause rather than relying on a summary, list the requirements in one place, and confirm that every policy meets them. Falling short of a contracted insurance requirement is a breach of the contract, and it is far easier to fix at renewal than after a funder has asked for evidence.</p>
 
-<h2>Cyber Insurance: Non-Optional for Health Data Holders</h2>
-<p>Disability support organisations hold some of the most sensitive personal data in the NFP sector. Support plans, health assessments, medication information, behavioural histories, family contact details, and financial information relating to disability allowances and NASC allocations all constitute sensitive personal information under the Privacy Act 2020.</p>
-<p>The Privacy Act requires mandatory notification of serious privacy breaches to both the Privacy Commissioner and affected individuals. For a disability provider supporting hundreds of clients, the cost of individual notification alone can be significant. Add forensic investigation, legal advice, regulatory engagement, and operational disruption from a cyber incident, and the total cost of an uninsured breach can easily exceed $200,000.</p>
-<p>Cyber insurance is not a luxury add-on for disability support organisations. It is an essential component of responsible risk management for any organisation holding this volume and sensitivity of personal data.</p>
+<h2>Cyber and Privacy</h2>
+<p>Disability support organisations hold some of the most sensitive information in the sector: support plans, health assessments, medication details, behaviour support records, whānau contacts and financial information. Under the Privacy Act 2020, a breach likely to cause serious harm must be reported to the Privacy Commissioner and the people affected, and the Commissioner's guidance on <a href="https://www.privacy.org.nz/responsibilities/privacy-breaches/" target="_blank" rel="noopener noreferrer">privacy breaches</a> specifically asks organisations to consider whether the people affected are particularly vulnerable. For many disability providers, that will be the case.</p>
+<p>The response to a serious breach involves forensic investigation, legal advice, notifying clients and their whānau, and disruption while systems are restored. Cyber insurance is designed around those costs, and for an organisation holding this kind of information it should be treated as core cover. Our article on <a href="/blog/nz-charity-privacy-breach-what-to-do/">what happens after a privacy breach</a> covers the notification rules in more detail.</p>
 
-<h2>Motor Fleet: Client Transportation Risks</h2>
-<p>Many disability support providers transport clients in organisation-owned vehicles — taking people to day programmes, medical appointments, recreational activities, and social outings. This client transportation activity creates specific motor insurance requirements:</p>
-<ul>
-<li>The policy must specifically cover client transportation use</li>
-<li>Mobility equipment (wheelchairs, hoists, communication devices) inside the vehicle needs property cover</li>
-<li>Support workers who use their own vehicles to transport clients need a hired-and-non-owned vehicle endorsement on the organisation's policy (personal vehicle insurance almost certainly won't cover this use)</li>
-</ul>
+<h2>Client Transport</h2>
+<p>Many providers transport clients to day programmes, appointments and outings. Check that the motor policy covers client transport as a declared use, and that mobility equipment such as wheelchairs, hoists and communication devices is covered while in the vehicle. Where support workers use their own cars, the worker's private motor policy is usually the first to respond to damage, and whether it covers driving clients depends on its wording. Ask workers to confirm with their insurer, and ask whether your own programme can respond to the organisation's liability for vehicles it does not own. Our article on <a href="/blog/volunteer-drivers-own-cars-insurance/">volunteer drivers and their own cars</a> covers the licensing and reimbursement rules that also apply.</p>
 
-<h2>Employment Liability in a High-Turnover Sector</h2>
-<p>Disability support is characterised by high staff turnover, and high turnover creates elevated employment liability risk. Personal grievance claims, unfair dismissal allegations, and discrimination complaints arise more frequently in environments where employment relationships are frequently beginning and ending. Employers liability combined with management liability insurance provides a defence and settlement fund for employment-related claims — protecting the organisation from financial consequences that are an unfortunate but predictable feature of the sector.</p>
+<h2>Employment Liability</h2>
+<p>Disability support relies on a large workforce, and every employment relationship carries some risk of a personal grievance or discrimination complaint. Employment practices liability, often included in a management liability policy, can fund the defence and settlement of those claims. Check whether it responds to claims involving employees who are also volunteers, and what the sub-limit is.</p>
 
-<h2>Getting the Right Specialist Advice</h2>
-<p>The complexity of disability support insurance requires a broker who understands both the sector's regulatory environment and the specialist NFP insurance market. CharityInsurance.co.nz matches disability support providers with personally vetted brokers who have genuine experience in this space. <a href="/contact/">Contact us for a free referral</a> — we come back within one business day.</p>
-    `,
+<h2>Getting the Right Cover</h2>
+<p>Disability support insurance sits across care liability, cyber, motor, employment and governance cover, and each funding contract can add its own requirements. charityinsurance.co.nz passes enquiries to Registered Financial Service Providers who place cover for not-for-profit organisations. Get a Quote and a specialist will be in touch within one business day.</p>
+
+<p><em>Sources: Ministry of Social Development, Transition of Disability Support Services to MSD; Health and Disability Commissioner, Formal investigations; Office of the Privacy Commissioner, Privacy breaches. Checked 15 October 2026.</em></p>
+`,
   },
   {
     slug: 'community-event-insurance-nz',
@@ -1550,6 +1538,118 @@ export const blogPosts: BlogPost[] = [
 <p>Run-off periods and merger arrangements are technical, and the decisions are hard to reverse once policies lapse. charityinsurance.co.nz passes enquiries to Registered Financial Service Providers who place cover for not-for-profit organisations. Get a Quote and a specialist will be in touch within one business day.</p>
 
 <p><em>Sources: Charities Services, Winding up a charity and Deregistration; Companies Office, How recent law changes affect incorporated societies. Checked 10 October 2026.</em></p>
+`,
+  },
+  {
+    slug: "volunteer-drivers-own-cars-insurance",
+    title: "Volunteer Drivers and Their Own Cars: Who Is Covered?",
+    excerpt: "When a volunteer crashes on the way to a delivery or appointment, ACC, the volunteer's own motor policy and the organisation's cover each play a different part. What NZTA, IRD and health and safety law require, and where the gaps are.",
+    date: '2026-10-15',
+    author: 'The CharityInsurance Crew',
+    readTime: '8 min read',
+    category: 'Volunteer Management',
+    image: 'https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=1920&q=80',
+    content: `
+<p>Volunteer drivers keep a large part of the community sector moving. They take older people to medical appointments, deliver food parcels, get teams to away games and collect donated goods, usually in their own cars. When one of those trips ends in a crash, three separate questions arise: who pays for the injuries, who pays for the vehicles, and whether the organisation met the duties it had. Each question has a different answer, and boards that have not worked through them in advance tend to find out on the worst possible day.</p>
+
+<h2>Injuries: ACC Is the Starting Point</h2>
+
+<p>For injuries, the accident compensation scheme does most of the work. ACC's page on <a href="https://www.acc.co.nz/im-injured/what-we-cover" target="_blank" rel="noopener noreferrer">what it covers</a> states that its no-fault scheme "covers everyone in New Zealand if you're injured in an accident" and that "It doesn't matter who you are or what you were doing when you were injured." A volunteer driver, their passengers and other road users hurt in a crash will generally have cover for treatment, whoever was at fault.</p>
+
+<p>Income replacement is a different matter. ACC's <a href="https://www.acc.co.nz/im-injured/financial-support/weekly-compensation" target="_blank" rel="noopener noreferrer">weekly compensation page</a> says that to qualify "You need to be an employee, self-employed or a shareholder-employee", and that ACC pays up to 80% of income. Many of the most reliable volunteer drivers are retired. If one of them is injured on a delivery run, ACC helps with treatment but there are no earnings to replace. Volunteer personal accident cover exists to fill that gap with agreed benefits, and our <a href="/charity-insurance/volunteer-accident-insurance/">volunteer accident insurance</a> page explains how it works.</p>
+
+<h2>The Car Itself: Usually the Volunteer's Own Policy</h2>
+
+<p>ACC deals with injuries. Damage to the volunteer's car, and liability for damage to someone else's car or property, is a motor insurance question, and in most arrangements the policy that responds first is the volunteer's own private policy.</p>
+
+<p>Private motor policies are written around the use the owner has declared. Whether a particular policy treats regular volunteer driving as ordinary private use, as something the insurer needs to be told about, or as a use it does not cover depends entirely on its wording. The safest approach is to ask every regular volunteer driver to check with their own insurer before they start, to get the answer in writing, and to give the organisation a copy. Keep that record with the driver's licence details.</p>
+
+<p>Two practical issues follow even when the volunteer's policy does respond. The volunteer pays the excess, and a claim can affect their no-claims discount. Some organisations adopt a written policy on whether they will reimburse a volunteer's excess after an accident on the organisation's business, so that the decision is not made under pressure afterwards. Some commercial insurance programmes can also be extended to respond to the organisation's own liability arising from vehicles it does not own. Whether that is available, and whether it does anything for damage to the volunteer's car, varies between policies, so ask for the answer in writing rather than assume.</p>
+
+<h2>When a Licence or Endorsement Is Needed</h2>
+
+<p>Passenger transport licensing is the part most organisations overlook. NZ Transport Agency Waka Kotahi guidance on <a href="https://nzta.govt.nz/commercial-driving/taxis-shuttles-buses-and-other-passenger-services/volunteer-drivers-and-exempt-passenger-services" target="_blank" rel="noopener noreferrer">volunteer drivers and exempt passenger services</a> says drivers who are not paid for their service as a driver generally do not need a passenger (P) endorsement for vehicles carrying 12 or fewer people.</p>
+
+<p>The same page describes an exemption under the Operator Licensing Rule 2017 for charitable organisations, among others. It applies where the vehicle is provided by the organisation or the driver, the driver is a volunteer or a staff member whose main job is not driving, the driver is reimbursed only for the running costs of the vehicle, and passengers pay only towards running costs rather than for the driver's service.</p>
+
+<p>Larger vehicles are treated differently. According to NZTA, vehicles seating more than 12 people including the driver, such as minibuses and large vans, generally require a large passenger service licence, and volunteers driving them must hold a P endorsement. NZTA warns that driving these vehicles without one can lead to prosecution and may allow insurers to refuse claims. Any organisation running a van or minibus for clients, teams or youth groups should check its position with NZTA directly.</p>
+
+<h2>Paying Drivers Back</h2>
+
+<p>How drivers are reimbursed matters for tax, for licensing and for insurance. Inland Revenue's guidance on <a href="https://www.ird.govt.nz/roles/not-for-profits-and-charities/running-your-nfp/volunteers-student-loans/payments-expenses" target="_blank" rel="noopener noreferrer">volunteer payments and expenses</a> says "There's no tax to pay on the money you pay back to volunteers for expenses", including travel, provided the payment covers actual expenses or is a reasonable estimate of the likely cost. Payments for work, which IRD calls honoraria, are taxable.</p>
+
+<p>The NZTA exemption also depends on reimbursement being limited to running costs. A flat payment per trip that looks more like a fee for driving can blur both lines, and it may also change how a motor insurer views the use of the car. Keep reimbursement tied to distance and actual costs, and record how the rate was set.</p>
+
+<h2>The Organisation's Health and Safety Duties</h2>
+
+<p>Under <a href="https://www.legislation.govt.nz/act/public/2015/0070/latest/DLM5976855.html" target="_blank" rel="noopener noreferrer">section 20 of the Health and Safety at Work Act 2015</a>, a workplace includes any place where a worker goes while at work, and "place" expressly includes a vehicle. For an organisation that is a person conducting a business or undertaking, a car being driven on its behalf by an employee or a volunteer worker is part of the workplace.</p>
+
+<p>Not every group is caught. Section 17 of the Act excludes volunteer associations, meaning groups of volunteers working together for community purposes where none of them employs anyone to do work for the association. Section 19 defines volunteer workers as volunteers who work for the organisation with its knowledge or consent, on an ongoing and regular basis, as an integral part of its operations. A regular driver for a meals service is likely to fit that description. Our article on <a href="/blog/health-and-safety-law-changes-volunteer-groups/">health and safety law changes for volunteer groups</a> covers these definitions and the changes taking effect in April 2027.</p>
+
+<p>Driving is one of the activities most likely to cause death or serious harm in community work, so it deserves attention in its own right. Sensible steps include sighting and recording licences, setting expectations on fatigue, phone use and passenger numbers, matching drivers to vehicles they are comfortable with, and having a clear process for reporting incidents and near misses.</p>
+
+<h2>A Short Checklist</h2>
+
+<p>List every activity that involves volunteers or staff driving for the organisation, and which vehicles are used. For each regular driver, record their licence and written confirmation from their own insurer that the use is covered. Decide in advance whether the organisation will reimburse excesses. Check NZTA's rules for any vehicle carrying more than 12 people. Tie reimbursement to actual running costs. Then review the organisation's own programme: whether its liability cover extends to vehicles it does not own, whether volunteer personal accident cover is in place for drivers who would receive no ACC weekly compensation, and whether trustee liability would respond to a claim about how driving was managed.</p>
+
+<h2>Get Your Cover Checked</h2>
+
+<p>Volunteer driving sits across motor, liability, accident and governance cover, which is why gaps are common. charityinsurance.co.nz passes enquiries to Registered Financial Service Providers who place cover for not-for-profit organisations. Get a Quote and a specialist will be in touch within one business day.</p>
+
+<p><em>Sources: ACC, What we cover and Weekly compensation; NZ Transport Agency Waka Kotahi, Volunteer drivers and exempt passenger services; Inland Revenue, Volunteer payments and expenses; Health and Safety at Work Act 2015, sections 17, 19 and 20. Checked 15 October 2026.</em></p>
+`,
+  },
+  {
+    slug: "hiring-out-community-hall-insurance",
+    title: "Hiring Out Your Hall: Liability, Hire Agreements and Insurance",
+    excerpt: "Hall hire brings in income and other people's activities. How health and safety duties are shared with hirers, whose liability a claim really is, and what every hire agreement should cover.",
+    date: '2026-10-15',
+    author: 'The CharityInsurance Crew',
+    readTime: '7 min read',
+    category: 'Risk Management',
+    image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1920&q=80',
+    content: `
+<p>For many churches, sports clubs, community trusts and other not-for-profits, hiring out the hall is a steady source of income. The same building might host a weekday fitness class run as a business, a Saturday birthday party, a playgroup and a community meeting, each organised by someone other than the owner. Every one of those hires raises the same questions: who is responsible if someone is hurt, who pays if the building is damaged, and what the hire agreement should say.</p>
+
+<h2>Two Organisations Under One Roof</h2>
+
+<p>Where the hall owner employs anyone, it is a person conducting a business or undertaking (PCBU) under the Health and Safety at Work Act 2015, and <a href="https://www.legislation.govt.nz/act/public/2015/0070/latest/DLM5976897.html" target="_blank" rel="noopener noreferrer">section 37</a> places a specific duty on a PCBU that manages or controls a workplace. So far as is reasonably practicable, it must ensure that the workplace, the means of entering and leaving it, and anything arising from it are without risks to the health and safety of any person.</p>
+
+<p>When a hirer runs its own business or undertaking in the hall, such as a dance school or a fitness class, the hall is a workplace for that hirer too, and both organisations can hold duties at the same time. The <a href="https://www.legislation.govt.nz/act/public/2015/70/en/latest/" target="_blank" rel="noopener noreferrer">Act</a> deals with this directly. Section 33 provides that more than one person may have the same duty at the same time. Section 34 requires each PCBU with the same duty, so far as is reasonably practicable, to consult, co-operate with and co-ordinate activities with the others, and a breach is an offence with a maximum fine of $20,000 for an individual and $100,000 for any other person. Section 31 provides that a duty under the Act cannot be transferred to another person.</p>
+
+<p>The practical consequence is that a hire agreement cannot contract the owner out of its health and safety duties. What the agreement can do is record how the two organisations will share information about risks, who is responsible for what during the hire, and how incidents will be reported. That is the consultation and co-ordination the Act expects.</p>
+
+<p>Groups made up entirely of volunteers, with no employees, are in a different position. Section 17 of the Act excludes volunteer associations from the definition of a PCBU, so they have no duties under the Act. They can still be sued under the general law by someone injured on their premises, which is where public liability insurance does its work.</p>
+
+<h2>Whose Liability Is It?</h2>
+
+<p>Injuries at a hired hall usually fall into one of two groups. Some arise from the building itself: a loose step, poor lighting in the car park, a faulty heater or a slippery entrance. Those claims are likely to be directed at the owner, and the owner's public liability policy is the cover that should respond.</p>
+
+<p>Others arise from what the hirer does: an exercise class taught badly, a bouncy castle set up without proper anchoring, or a party where alcohol is poorly managed. Those claims are, in principle, the hirer's responsibility, but injured people often name everyone involved, including the owner. A commercial hirer should have its own public liability cover. A family hiring the hall for a birthday party usually does not, and if something goes wrong the claim may land on the owner by default.</p>
+
+<p>Some insurance programmes can be extended to protect casual hirers who have no cover of their own, sometimes called hirer's liability. Whether that is available, and on what terms, depends on the insurer, so ask whether your programme can include it rather than assume.</p>
+
+<h2>Damage to the Building</h2>
+
+<p>A hall used by many groups carries more wear and more risk of accidental damage than one used by its owner alone. The owner's property policy is the main protection, but it is underwritten on the basis of how the building is used. If the hall has moved from occasional community use to regular functions, catering, children's activities or late-night events, tell the insurer. A change in use that the insurer did not know about is a common reason for a claim to be disputed.</p>
+
+<p>Most owners also take a bond and include a clause making the hirer responsible for damage beyond fair wear and tear. A bond deals with small damage quickly without involving the insurer. For anything larger, the owner's property policy responds and the insurer may then seek to recover its costs from the hirer, which is another reason commercial hirers should hold their own cover.</p>
+
+<h2>Councils Do the Same</h2>
+
+<p>Councils that hire out their own community venues treat these issues as standard. Wellington City Council's <a href="https://wellington.govt.nz/community-support-and-resources/resources-and-facilities/council-venues-for-hire/bookable-venue-hire-terms-and-conditions" target="_blank" rel="noopener noreferrer">bookable venue hire terms and conditions</a>, for example, include separate sections on insurance, damage and liability, alcohol, and health and safety. A community hall does not need terms as long as a council's, but it should cover the same ground.</p>
+
+<h2>A Hire Agreement Checklist</h2>
+
+<p>A short written agreement for every hire, including regular ones, should identify the hirer and the person in charge on the day, and describe the activity. It should require commercial and regular hirers to hold public liability cover and to provide a certificate of currency before the first booking, with a note of the limit. It should set out who is responsible for damage, the bond and how it is returned. It should require the hirer to obtain any licence the activity needs, including for selling alcohol, and to follow the venue's rules on capacity, exits, cooking and heating. It should explain how the owner and hirer will share information about known hazards, and how injuries, incidents and damage must be reported. Finally, it should say what happens when the hirer brings in its own equipment or contractors.</p>
+
+<p>Alongside the agreement, keep a simple induction for regular hirers covering exits, fire equipment, first aid, the location of the switchboard and who to call out of hours. A five-minute walk-through at the start of a hire is one of the cheapest risk controls available.</p>
+
+<h2>Get Your Cover Checked</h2>
+
+<p>If hire income has grown, or the building is used very differently from when the policy was arranged, it is worth having your public liability and property cover reviewed against how the hall is used today. charityinsurance.co.nz passes enquiries to Registered Financial Service Providers who place cover for not-for-profit organisations. Get a Quote and a specialist will be in touch within one business day. For more on liability at events, see our <a href="/charity-insurance/charity-public-liability/">charity public liability</a> page.</p>
+
+<p><em>Sources: Health and Safety at Work Act 2015, sections 17, 31, 33, 34 and 37; Wellington City Council, Bookable venue hire terms and conditions. Checked 15 October 2026.</em></p>
 `,
   },
 ];
